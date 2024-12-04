@@ -1,0 +1,32 @@
+<p style="color: green"><%= notice %></p>
+<%= link_to "New member", new_member_path %>
+<h1>Members</h1>
+
+<div id="members">
+ 
+  <table class="mytables">
+    <tr>
+        <th>Count</th>
+        <th>Name</th>
+        <th>PSA ID</th>
+        <th>Employee List ID</th>
+        <th>Edit</th>
+       
+    </tr>
+    <tr>
+      <% count = 1 %>
+  <% @members.each do |member| %>
+      <td><%= count %></td>
+      <td><%= link_to "#{member.full_name}", member_path(member), class: "butt round" %></td>
+      <td><%= member.psa_id %></td>
+      <td><%= member.employee_list_id %></td>
+      <td><%= link_to " ", edit_member_path(member), class: "butt round" %></td>
+    </tr>
+    <% count += 1 %>
+  <% end %>
+</table>
+
+
+</div>
+
+

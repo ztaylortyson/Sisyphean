@@ -1,0 +1,25 @@
+<br>
+<%= @contracts.count %> contracts<br>
+<hr> 
+<table class="mytables">
+	<tr>
+		<th>Source</th>
+		<th>Member</th>
+		<th>Contract Type</th>
+		<th>Year</th>
+		<th>View</th>
+	</tr>
+	<% @contracts.each do |i| %>
+	<tr>
+		<td><%= link_to "#{i.source}", pages_blah_path(i), class: "butt round" %></td>
+			<% member = Member.find(i.member_id) %>
+		<td><%= member.lname %>, <%= member.fname %></td>
+		<td><%= i.kind %></td>
+		<td><%= i.year %></td> 
+		<td><%= link_to " ", pages_view_contract_path(contract: i), class: "button round", target: "_blank" %></td>
+	</tr>
+		<% end %>
+
+
+</table><br>
+<hr>

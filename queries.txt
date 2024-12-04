@@ -1,0 +1,4 @@
+queries:
+
+
+Member.joins("INNER JOIN employees ON members.psa_id = employees.psa_id")

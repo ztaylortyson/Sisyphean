@@ -1,0 +1,94 @@
+<%= form_with(model: contract) do |form| %>
+  <% if contract.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(contract.errors.count, "error") %> prohibited this contract from being saved:</h2>
+
+      <ul>
+        <% contract.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <%= form.file_field :file %>
+
+  <div>
+    <%= form.label :kind, style: "display: block" %>
+    <%= form.text_field :kind, class: "wide-input" %>
+  </div>
+
+  <div>
+    <%= form.label :year, style: "display: block" %>
+    <%= form.text_field :year %>
+  </div>
+
+  <div>
+    <%= form.label :member_id, style: "display: block" %>
+    <%= form.collection_select :member_id, Member.order(:id), :id, :full_name, include_blank: true %>
+  </div>
+
+  <div>
+    <%= form.label :notes, style: "display: block" %>
+    <%= form.text_area :notes %>
+  </div>
+
+  <div>
+    <%= form.label :ee_sign, style: "display: block" %>
+    <%= form.check_box :ee_sign %>
+  </div>
+
+  <div>
+    <%= form.label :ee_signed, style: "display: block" %>
+    <%= form.date_field :ee_signed %>
+  </div>
+
+  <div>
+    <%= form.label :hr_signed, style: "display: block" %>
+    <%= form.date_field :hr_signed %>
+  </div>
+
+  <div>
+    <%= form.label :gsm_signed, style: "display: block" %>
+    <%= form.date_field :gsm_signed %>
+  </div>
+
+  <div>
+    <%= form.label :gm_signed, style: "display: block" %>
+    <%= form.date_field :gm_signed %>
+  </div>
+
+  <div>
+    <%= form.label :dir_op_signed, style: "display: block" %>
+    <%= form.date_field :dir_op_signed %>
+  </div>
+
+  <div>
+    <%= form.label :effective_date, style: "display: block" %>
+    <%= form.date_field :effective_date %>
+  </div>
+
+  <div>
+    <%= form.label :draw, style: "display: block" %>
+    <%= form.check_box :draw %>
+  </div>
+
+  <div>
+    <%= form.label :salary, style: "display: block" %>
+    <%= form.check_box :salary %>
+  </div>
+
+  <div>
+    <%= form.label :hourly, style: "display: block" %>
+    <%= form.check_box :hourly %>
+  </div>
+
+  <div>
+    <%= form.label :duplicate, style: "display: block" %>
+    <%= form.check_box :duplicate %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
