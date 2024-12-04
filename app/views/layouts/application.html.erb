@@ -14,9 +14,7 @@
       <div class="navbar">
         <%= link_to image_tag('logo.PNG'), root_path %>
         <%= link_to "Members", members_path, id: "btn-round" %>
-        <%= link_to "Employees", employees_path, id: "btn-round" %>
-
-        
+         
          <div class="dropdown">
              <button class="dropbtn">Contracts<i class="fa fa-caret-down"></i></button>
               <div class="dropdown-content">
@@ -25,14 +23,14 @@
                     <%= link_to "Info", "#", id: "btn-round" %>
               </div>
          </div>
-        <%= link_to "Discovery", "#", id: "btn-round" %>
+        <%= link_to "Discovery", discoveries_path, id: "btn-round" %>
         <%= link_to "Pleadings", "#", id: "btn-round" %>
         <%= link_to "Exhibits", "#", id: "btn-round" %>
-        <%= link_to "Witnesses", "#", id: "btn-round" %>
+  
         <div class="dropdown">
               <button class="dropbtn">Admin</button>
             <div class="dropdown-content">
-              <%= link_to "Exports", "#", id: "btn-round" %>
+              <%= link_to "Exports", exports_home_path, id: "btn-round" %>
             </div>
         </div>          
     </div>

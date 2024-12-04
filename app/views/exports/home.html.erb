@@ -1,0 +1,7 @@
+<h1>Exports#home</h1>
+<p>Find me in app/views/exports/home.html.erb</p>
+<div class="flash-messages">
+		<% flash.each do |key, message| %> <div class="flash <%= key %>"><%= message %></div> <% end %>
+</div>
+<%= link_to "Export Contract data", exports_ecd_path, class: "butt round" %>
+<%= link_to "Export Member data", exports_emd_path, class: "butt round" %>

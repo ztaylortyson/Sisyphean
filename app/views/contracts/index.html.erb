@@ -13,11 +13,12 @@
     <th>GM Signed</th>
     <th>HR Sighed</th>
     <th>Edit</th>
+    <th>View</th>
    
   </tr>
   <% @contracts.each do |c| %>
   <tr>
-    <td><%= c.file.filename %></td>
+    <td><%= link_to "#{c.file.filename}", url_for(c.file), class: "butt round", target: "_blank" if c.file.content_type == 'application/pdf' %></td>
     <td><%= c.kind %></td>
     <td><%= c.member_id %></td>
     <td><%= c.ee_signed %></td>
@@ -25,7 +26,6 @@
     <td><%= c.gm_signed %></td>
     <td><%= c.hr_signed %></td>
     <td><%= link_to " ", edit_contract_path(c), class: "butt round" %></td>
-
   </tr>
   <% end %>
 

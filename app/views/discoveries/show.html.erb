@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @discovery %>
+
+<div>
+  <%= link_to "Edit this discovery", edit_discovery_path(@discovery) %> |
+  <%= link_to "Back to discoveries", discoveries_path %>
+
+  <%= button_to "Destroy this discovery", @discovery, method: :delete %>
+</div>

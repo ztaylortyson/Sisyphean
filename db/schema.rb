@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_12_03_230500) do
+ActiveRecord::Schema[7.1].define(version: 2024_12_04_225139) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -59,6 +59,15 @@ ActiveRecord::Schema[7.1].define(version: 2024_12_03_230500) do
     t.boolean "salary"
     t.boolean "hourly"
     t.boolean "duplicate"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "discoveries", force: :cascade do |t|
+    t.string "kind"
+    t.string "set"
+    t.string "verified_by"
+    t.date "response_date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

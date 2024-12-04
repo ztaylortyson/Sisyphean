@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :discoveries
+  get 'exports/home'
+  get 'exports/members'
+  get 'exports/contracts'
+  get 'exports/ecd'
+  get 'exports/emd'
   resources :employees
   resources :contracts
   resources :members
