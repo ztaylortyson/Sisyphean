@@ -5,6 +5,7 @@
 <table class="mytables">
 
   <tr>
+    <th>Count</th>
     <th>Source</th>
     <th>Contract Type</th>
     <th>Member ID</th>
@@ -16,8 +17,10 @@
     <th>View</th>
    
   </tr>
+  <% count = 1 %>
   <% @contracts.each do |c| %>
   <tr>
+    <td><%= count %></td>
     <td><%= link_to "#{c.file.filename}", url_for(c.file), class: "butt round", target: "_blank" if c.file.content_type == 'application/pdf' %></td>
     <td><%= c.kind %></td>
     <td><%= c.member_id %></td>
@@ -27,6 +30,7 @@
     <td><%= c.hr_signed %></td>
     <td><%= link_to " ", edit_contract_path(c), class: "butt round" %></td>
   </tr>
+    <% count += 1 %>
   <% end %>
 
 </table>
