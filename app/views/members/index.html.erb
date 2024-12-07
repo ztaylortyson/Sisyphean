@@ -11,6 +11,11 @@
         <th>PSA ID</th>
         <th>Employee List ID</th>
         <th>Job Title</th>
+        <th>Hire Date</th>
+        <th>Discharge</th>
+        <th>Total Weeks</th>
+        <th>1st Contract</th>
+        <th>Contract after hire(Weeks)</th>
         <th>Edit</th>
         <th>View</th>
        
@@ -22,8 +27,14 @@
       <td><%= link_to "#{member.full_name}", member_path(member), class: "butt round" %></td>
       <td><%= member.psa_id %></td>
       <td><%= member.employee_list_id %></td>
-      <td><%= member.job_title %></td>
+      <td><%= link_to "#{member.job_title}", prism_pjob_title_path(member: member), class: "butt round" %></td>
+      <td><%= link_to "#{member.doh}", prism_phire_path(member: member), class: "butt round" %></td>
+      <td><%= link_to "#{member.dod}", "#" %></td>
+      <td><%= get_weeks(member) %></td>
+      <td><%= get_first_contract(member) %></td>
+      <td><%= contract_days_after_hiring(member) %></td>
       <td><%= link_to " ", edit_member_path(member), class: "butt round" %></td>
+      <td><%= link_to " ", prism_mcontracts_path(member: member), class: "butt round" %></td>
       
     </tr>
     <% count += 1 %>

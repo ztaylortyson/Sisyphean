@@ -1,0 +1,42 @@
+mcontracts<br>
+<%= params.inspect %><br>
+Contracts: <%= @mcontracts.count %><br> 
+<%= @mcontracts.inspect %><br>
+<%= @mcontracts.any? %>
+<hr> 
+<% if @mcontracts.any? %>
+
+	<table class="mytables">
+		<tr>
+			<th>Member</th>
+			<th>Job Title</th>
+			<th>Contract Year</th>
+			<th>Contract Type</th>
+			<th>Ee Signed</th>
+			<th>View</th>
+		</tr>
+		<tr>
+		<% @mcontracts.each do |mc| %>
+			<td><%= @member.lname %>, <%= @member.fname %></td>
+			<td><%= @member.job_title %></td>
+			<td><%= mc.year %></td>
+			<td><%= mc.kind %></td>
+			<td><%= mc.ee_signed %></td>
+			<td><%= link_to "#{mc.file.filename}", url_for(mc.file), class: "butt round", target: "_blank" if mc.file.content_type == 'application/pdf' %></td>
+		</tr>
+		<% end %>
+	</table>
+
+
+<% else %>
+No Contracts Associated with this member <strong><%= @member.fname %> <%= @member.lname %></strong>.
+<% end %>
+	
+
+		
+		
+		
+
+
+
+

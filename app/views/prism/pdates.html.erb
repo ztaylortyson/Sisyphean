@@ -1,0 +1,39 @@
+<h1>Prism#pdates</h1>
+<p>Find me in app/views/prism/pdates.html.erb</p>
+<%= params.inspect %> 
+<hr>
+<table class="mytables">
+	<tr> 
+		<td>Count</td>
+		<th>Source</th>
+		<th>Member</th>
+		<th>Year</th>
+		<th>Kind</th>
+		<th>Notes</th>
+		<th>EE Dated</th>
+		<th>HR Dated</th>
+		<th>GSM Dated</th>
+		<th>GM Dated</th>
+
+	</tr>
+	<tr>
+<% count = 1 %>
+<% @contracts.each do |c| %>
+	<td><%= count %></td>
+	<td><%= link_to "#{c.file.filename}", url_for(c.file), class: "butt round", target: "_blank" if c.file.content_type == 'application/pdf' %></td>
+
+	<td><%= c.member_id %></td>
+
+	<td><%= c.year %></td>
+	<td><%= c.kind %></td>
+	<td><%= c.notes %></td>
+	<td><%= c.ee_signed %></td>
+	<td><%= c.hr_signed %></td>
+	<td><%= c.gsm_signed %></td>
+	<td><%= c.gm_signed %></td>
+	</tr>
+	<% count += 1 %>
+	<% end %> 
+
+
+</table>

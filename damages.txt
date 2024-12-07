@@ -1,0 +1,65 @@
+Damages
+
+	Total Number of PAGA Members:
+
+	Total Number of PAGA Violations:
+
+
+	Question:  Total number of all CE:
+
+		all job titles with a Contract that calls for commissions:
+
+		all Contract kinds that call for commissions: 
+
+		who are the employees earning a draw? 
+			by name, job title and contract kind
+		who are the employees earning a salary? 
+
+		do salaried ee's get a draw? 
+		do hourly ee's get a draw? 
+
+
+
+
+		Class: Commissioned Employees (CE) working without a Contract (WWAC)
+			** what constitutes a valid Contract, i.e. if er didn't sign?
+					Total Number of CE:
+
+					Total Number of CEs WWAC:
+
+					Total Work Weeks(WW) of CE who WWAC: __
+
+							Calc: 	$100 x T#_CE_WWAC
+									$200 x (T#_WW_CE_WWAC - 1)
+
+							Hypo:	Total T#_CE_WWAC = 25
+									Sum of WW for all CE_WWAC = 100 WWs
+
+									$100 x 25 = 2500
+									$200 x (100 - 25) = 15000
+									==> $17,500
+
+		Class: CE WWAC for some portion of their employment (SPOTE)
+
+					T# of CEs WWAC for SPOTE:
+					T# of WW of CE who WWAC for SPOTE: 
+
+							Calc:	$100 x T#_CE_WWAC_SPOTE
+									$200 ()
+
+
+		Class: Non-sales Time Compensation (NSTC)
+
+			Issue: Who gets NSTC?
+				1. Exempt ees earning a draw only;
+				2. if salaried plus, er will say NSTC baked into salary;
+				3. if hourly plus commission, ee doesn't clock out for rest breaks so no harm; 
+
+			Check info:	
+				T# of designated exempt: 
+				T# of employees paid draw: 
+				Join: T# of exempt paid draw: 
+				
+
+
+

@@ -1,0 +1,31 @@
+<h1>Prism#pjob_title</h1>
+<%= params.inspect %>
+<hr>
+<% count = 1 %>
+<table class="mytables">
+
+	<tr>
+		<th>Count</th>
+		<th>Member ID</th>
+		<th>Member</th>
+		<th>Job Title</th>
+		<th>Contract?</th>
+		<th>Reports To</th>
+		<th>Discharge</th>
+	</tr>
+	<% @members.each do |m| %>
+	<tr>
+		<td><%= count %></td>
+		<td><%= m.id %></td>
+		<td><%= m.lname %>, <%= m.fname %></td>
+		<td><%= m.job_title %></td>
+		<td><% if m.contracts.first %>Yes<% end %></td>
+		<td> </td>
+		<td><%= m.dod %></td>
+	</tr>
+	<% count += 1 %>
+	<% end %> 
+
+
+</table>
+

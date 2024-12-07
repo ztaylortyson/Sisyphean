@@ -1,0 +1,28 @@
+<h1>Prism#pkind</h1>
+<hr>
+<table class="mytables">
+	<tr>
+		<th>Source</th>
+		<th>Year</th>
+		<th>Contract Type</th>
+		<th>Member ID</th>
+		<th>Member</th>
+		<th>Job Title</th>
+		<th>Discharge</th>
+		<th>Notes</th>
+	</tr>
+	<% @contracts.each do |c| %>
+	<% gmember(c) %>
+	<tr>
+		<td><%= c.file.filename %></td>
+		<td><%= c.year %></td>
+		<td><%= c.kind %></td>
+		<td><%= c.member_id %></td>
+		<td><%= @member.lname %>, <%= @member.fname %></td>
+		<td><%= link_to "#{@member.job_title}", prism_pjob_title_path(member: @member) %></td>
+		<td><%= @member.dod %></td>
+		<td><%= c.notes %></td>
+	</tr>
+	<% end %> 
+
+</table>

@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'prism/pdates'
+  get 'prism/pcontract_type'
+  get 'prism/pjob_title'
+  get 'prism/pyear'
+  get 'prism/pdraw'
+  get 'prism/pkind'
+  get 'prism/phire'
+  get 'prism/mcontracts'
   resources :discoveries
   get 'exports/home'
   get 'exports/members'

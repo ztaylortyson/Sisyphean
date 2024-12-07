@@ -3,7 +3,7 @@ class ContractsController < ApplicationController
 
   # GET /contracts or /contracts.json
   def index
-    @contracts = Contract.all
+    @contracts = Contract.order(:year)
   end
 
   # GET /contracts/1 or /contracts/1.json

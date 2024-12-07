@@ -1,5 +1,20 @@
 require 'csv'
 
+class FixDate
+	def initialize
+		@members = CSV.read("members_data.csv", headers: true)
+	end
+	def display_row_eleven
+		count = 1
+		@members.each do |row|
+			puts "#{row[11].split('-')[0]} #{count} #{row[0]} #{row[1]}"
+		count += 1	
+		end
+	end
+end
+obj = FixDate.new 
+obj.display_row_eleven
+
 class ExtractPagaList
 	attr_reader :paga_array, :paga_hash
 	def initialize
@@ -21,7 +36,7 @@ class ExtractPagaList
 		end
 	end
 end
-paga_obj = ExtractPagaList.new
+# paga_obj = ExtractPagaList.new
 
 class ExtractEeList
 	attr_reader :ee_hash, :ee_array
@@ -42,7 +57,7 @@ class ExtractEeList
 		end
 	end
 end
-ee_obj = ExtractEeList.new
+# ee_obj = ExtractEeList.new
 #p obj.ee_array
 
 class SpawnNewList
@@ -94,9 +109,9 @@ class TwoHash
 		end
 	end
 end
-obj = TwoHash.new(ee_obj.ee_array, paga_obj.paga_array)
-puts " * "
-obj.find_psa_id_key
+# obj = TwoHash.new(ee_obj.ee_array, paga_obj.paga_array)
+# puts " * "
+# obj.find_psa_id_key
 
 
 

@@ -2,8 +2,6 @@ source,kind,year,member_id,notes,ee_sign,ee_signed,hr_signed,gsm_signed,gm_signe
 ,Vehicle Salesperson Compensation Plan,2024,166,"",true,2024-05-02,2024-04-01,2024-04-02,,,2024-04-01,false,false,true,false
 ,Salesperson Compensation Plan,2021,53,reports_to Kamran Syed,true,2021-12-17,,,,,2021-12-11,false,false,true,false
 ,Salesperson Compensation Plan,2022,158,"",true,2022-01-14,,,,,,false,false,true,false
-,Salesperson Compensation Plan,2020,,"Renato Perez
-reports_to Kamran Syed",true,2021-12-03,,,,,2020-11-26,false,false,true,false
 ,Vehicle Salesperson Compensation Plan,2024,144,"",true,,2024-04-01,,,,2024-04-01,false,false,true,false
 ,Finance Compensation Program,2023,116,reports_to Telly Gomez,true,2023-03-24,,2023-03-24,2023-03-24,,2023-03-01,true,false,false,false
 ,Vehicle Salesperson Compensation Plan,2023,49,"",true,2023-04-28,2023-04-26,,,,2023-05-01,false,false,true,false
@@ -67,6 +65,9 @@ reports_to Service Manager
 what other employees signed on 2/20/23?
 
 ** get review all original signatures. ",true,2023-02-20,,,,,2023-02-01,false,false,false,false
+,Salesperson Compensation Plan,2020,,"
+** Renato Perez not listed on PAGA list or Employee List
+reports_to Kamran Syed",true,2021-12-03,,,,,2020-11-26,false,false,true,false
 ,Assistant Service Manager (ASM) Compensation Program,2023,156,"
 also signed 2/20/23",true,2023-02-20,,,,,2023-02-01,false,false,false,false
 ,Hourly Compensation Program,2023,48,"
@@ -151,3 +152,18 @@ Unsigned.",false,,,,,,,true,false,false,false
 ,Internal Parts Sales Representative Pay Plan Agreement,2019,,"",false,,,,,,,false,false,false,false
 ,Automotive Technician Compensation Program,2023,71,Unsigned. ,false,,,,,,2023-03-06,false,false,false,false
 ,Assistant Parts Manager Compensation Program,2023,,"",false,,,,,,2023-08-01,false,true,false,false
+,Vehicle Salesperson Compensation Plan,2022,,"",false,,,,,,2022-01-01,false,false,true,false
+,Floor Sales Manager Compensation Program,2023,34,Unsigned.,false,,,,,,2023-04-01,true,false,false,false
+,Parts Manager Compensation Program,2021,,"reports_to General Manager
+
+revised date is 1/1/20",false,,,,,,,true,false,false,false
+,Vehicle Salesperson Compensation Plan,2024,,"",true,2024-04-25,2024-04-01,2024-04-25,,,2024-04-01,false,false,true,false
+,Sales Manager Pay Plan,2021,57,Mr. Patrick signed but did not date the Contract. ,true,,,2021-12-06,,2021-12-06,2021-12-03,true,false,false,false
+,Spreadsheet,"",60,"Finance Manager
+
+handwritten: Carlos Ortiz",false,,,,,,,false,false,false,false
+,Hourly Compensation Program,2024,46,reports_to Parts Manager,true,2024-04-15,2024-04-01,,,,2024-04-01,false,false,true,false
+,Vehicle Salesperson Compensation Plan,2024,26,reports_to Sales Managers,true,2024-04-29,2024-04-01,2024-04-29,,,2024-04-01,false,false,true,false
+,Automotive Technician Compensation Program,2024,24,"reports_to Service Manager
+
+signed: Service Technician",true,2024-03-13,,,2024-03-13,,2024-03-16,false,false,true,false
