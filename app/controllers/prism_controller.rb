@@ -29,6 +29,10 @@ class PrismController < ApplicationController
   end
 
   def pdraw
+      @contracts = Contract.where(draw: true)
+  end
+  def psalary
+    @contracts = Contract.where(salary: true)
   end
 
 

@@ -8,3 +8,30 @@
 
   <%= button_to "Destroy this member", @member, method: :delete %>
 </div>
+<hr> 
+<%= params.inspect %>
+<hr>
+
+<table class="mytables">
+  <tr>
+    <th>Source</th>
+    <th>Year</th>
+    <th>Contract Type</th>
+     <th>Ee Doh</th>
+    <th>Ee Signed</th>
+   
+    <th>Notes</th>
+  </tr>
+  <% @mcontracts.each do |mc| %>
+  <tr>
+    <td><%= mc.file.filename %></td>
+    <td><%= mc.year %></td>
+    <td><%= mc.kind %></td>
+    <td><%= @member.doh %></td>
+    <td><%= mc.ee_signed %></td>
+    
+    <td><%= mc.notes %></td>
+  <% end %>
+  </tr>
+</table>
+

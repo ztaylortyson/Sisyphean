@@ -1,6 +1,25 @@
 phire<br>
 <%= params.inspect %>
 <hr>
-<% @members.each do |m| %>
-	<%= m.inspect %><br>
-	<% end %>  
+
+<table class="mytables">
+	<tr>
+		<th>Member</th>
+		<th>Job Title</th>
+		<th>DoH</th>
+		<th>Notes</th>
+	</tr>
+	<% @members.each do |m| %>
+	<tr>
+		<td><%= m.lname %>, <%= m.fname %></td>
+		<td><%= m.job_title %></td>
+		<td><%= m.doh %>
+		<td><%= m.notes %></td>
+	</tr>
+	<% end %> 
+</table>
+
+
+
+	
+	 

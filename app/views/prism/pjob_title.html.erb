@@ -13,19 +13,22 @@
 		<th>Reports To</th>
 		<th>Discharge</th>
 	</tr>
+	<% mwc = 0 %>
 	<% @members.each do |m| %>
 	<tr>
 		<td><%= count %></td>
 		<td><%= m.id %></td>
 		<td><%= m.lname %>, <%= m.fname %></td>
 		<td><%= m.job_title %></td>
-		<td><% if m.contracts.first %>Yes<% end %></td>
+		<td><% if m.contracts.first %>Yes<% mwc += 1 %><% end %></td>
+
 		<td> </td>
 		<td><%= m.dod %></td>
 	</tr>
 	<% count += 1 %>
 	<% end %> 
-
-
 </table>
+<p>Members with Contracts: <%= mwc %></p>
+<p>Members without Contracts: <%= (count - mwc) %></p>
+
 

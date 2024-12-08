@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'prism/pjob_title'
   get 'prism/pyear'
   get 'prism/pdraw'
+  get 'prism/psalary'
   get 'prism/pkind'
   get 'prism/phire'
   get 'prism/mcontracts'

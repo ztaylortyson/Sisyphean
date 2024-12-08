@@ -8,6 +8,8 @@ class MembersController < ApplicationController
 
   # GET /members/1 or /members/1.json
   def show
+    @member = Member.find(params[:id])
+    @mcontracts = @member.contracts
   end
 
   # GET /members/new
