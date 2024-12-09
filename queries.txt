@@ -5,3 +5,33 @@ Member.joins("INNER JOIN employees ON members.psa_id = employees.psa_id")
 
 
  d = Contract.group(:hr_signed).count
+
+
+
+
+
+
+Unique Job Titles, 23: unique_job_titles = Member.select(:job_title).distinct.pluck(:job_title)
+["Parts Manager" 1,
+ "Finance Director" 1,
+ "Used Car Clerk",
+ "Service Valet",
+ "Service Advisor",
+ "Internet Sales Consultant",
+ "Shipping and Receiving",
+ "Sales Representative",
+ "Admin. Assistant Porter",
+ "Parts Representative",
+ "General Sales Manager",
+ "Receptionist",
+ "Parts Driver",
+ "Service Manager",
+ "Sales Porter/Valet",
+ "Detail",
+ "Finance Manager",
+ "Admin. Assistant",
+ "Sales Valet",
+ "Warranty Clerk",
+ "Sales Manager",
+ "Service Porter",
+ "Service Technician"]

@@ -9,6 +9,9 @@ class PrismController < ApplicationController
     m = Member.find(params[:member])
     @members = Member.where(doh: m.doh)
   end
+  def pdischarge
+  
+  end
 
   def pcontract_type
   end

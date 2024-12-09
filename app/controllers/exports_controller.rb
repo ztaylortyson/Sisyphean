@@ -9,14 +9,14 @@ class ExportsController < ApplicationController
   end
 
   def ecd
-    # ContractsCSVBuilder.new
-    # flash[:notice] = "Completed Contracts data extraction."
-    # redirect_to exports_home_path
+    ContractsCSVBuilder.new
+    flash[:notice] = "Completed Contracts data extraction."
+    redirect_to exports_home_path
   end
   def emd
-    # MembersCSVBuilder.new
-    # flash[:notice] = "Completed Members data extraction."
-    # redirect_to exports_home_path
+    MembersCSVBuilder.new
+    flash[:notice] = "Completed Members data extraction."
+    redirect_to exports_home_path
   end
 end
 

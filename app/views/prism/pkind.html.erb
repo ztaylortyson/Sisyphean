@@ -2,6 +2,7 @@
 <hr>
 <table class="mytables">
 	<tr>
+		<thead>
 		<th>Source</th>
 		<th>Year</th>
 		<th>Contract Type</th>
@@ -10,6 +11,7 @@
 		<th>Job Title</th>
 		<th>Discharge</th>
 		<th>Notes</th>
+	</thead>
 	</tr>
 	<% @contracts.each do |c| %>
 	<% gmember(c) %>

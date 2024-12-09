@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'prism/psalary'
   get 'prism/pkind'
   get 'prism/phire'
+  get 'prism/pdischarge'
   get 'prism/mcontracts'
   resources :discoveries
   get 'exports/home'

@@ -2,14 +2,22 @@
 <hr>
 <table class="mytables">
 	<tr>
+		<thead>
 		<th>Source</th>
+		<th>Member ID</th>
+		<th>Member</th>
+		<th>Job Title</th>
 		<th>Year</th>
 		<th>Contract Type</th>
 		<th>Ee Signed</th>
+	</thead>
 	</tr>
 	<% @contracts.each do |c| %>
 	<tr>
-		<td><%= c.file.filename %></td>
+		 <td><%= link_to "#{c.file.filename}", url_for(c.file), class: "butt round", target: "_blank" if c.file.content_type == 'application/pdf' %></td>
+		<td><%= c.member_id %></td>
+		<td><%= get_member_name(c.member_id) %></td>
+		<td><%= get_member_job_title(c.member_id) %></td>
 		<td><%= c.year %></td>
 		<td><%= c.kind %></td>
 		<td><%= c.ee_signed %></td>

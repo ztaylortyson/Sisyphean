@@ -5,6 +5,7 @@
 <table class="mytables">
 
 	<tr>
+		<thead>
 		<th>Count</th>
 		<th>Member ID</th>
 		<th>Member</th>
@@ -12,13 +13,14 @@
 		<th>Contract?</th>
 		<th>Reports To</th>
 		<th>Discharge</th>
+	</thead>
 	</tr>
 	<% mwc = 0 %>
 	<% @members.each do |m| %>
 	<tr>
 		<td><%= count %></td>
 		<td><%= m.id %></td>
-		<td><%= m.lname %>, <%= m.fname %></td>
+		<td><%= link_to "#{m.lname}, #{m.fname}", member_path(m), class: "butt round" %></td>
 		<td><%= m.job_title %></td>
 		<td><% if m.contracts.first %>Yes<% mwc += 1 %><% end %></td>
 
@@ -29,6 +31,6 @@
 	<% end %> 
 </table>
 <p>Members with Contracts: <%= mwc %></p>
-<p>Members without Contracts: <%= (count - mwc) %></p>
+
 
 

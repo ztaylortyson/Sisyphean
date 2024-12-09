@@ -7,7 +7,21 @@ Damages
 
 	Question:  Total number of all CE:
 
-		all job titles with a Contract that calls for commissions:
+		all job titles with a Contract that calls for commissions(not necessarily valid Contracts, just associated with a name):
+			JOB TITLES
+			1. Sales Representative (30/61 w Contracts)
+			2. Sales Valet (1/14 w Contracts)
+			3. Service Valet (1/7 w Contracts)
+			4. Service Technician (5/31 w Contracts)(? all contracts from 2024)
+			5. Service Advisor (6/8 w Contracts)
+			6. Sales Manager (2/7 w Contracts)
+			7. Parts Representative (6/8 w Contracts)
+			8. Parts Driver (2/5 w Contracts)
+			9. Warrant Clerk (1/2 w Contracts)
+			10. Finance Manager (3/4 w Contracts)
+			11. Parts Manager (1/1 w Contract)
+			12. General Sales Manager (1/1: Syed)
+			13. Service Manager (0/1: Victor Torres)
 
 		all Contract kinds that call for commissions: 
 

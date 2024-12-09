@@ -6,6 +6,7 @@
  
   <table class="mytables">
     <tr>
+      <thead>
         <th>Count</th>
         <th>Name</th>
         <th>PSA ID</th>
@@ -18,7 +19,7 @@
         <th>Contract after hire(Weeks)</th>
         <th>Edit</th>
         <th>View</th>
-       
+       </thead>
     </tr>
     <tr>
       <% count = 1 %>
@@ -29,7 +30,7 @@
       <td><%= member.employee_list_id %></td>
       <td><%= link_to "#{member.job_title}", prism_pjob_title_path(member: member), class: "butt round" %></td>
       <td><%= link_to "#{member.doh}", prism_phire_path(member: member), class: "butt round" %></td>
-      <td><%= link_to "#{member.dod}", "#" %></td>
+      <td><%= member.dod %></td>
       <td><%= get_weeks(member) %></td>
       <td><%= get_first_contract(member) %></td>
       <td><%= contract_days_after_hiring(member) %></td>
