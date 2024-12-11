@@ -1,16 +1,22 @@
-clients<br>
-<hr>
-<%= @clients.inspect %>  
-<hr>
+<h3>Clients</h3>
+<p>Renato Perez</p>
 <table class="mytables">
 	<thead>
 		<tr>
-			<th>blah</th>
+			<th>Member ID</th>
+			<th>Client</th>
+			<th>Date of Hire</th>
+			<th>Date of Discharge</th>
+			<th>Contract?</th>
 		</tr>
 	</thead>
 	<% @clients.each do |client| %>
 		<tr> 
 			<td><%= client.id %></td>
+			<td><%= client.lname %>, <%= client.fname %></td>
+			<td><%= client.doh %></td>
+			<td><%= client.dod %></td>
+			<td><%= client.contracts.any? %></td>
 		</tr>
 	<% end %>
 </table>

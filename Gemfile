@@ -62,3 +62,5 @@ end
 
 
 gem "csv", "~> 3.3"
+
+gem "devise", "~> 4.9"
