@@ -41,13 +41,12 @@ class Import
 				gsm_signed: c[8],
 				gm_signed: c[9],
 				dir_op_signed: c[10],
-				effective_date: c[11]
+				effective_date: c[11],
 				draw: c[12],
 				salary: c[13],
 				duplicate: c[14])
 		end
 	end
-
 end
 # members = Member.all 
 # members.destroy_all

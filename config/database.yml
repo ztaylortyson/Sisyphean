@@ -79,6 +79,8 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: sisyphean_rails_production
   username: sisyphean_rails
   password: <%= ENV["SISYPHEAN_RAILS_DATABASE_PASSWORD"] %>
+# 
