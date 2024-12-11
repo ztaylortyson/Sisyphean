@@ -1,0 +1,16 @@
+clients<br>
+<hr>
+<%= @clients.inspect %>  
+<hr>
+<table class="mytables">
+	<thead>
+		<tr>
+			<th>blah</th>
+		</tr>
+	</thead>
+	<% @clients.each do |client| %>
+		<tr> 
+			<td><%= client.id %></td>
+		</tr>
+	<% end %>
+</table>

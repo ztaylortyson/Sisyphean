@@ -2,6 +2,10 @@ class PagesController < ApplicationController
   def home
   end
 
+  def clients
+    @clients = Member.where(client: true)
+  end
+
 
   def view_contract
       c = Contract.find(params[:contract])

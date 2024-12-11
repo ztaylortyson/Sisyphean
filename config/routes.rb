@@ -20,6 +20,9 @@ Rails.application.routes.draw do
   resources :employees
   resources :contracts
   resources :members
+
+  get 'pages/clients'
+
   root 'pages#home'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

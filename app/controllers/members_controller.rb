@@ -1,6 +1,8 @@
 class MembersController < ApplicationController
   before_action :set_member, only: %i[ show edit update destroy ]
 
+
+
   # GET /members or /members.json
   def index
     @members = Member.order(:lname)
