@@ -1,0 +1,47 @@
+<div id="<%= dom_id depo %>">
+  <p>
+    <strong>Deponent:</strong>
+    <%= depo.deponent %>
+  </p>
+
+  <p>
+    <strong>Title:</strong>
+    <%= depo.title %>
+  </p>
+
+  <p>
+    <strong>Depo date:</strong>
+    <%= depo.depo_date %>
+  </p>
+
+  <p>
+    <strong>Employed by:</strong>
+    <%= depo.employed_by %>
+  </p>
+
+  <p>
+    <strong>Job title:</strong>
+    <%= depo.job_title %>
+  </p>
+
+  <p>
+    <strong>Doh:</strong>
+    <%= depo.doh %>
+  </p>
+
+  <p>
+    <strong>Dod:</strong>
+    <%= depo.dod %>
+  </p>
+
+  <p>
+    <strong>Reports to:</strong>
+    <%= depo.reports_to %>
+  </p>
+
+  <p>
+    <strong>File:</strong>
+    <%= link_to depo.file.filename, depo.file if depo.file.attached? %>
+  </p>
+
+</div>

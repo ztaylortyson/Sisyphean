@@ -1,0 +1,64 @@
+<%= form_with(model: depo) do |form| %>
+  <% if depo.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(depo.errors.count, "error") %> prohibited this depo from being saved:</h2>
+
+      <ul>
+        <% depo.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+    <div>
+    <%= form.label :file, style: "display: block" %>
+    <%= form.file_field :file %>
+  </div><br>
+
+  <div>
+    <%= form.label :deponent, style: "display: block" %>
+    <%= form.text_field :deponent %>
+  </div><br>
+
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.text_field :title, class: "wide-input" %>
+  </div><br>
+
+  <div>
+    <%= form.label :depo_date, style: "display: block" %>
+    <%= form.date_field :depo_date %>
+  </div><br>
+
+  <div>
+    <%= form.label :employed_by, style: "display: block" %>
+    <%= form.text_field :employed_by %>
+  </div>
+
+  <div>
+    <%= form.label :job_title, style: "display: block" %>
+    <%= form.text_field :job_title %>
+  </div>
+
+  <div>
+    <%= form.label :doh, style: "display: block" %>
+    <%= form.text_field :doh %>
+  </div>
+
+  <div>
+    <%= form.label :dod, style: "display: block" %>
+    <%= form.text_field :dod %>
+  </div>
+
+  <div>
+    <%= form.label :reports_to, style: "display: block" %>
+    <%= form.text_field :reports_to %>
+  </div><br>
+
+
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

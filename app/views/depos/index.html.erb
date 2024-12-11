@@ -1,0 +1,27 @@
+<p style="color: green"><%= notice %></p>
+<%= link_to "New depo", new_depo_path %>
+<h1>Depos</h1>
+
+<table class="mytables">
+
+    <thead> 
+      <tr> 
+        <th>Title</th>
+        <th>Date</th>
+        <th>Edit</th>
+        <th>View</th>
+      </tr>
+    </thead>
+    <% @depos.each do |depo| %>
+      <tr> 
+        <td><%= depo.title %></td>
+        <td><%= depo.depo_date %></td>
+        <td><%= link_to " ", edit_depo_path(depo), class: "butt round" %></td>
+        <td><%= link_to " ", url_for(depo.file), class: "butt round", target: "_blank" if depo.file.content_type == 'application/pdf' %></td>
+      </tr>
+    <% end %>
+
+</table>
+
+
+

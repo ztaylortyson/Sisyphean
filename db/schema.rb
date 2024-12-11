@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_12_04_225139) do
+ActiveRecord::Schema[7.1].define(version: 2024_12_11_022602) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -61,6 +61,20 @@ ActiveRecord::Schema[7.1].define(version: 2024_12_04_225139) do
     t.boolean "duplicate"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "commissions"
+  end
+
+  create_table "depos", force: :cascade do |t|
+    t.string "deponent"
+    t.string "title"
+    t.date "depo_date"
+    t.string "employed_by"
+    t.string "job_title"
+    t.string "doh"
+    t.string "dod"
+    t.string "reports_to"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "discoveries", force: :cascade do |t|
@@ -102,6 +116,15 @@ ActiveRecord::Schema[7.1].define(version: 2024_12_04_225139) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "employee_list_id"
+  end
+
+  create_table "pleadings", force: :cascade do |t|
+    t.integer "roa"
+    t.date "date_filed"
+    t.string "title"
+    t.integer "filed_by"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"

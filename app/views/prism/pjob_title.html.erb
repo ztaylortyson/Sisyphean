@@ -11,7 +11,7 @@
 		<th>Member</th>
 		<th>Job Title</th>
 		<th>Contract?</th>
-		<th>Reports To</th>
+		<th>Date Hired</th>
 		<th>Discharge</th>
 	</thead>
 	</tr>
@@ -24,7 +24,7 @@
 		<td><%= m.job_title %></td>
 		<td><% if m.contracts.first %>Yes<% mwc += 1 %><% end %></td>
 
-		<td> </td>
+		<td><%= m.doh %></td>
 		<td><%= m.dod %></td>
 	</tr>
 	<% count += 1 %>

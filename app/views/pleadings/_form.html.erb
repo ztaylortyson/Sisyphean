@@ -1,0 +1,44 @@
+<%= form_with(model: pleading) do |form| %>
+  <% if pleading.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(pleading.errors.count, "error") %> prohibited this pleading from being saved:</h2>
+
+      <ul>
+        <% pleading.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+    <div>
+    <%= form.label :file, style: "display: block" %>
+    <%= form.file_field :file %>
+  </div><br>
+
+  <div>
+    <%= form.label :roa, style: "display: block" %>
+    <%= form.number_field :roa %>
+  </div>
+
+  <div>
+    <%= form.label :date_filed, style: "display: block" %>
+    <%= form.date_field :date_filed %>
+  </div>
+
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.text_field :title %>
+  </div><br>
+
+  <div>
+    <%= form.label :filed_by, style: "display: block" %>
+    <%= form.select :filed_by, options_for_select(["Plaintiff", "Defendant"]) %>
+  </div><br>
+
+
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

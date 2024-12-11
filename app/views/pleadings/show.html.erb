@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @pleading %>
+
+<div>
+  <%= link_to "Edit this pleading", edit_pleading_path(@pleading) %> |
+  <%= link_to "Back to pleadings", pleadings_path %>
+
+  <%= button_to "Destroy this pleading", @pleading, method: :delete %>
+</div>

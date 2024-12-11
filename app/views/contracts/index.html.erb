@@ -17,6 +17,7 @@
     <th>GSM Signed</th>
     <th>GM Signed</th>
     <th>HR Sighed</th>
+    <th>Commissions?</th>
     <th>Edit</th>
     <th>View</th>
   </thead>
@@ -39,6 +40,7 @@
     <%= link_to "#{c.hr_signed}", prism_pdates_path(cdate: c.hr_signed), class: "butt round" %>
     <% end %>
     </td>
+    <td><%= c.commissions %></td>
     <td><%= link_to " ", edit_contract_path(c), class: "butt round" %></td>
   </tr>
     <% count += 1 %>

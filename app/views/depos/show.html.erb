@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @depo %>
+
+<div>
+  <%= link_to "Edit this depo", edit_depo_path(@depo) %> |
+  <%= link_to "Back to depos", depos_path %>
+
+  <%= button_to "Destroy this depo", @depo, method: :delete %>
+</div>

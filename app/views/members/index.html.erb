@@ -8,6 +8,7 @@
     <tr>
       <thead>
         <th>Count</th>
+        <th>id</th>
         <th>Name</th>
         <th>PSA ID</th>
         <th>Employee List ID</th>
@@ -25,6 +26,7 @@
       <% count = 1 %>
   <% @members.each do |member| %>
       <td><%= count %></td>
+      <td><%= member.id %>
       <td><%= link_to "#{member.full_name}", member_path(member), class: "butt round" %></td>
       <td><%= member.psa_id %></td>
       <td><%= member.employee_list_id %></td>

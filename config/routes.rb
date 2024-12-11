@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :depos
+  resources :pleadings
   get 'prism/pdates'
   get 'prism/pcontract_type'
   get 'prism/pjob_title'

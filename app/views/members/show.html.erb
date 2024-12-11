@@ -8,8 +8,7 @@
 
   <%= button_to "Destroy this member", @member, method: :delete %>
 </div>
-<hr> 
-<%= params.inspect %>
+
 <hr>
 
 <table class="mytables">
@@ -24,7 +23,7 @@
   </tr>
   <% @mcontracts.each do |mc| %>
   <tr>
-    <td><%= mc.file.filename %></td>
+    <td><%= link_to "#{mc.file.filename}", url_for(mc.file), class: "butt round", target: "_blank" if mc.file.content_type == 'application/pdf' %></td>
     <td><%= mc.year %></td>
     <td><%= mc.kind %></td>
     <td><%= @member.doh %></td>

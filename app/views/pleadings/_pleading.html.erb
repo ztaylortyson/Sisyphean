@@ -1,0 +1,27 @@
+<div id="<%= dom_id pleading %>">
+  <p>
+    <strong>Roa:</strong>
+    <%= pleading.roa %>
+  </p>
+
+  <p>
+    <strong>Date filed:</strong>
+    <%= pleading.date_filed %>
+  </p>
+
+  <p>
+    <strong>Title:</strong>
+    <%= pleading.title %>
+  </p>
+
+  <p>
+    <strong>Filed by:</strong>
+    <%= pleading.filed_by %>
+  </p>
+
+  <p>
+    <strong>File:</strong>
+    <%= link_to pleading.file.filename, pleading.file if pleading.file.attached? %>
+  </p>
+
+</div>

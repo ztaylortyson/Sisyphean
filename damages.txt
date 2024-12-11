@@ -55,8 +55,8 @@ Damages
 
 		Class: CE WWAC for some portion of their employment (SPOTE)
 
-					T# of CEs WWAC for SPOTE:
-					T# of WW of CE who WWAC for SPOTE: 
+					T# of CEs WWAC for SPOE:
+					T# of WW of CE who WWAC for SPOE: 
 
 							Calc:	$100 x T#_CE_WWAC_SPOTE
 									$200 ()

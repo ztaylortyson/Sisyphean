@@ -20,9 +20,9 @@
 		<td><%= c.year %></td>
 		<td><%= c.kind %></td>
 		<td><%= c.member_id %></td>
-		<td><%= @member.lname %>, <%= @member.fname %></td>
-		<td><%= link_to "#{@member.job_title}", prism_pjob_title_path(member: @member) %></td>
-		<td><%= @member.dod %></td>
+		<td><% if @member %><%= @member.lname %>, <%= @member.fname %><% end %></td>
+		<td><% if @member %><%= link_to "#{@member.job_title}", prism_pjob_title_path(member: @member) %><% end %></td>
+		<td><% if @member %><%= @member.dod %><% end %></td>
 		<td><%= c.notes %></td>
 	</tr>
 	<% end %> 

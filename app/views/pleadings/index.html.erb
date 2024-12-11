@@ -1,0 +1,29 @@
+<p style="color: green"><%= notice %></p>
+<%= link_to "New pleading", new_pleading_path %>
+<h1>Pleadings</h1>
+
+<table class="mytables">
+
+  <thead>
+    <tr>
+      <th>ROA</th>
+      <th>Date Filed</th>
+      <th>Document Title</th>
+      <th>Filed By</th>
+      <th>Edit</th>
+      <th>View</th>
+    </tr>
+  </thead>
+  <% @pleadings.each do |pleading| %>
+    <tr>
+      <td><%= pleading.roa %></td>
+      <td><%= pleading.date_filed %></td>
+      <td><%= pleading.title %></td>
+      <td><%= pleading.filed_by %></td>
+      <td><%= link_to " ", edit_pleading_path(pleading), class: "butt round" %></td>
+      <td><%= link_to " ", url_for(pleading.file), class: "butt round", target: "_blank" if pleading.file.content_type == 'application/pdf' %></td>
+    </tr>
+    <% end %> 
+</table>
+
+

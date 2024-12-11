@@ -1,0 +1,10 @@
+
+Depo deponent title depo_date:date employed_by job_title doh dod reports_to file:attachment
+
+DepoSum date:date event coa:integer issue:integer pg ln atty_notes:text
+
+Coa 
+
+
+
+Pleading roa:integer date_filed:date title filed_by:integer file:attachment
