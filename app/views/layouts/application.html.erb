@@ -11,16 +11,20 @@
   </head>
 
   <body>
-    
-   
+  
+  
       <div class="navbar">
         <% if user_signed_in? %>
         <div class="logout">
           <%= button_to "Logout", destroy_user_session_path, method: :delete %></div>
+          <div class="green-text position-right">
+          <%= current_user.role %>
+        </div>
     <% else %>
          
     <% end %> 
         <%= link_to image_tag('logo.PNG'), root_path %>
+        
 
         <div class="dropdown">
           <button class="dropbtn">PAGA<i class="fa fa-caret-down"></i></button>
@@ -53,7 +57,11 @@
               <%= link_to "Users", admin_users_path, id: "btn-round" %>
             </div>
         </div> 
+
+
+
     </div>
+        
         
         <p class="notice"><%= notice %></p>
         <p class="alert"><%= alert %></p>

@@ -1,14 +1,16 @@
+<% if current_user.admin? %>
 <h1>Admin#users</h1>
 <hr>
-<table>
+
+<table class="mytables">
 	<% @users.each do |user| %>
 	<tr>
 		<td><%= user.id %></td>
 		<td><%= user.name %></td>
 		<td><%= user.role %></td>
 		<td><%= user.status %></td>
-		<td></td>
-		<td><%= link_to "Change Status", admin_toggle_status_path(user: user) %></td>
+		<td><%= link_to "Change Status", con_change_status_path(user: user) %>
 	</tr>
 	<% end %>
 </table>
+<% end %>

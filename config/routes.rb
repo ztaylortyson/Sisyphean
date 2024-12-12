@@ -1,7 +1,14 @@
 Rails.application.routes.draw do
+  get 'con/change_status'
+  get 'con/change_role'
+  get 'con/change_rank'
+  get 'con/home'
   get 'admin/home'
   get 'admin/users'
   get 'admin/toggle_status'
+  get 'admin/toggle_role'
+  get 'admin/edit'
+ 
   devise_for :users
   resources :depos
   resources :pleadings

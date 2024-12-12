@@ -20,6 +20,14 @@
   right: 50px;
 } 
 
+.green-text { 
+  color: green;
+   }
+
+.position-right {
+  position: absolute;
+  right: 50px;
+}
 
 
 

@@ -1,3 +1,4 @@
+<% if current_user.admin? %>
 <h1>Exports#home</h1>
 <p>Find me in app/views/exports/home.html.erb</p>
 <div class="flash-messages">
@@ -5,3 +6,4 @@
 </div>
 <%= link_to "Export Contract data", exports_ecd_path, class: "butt round" %>
 <%= link_to "Export Member data", exports_emd_path, class: "butt round" %>
+<% end %>
