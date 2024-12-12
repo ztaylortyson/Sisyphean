@@ -5,6 +5,11 @@ class ExportsController < ApplicationController
   def members
   end
 
+  def get_source
+      @contracts = Contract.all 
+
+  end
+
   def contracts
   end
 
@@ -34,7 +39,7 @@ class ContractsCSVBuilder
 
       CSV.open(file, 'w', write_headers: true, headers: headers) do |writer|
           contracts.each do |c|
-              writer << [c.source, c.kind, c.year, c.member_id, c.notes, \
+              writer << [c.file.filename, c.kind, c.year, c.member_id, c.notes, \
                 c.ee_sign, c.ee_signed, c.hr_signed, c.gsm_signed, \
                 c.gm_signed, c.dir_op_signed, c.effective_date, c.draw, \
                 c.salary, c.hourly, c.duplicate]

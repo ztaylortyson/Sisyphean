@@ -54,8 +54,8 @@ end
 puts "running seed file"
 obj = Import.new
 puts "created obj for import"
-obj.get_members
-puts "acquired paga members from csv file."
+#obj.get_members
+#puts "acquired paga members from csv file."
 obj.get_contracts
 puts "got contracts"
 puts "done."
