@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'admin/home'
+  get 'admin/users'
+  get 'admin/toggle_status'
   devise_for :users
   resources :depos
   resources :pleadings

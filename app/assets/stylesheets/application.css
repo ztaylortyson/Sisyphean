@@ -13,6 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+.logout {
+  background-color: black;
+  position: absolute;
+  right: 50px;
+} 
+
+
+
+
+
 .wide-input { width: 400px; /* Adjust the width as needed */ }
 
 .navbar {
@@ -202,7 +213,6 @@ button {
 button:hover {
   background-color: #0056b3;
 }
-
 
 
 
