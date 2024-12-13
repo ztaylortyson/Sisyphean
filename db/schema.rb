@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_12_11_202828) do
+ActiveRecord::Schema[7.1].define(version: 2024_12_13_210948) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -86,6 +86,13 @@ ActiveRecord::Schema[7.1].define(version: 2024_12_11_202828) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "document_dumps", force: :cascade do |t|
+    t.date "date"
+    t.string "title"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "employees", force: :cascade do |t|
     t.integer "employee_id"
     t.string "full_name"
@@ -116,6 +123,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_12_11_202828) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "employee_list_id"
+    t.boolean "contract_misplaced", default: false
   end
 
   create_table "pleadings", force: :cascade do |t|
@@ -123,6 +131,14 @@ ActiveRecord::Schema[7.1].define(version: 2024_12_11_202828) do
     t.date "date_filed"
     t.string "title"
     t.integer "filed_by"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "pos", force: :cascade do |t|
+    t.date "date"
+    t.string "title"
+    t.boolean "documents"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -141,8 +157,17 @@ ActiveRecord::Schema[7.1].define(version: 2024_12_11_202828) do
     t.integer "rank"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "initials"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+  end
+
+  create_table "verifications", force: :cascade do |t|
+    t.date "date"
+    t.string "title"
+    t.string "signed_by"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"

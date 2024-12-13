@@ -1,0 +1,37 @@
+<%= form_with(model: verification) do |form| %>
+  <% if verification.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(verification.errors.count, "error") %> prohibited this verification from being saved:</h2>
+
+      <ul>
+        <% verification.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :date, style: "display: block" %>
+    <%= form.date_field :date %>
+  </div>
+
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div>
+    <%= form.label :signed_by, style: "display: block" %>
+    <%= form.text_field :signed_by %>
+  </div>
+
+  <div>
+    <%= form.label :file, style: "display: block" %>
+    <%= form.file_field :file %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

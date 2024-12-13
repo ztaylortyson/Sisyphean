@@ -37,9 +37,9 @@ Damages
 
 		Class: Commissioned Employees (CE) working without a Contract (WWAC)
 			** what constitutes a valid Contract, i.e. if er didn't sign?
-					Total Number of CE:
+					Total Number of CE: 61 salesreps. 
 
-					Total Number of CEs WWAC:
+					Total Number of CEs WWAC: 61
 
 					Total Work Weeks(WW) of CE who WWAC: __
 

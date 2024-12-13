@@ -8,7 +8,15 @@ module PrismHelper
 		end
 	end
 
+	def weeks(member)
 
+		if member.dod.nil?
+			return ((Date.today - member.doh).to_f/7).ceil
+		else 
+			return ((member.dod - member.doh).to_i/7).ceil
+		end
+
+	end
 	
 
 end

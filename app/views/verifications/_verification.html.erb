@@ -1,0 +1,22 @@
+<div id="<%= dom_id verification %>">
+  <p>
+    <strong>Date:</strong>
+    <%= verification.date %>
+  </p>
+
+  <p>
+    <strong>Title:</strong>
+    <%= verification.title %>
+  </p>
+
+  <p>
+    <strong>Signed by:</strong>
+    <%= verification.signed_by %>
+  </p>
+
+  <p>
+    <strong>File:</strong>
+    <%= link_to verification.file.filename, verification.file if verification.file.attached? %>
+  </p>
+
+</div>

@@ -13,6 +13,7 @@
 		<th>Contract?</th>
 		<th>Date Hired</th>
 		<th>Discharge</th>
+		<th>Weeks Worked</th>
 	</thead>
 	</tr>
 	<% mwc = 0 %>
@@ -26,6 +27,7 @@
 
 		<td><%= m.doh %></td>
 		<td><%= m.dod %></td>
+		<td><%= weeks(m) %></td>
 	</tr>
 	<% count += 1 %>
 	<% end %> 

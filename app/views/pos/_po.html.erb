@@ -1,0 +1,22 @@
+<div id="<%= dom_id po %>">
+  <p>
+    <strong>Date:</strong>
+    <%= po.date %>
+  </p>
+
+  <p>
+    <strong>Title:</strong>
+    <%= po.title %>
+  </p>
+
+  <p>
+    <strong>Documents:</strong>
+    <%= po.documents %>
+  </p>
+
+  <p>
+    <strong>File:</strong>
+    <%= link_to po.file.filename, po.file if po.file.attached? %>
+  </p>
+
+</div>

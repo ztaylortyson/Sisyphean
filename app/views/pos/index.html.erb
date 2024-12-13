@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Pos</h1>
+
+<div id="pos">
+  <% @pos.each do |po| %>
+    <%= render po %>
+    <p>
+      <%= link_to "Show this po", po %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New po", new_po_path %>

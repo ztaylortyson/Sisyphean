@@ -1,0 +1,32 @@
+<%= form_with(model: document_dump) do |form| %>
+  <% if document_dump.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(document_dump.errors.count, "error") %> prohibited this document_dump from being saved:</h2>
+
+      <ul>
+        <% document_dump.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :date, style: "display: block" %>
+    <%= form.date_field :date %>
+  </div>
+
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div>
+    <%= form.label :pos, style: "display: block" %>
+    <%= form.file_field :pos %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

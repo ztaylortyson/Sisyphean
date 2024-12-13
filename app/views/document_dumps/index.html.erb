@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Document dumps</h1>
+
+<div id="document_dumps">
+  <% @document_dumps.each do |document_dump| %>
+    <%= render document_dump %>
+    <p>
+      <%= link_to "Show this document dump", document_dump %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New document dump", new_document_dump_path %>

@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Verifications</h1>
+
+<div id="verifications">
+  <% @verifications.each do |verification| %>
+    <%= render verification %>
+    <p>
+      <%= link_to "Show this verification", verification %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New verification", new_verification_path %>

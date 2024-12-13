@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :verifications
+  resources :pos
+  resources :document_dumps
   get 'con/change_status'
   get 'con/change_role'
   get 'con/change_rank'

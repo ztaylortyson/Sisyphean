@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @document_dump %>
+
+<div>
+  <%= link_to "Edit this document dump", edit_document_dump_path(@document_dump) %> |
+  <%= link_to "Back to document dumps", document_dumps_path %>
+
+  <%= button_to "Destroy this document dump", @document_dump, method: :delete %>
+</div>
