@@ -1,0 +1,29 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Reviews</h1>
+<table class="mytables">
+  <thead>
+    <tr> 
+      <th>id</th>
+      <th>Question No.</th>
+      <th>COA</th>
+      <th>wswk</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <% @reviews.each do |review| %>
+    <tr>
+      <td><%= review.id %></td>
+      <td><%= review.question %>
+      <td><%= review.coa %></td>
+      <td><%= review.wswk %></td>
+      <td><%= review.note %></td>
+    </tr>
+
+ 
+  <% end %>
+
+</table>
+
+
+

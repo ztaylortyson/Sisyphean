@@ -1,0 +1,51 @@
+misplaced
+
+Javier Belendez; Alexander Bland; Jack Cecil; Roberto Christlieb; Telesforo Gomez; Leoncio Gonzalez Iniguez; Juan Gonzalez; Sward Gonzalez; Dinh Tan Ha; Shelby Hall; Garrett Hindsley (opt-out); Rufus Keller; Jair Lopez; Aaron Martos; Hector Munoz; Enrique Neira; Eric Paulsen; Daniel Perez; Gerald Robinson; Nicholas Schultz; Victor Soto; John Stevens; Daniel Vasquez
+
+
+Javier Belendez; 
+
+Alexander Bland; ** not showing in table
+
+Jack Cecil; 
+
+Roberto Christlieb; 
+
+Telesforo Gomez; 
+
+Leoncio Gonzalez Iniguez; 
+
+Juan Gonzalez; 
+
+Sward Gonzalez; 
+
+Dinh Tan Ha; 
+
+Shelby Hall; 
+
+Garrett Hindsley (opt-out); ** not in Members db
+
+Rufus Keller; 
+
+Jair Lopez; 
+
+Aaron Martos; 
+
+Hector Munoz; 
+
+Enrique Neira; 
+
+Eric Paulsen; 
+
+Daniel Perez; 
+
+Gerald Robinson; 
+
+Nicholas Schultz; 
+
+Victor Soto; 
+
+John Stevens; 
+
+Daniel Vasquez
+

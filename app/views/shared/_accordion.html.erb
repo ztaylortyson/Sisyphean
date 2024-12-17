@@ -54,6 +54,7 @@
       <td>Verified by: <%= i.verified_by %></td>
       <td>Response Date: <%= i.response_date %></td>
       <td><%= link_to "Edit", edit_discovery_path(i) %></td>
+      <td><%= link_to "Review", new_review_path(discovery_id: i), class: "button round" %></td>
       <td><%= link_to "View", url_for(i.file), class: 'button round', target: "_blank" if i.file.content_type == 'application/pdf' %></td>
     </tr>
       <% end %>

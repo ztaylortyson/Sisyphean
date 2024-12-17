@@ -1,5 +1,5 @@
 <p style="color: green"><%= notice %></p>
-
+<%= @member.misplace_contract.inspect %>
 <%= render @member %>
 
 <div>
@@ -14,15 +14,21 @@
 <table class="mytables">
   <tr>
     <th>Source</th>
+    <th>SOURCE</th>
+    <th>S3   = </th>
     <th>Year</th>
     <th>Contract Type</th>
      <th>Ee Doh</th>
     <th>Ee Signed</th>
    
     <th>Notes</th>
+    <th>misplaced</th>
   </tr>
   <% @mcontracts.each do |mc| %>
   <tr>
+    <td><%= mc.source %></td>
+    <td><%= get_contract(mc.source) %></td>
+    <td><%= link_to "open", get_contract(mc.source) %></td>
     <td><%= link_to "#{mc.file.filename}", url_for(mc.file), class: "butt round", target: "_blank" if mc.file.content_type == 'application/pdf' %></td>
     <td><%= mc.year %></td>
     <td><%= mc.kind %></td>
@@ -30,6 +36,7 @@
     <td><%= mc.ee_signed %></td>
     
     <td><%= mc.notes %></td>
+    <td><%= @member.misplace_contract.inspect %></td>
   <% end %>
   </tr>
 </table>

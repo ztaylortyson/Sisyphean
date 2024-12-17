@@ -11,6 +11,11 @@
     </div>
   <% end %>
 
+    <div>
+    <%= form.label :file, style: "display: block" %>
+    <%= form.file_field :file %>
+  </div><br>
+
   <div>
     <%= form.label :date, style: "display: block" %>
     <%= form.date_field :date %>
@@ -24,12 +29,9 @@
   <div>
     <%= form.label :documents, style: "display: block" %>
     <%= form.check_box :documents %>
-  </div>
+  </div><br>
 
-  <div>
-    <%= form.label :file, style: "display: block" %>
-    <%= form.file_field :file %>
-  </div>
+
 
   <div>
     <%= form.submit %>

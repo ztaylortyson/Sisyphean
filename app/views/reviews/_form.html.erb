@@ -1,0 +1,52 @@
+<%= params.inspect %> 
+<%= form_with(model: review) do |form| %>
+  <% if review.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(review.errors.count, "error") %> prohibited this review from being saved:</h2>
+
+      <ul>
+        <% review.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :discovery_id, style: "display: block" %>
+    <%= form.text_field :discovery_id, value: "#{@discovery.id}"  %> <%= @discovery.get_title %> 
+  </div>
+
+
+  <div>
+    <%= form.label :question, style: "display: block" %>
+    <%= form.text_field :question %> 
+  </div>
+  
+
+  <div>
+    <%= form.label :coa, style: "display: block" %>
+    <%= form.select :coa, Review.coas.keys.map {|coa| [coa.humanize, coa]} %>
+  </div>
+
+  <div>
+    <%= form.label :issue, style: "display: block" %>
+    <%= form.select :issue, Review.issues.keys.map {|issue| [issue.humanize, issue]} %>
+  </div><br>
+
+  <div>
+    <%= form.label :wswk, 'witnesses with knowledge', style: "display: block" %>
+    <%= form.text_area :wswk %>
+  </div>
+
+  <div>
+    <%= form.label :note, style: "display: block" %>
+    <%= form.text_area :note %>
+  </div><br>
+
+ 
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

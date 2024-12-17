@@ -1,5 +1,14 @@
 module MembersHelper
 
+	def get_contract(bates)
+		Dir.chdir(Rails.root.join("FOLDER", "COM_AGREEMENTS"))
+		puts "< =================================== > "
+		puts "#{Dir.pwd}/#{bates}"
+		@path = "#{Dir.pwd}/#{bates}"
+		puts "< =================================== > "
+	end
+
+
 	def get_weeks(m)
 		if m.dod.nil?
 			m.dod = Date.today

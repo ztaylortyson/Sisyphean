@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :reviews
   resources :verifications
   resources :pos
   resources :document_dumps
@@ -11,6 +12,8 @@ Rails.application.routes.draw do
   get 'admin/toggle_status'
   get 'admin/toggle_role'
   get 'admin/edit'
+
+  get 'prism/misplaced_contracts'
  
   devise_for :users
   resources :depos

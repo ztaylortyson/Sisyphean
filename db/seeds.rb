@@ -46,20 +46,29 @@ class Import
 				salary: c[13],
 				duplicate: c[14])
 		end
+		
 	end
 end
-# members = Member.all 
-# members.destroy_all
-# puts "all members destroyed."
+
 puts "running seed file"
 obj = Import.new
 puts "created obj for import"
-#obj.get_members
-#puts "acquired paga members from csv file."
-obj.get_contracts
-puts "got contracts"
-puts "done."
+
+# obj.get_members
 # puts "members added."
+
+obj.get_contracts
+
+#puts "got contracts"
+puts "done."
+
+
+
+
+# members = Member.all 
+# members.destroy_all
+# puts "all members destroyed."
+
 
 # def add_ee_list_info
 # 	@members = Member.all 

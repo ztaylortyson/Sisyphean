@@ -8,6 +8,7 @@
     <thead>
     <th>Count</th>
     <th>Source</th>
+    <th>SOURCE</th>
     <th>Year</th>
     <th>Contract Type</th>
     <th>Notes</th>
@@ -27,9 +28,11 @@
   <% @contracts.each do |c| %>
   <tr>
     <td><%= count %></td>
+     <td><%= c.source.inspect %></td>
     <td><%= link_to "#{c.file.filename}", url_for(c.file), class: "butt round", target: "_blank" if c.file.content_type == 'application/pdf' %></td>
     <td><%= c.year %></td>
     <td><%= link_to "#{c.kind}", prism_pkind_path(contract: c), class: "butt round" %></td>
+
     <td><%= c.notes %></td>
     <td><%= c.member_id %></td>
     <td><%= c.ee_signed %></td>

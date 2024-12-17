@@ -1,4 +1,9 @@
 class PrismController < ApplicationController
+  
+  def misplaced_contracts
+      @members = Member.where(misplace_contract: true)
+  end
+
   def pdates
     puts " = = = "
     puts params[:cdate]

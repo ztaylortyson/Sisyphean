@@ -1,0 +1,44 @@
+misplaced_contracts<br>
+
+<table class="mytables">
+
+		<thead> 
+
+			<tr>
+				<th>Count</th>
+				<th>Member</th>
+				<th>Job Title</th>
+				<th>Date of Hire</th>
+				<th>Date of Discharge</th>
+				<th>Contract</th>
+				<th>More than 1?</th>
+				<th>ee sign?</th>
+				<th>ee sign Date</th>
+				
+
+			</tr>
+
+		</thead>
+		<% count = 1 %>
+		<% @members.each do |m| %>
+			<tr>
+				<td><%= count %></td>
+				<td><%= link_to "#{m.lname}, #{m.fname}", member_path(m), class: "butt round" %></td>
+				<td><%= m.job_title %></td>
+				<td><%= m.doh %></td>
+				<td><%= m.dod %></td>
+				<td><% if  m.contracts.first.present? %>TRUE<% end %></td>
+				<td><% if m.contracts.first.present? %>TRUE<% end %>
+				<td><% if m.contracts.first.present? %><%= m.contracts.first.ee_sign %><% end %></td>
+				<td><% if m.contracts.first.present? %><%= m.contracts.first.ee_signed %><% end %></td>
+				
+				<% count += 1 %>
+		<% end %>
+			</tr>
+
+
+
+
+
+
+</table>

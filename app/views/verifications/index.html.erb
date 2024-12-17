@@ -1,14 +1,27 @@
 <p style="color: green"><%= notice %></p>
-
-<h1>Verifications</h1>
-
-<div id="verifications">
-  <% @verifications.each do |verification| %>
-    <%= render verification %>
-    <p>
-      <%= link_to "Show this verification", verification %>
-    </p>
-  <% end %>
-</div>
-
 <%= link_to "New verification", new_verification_path %>
+<h1>Verifications</h1>
+<table class="mytables">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Title</th>
+      <th>Signed By</th>
+      <th>File name</th>
+      <th>Edit</th>
+      <th>View</th>
+    </tr>
+  </thead>
+    <% @verifications.each do |verification| %>
+    <tr>
+        <td><%= verification.date %></td>
+        <td><%= verification.title %></td>
+        <td><%= verification.signed_by %></td>
+        <td><%= verification.file.filename %></td>
+        <td><%= link_to " ", edit_verification_path(verification), class: "butt round" %></td>
+        <td><%= link_to " ", url_for(verification.file), class: "butt round", target: "_blank" if verification.file.content_type == 'application/pdf' %></td>
+    </tr>
+    <% end %>
+</table>
+
+
