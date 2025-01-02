@@ -1,0 +1,41 @@
+dates_of_employment<br>
+<table class="mytables">
+	<thead>
+	<tr>
+		<th>count</th>
+		<th>name</th>
+		<!-- <th>job title</th> -->
+		<th>dates of employment</th>
+		<th>contract?</th>
+		<th>total weeks</th>
+	</tr>
+</thead>
+	<% count = 1 %>
+	<% @members.each do |member| %>
+	<tr>
+		<td><%= count %></td>
+		<td><%= member.lname %>, <%= member.fname %></td>
+		<!-- <td id="hide-job-title"><%= member.job_title %></td> -->
+		<td id="hide-dates-of-employment"><%= member.doh %> through
+			<% if member.dod.nil? %>
+			current employee
+			<% else %>
+		 <%= member.dod %>
+		 	<% end %>
+		 </td>
+		 <td><% if member.contracts.any? %>
+
+		 		<% member.contracts.each do |c| %>
+		 			<%= c.inspect %><br>
+		 		<% end %>
+
+		 	<% end %> </td>
+	</tr>
+	<% count += 1 %>
+	<% end %>
+</table>
+
+
+
+
+<%= @members.inspect %> 

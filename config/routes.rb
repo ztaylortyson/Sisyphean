@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'storyboard/number_misplaced'
+  get 'storyboard/weeks_without_contract'
+  get 'storyboard/formula'
+  get 'storyboard/damages'
+  get 'storyboard/dates_of_employment'
   resources :reviews
   resources :verifications
   resources :pos

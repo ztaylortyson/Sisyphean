@@ -1,0 +1,16 @@
+<h1>22 Employees working without a compensation agreement between x to y</h1>
+	<h3>Dispute the count of 22 employees?</h3>
+		<li>22 Employees (job titles) between start end date with no compensation agreements.</li>
+
+		<li>Defendant's Further Responses to Request for Production of Document (Set Four)("FRRP4"), No. 49
+	<%= link_to "Discovery Response", url_for(@rfp4.file), class: 'button round', target: "_blank" if @rfp4.file.content_type == 'application/pdf' %></li> 
+		
+		
+
+	</ol>
+<hr>
+	<h3>Total weeks worked among 22 employees</h3>
+		<li>
+			List of 22 Employees identified in FRRP4 with dates of employment. <%= link_to "List", storyboard_dates_of_employment_path(member: @members), class: "button round" %>
+		</li>
+	
