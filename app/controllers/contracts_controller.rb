@@ -65,6 +65,6 @@ class ContractsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def contract_params
-      params.require(:contract).permit(:commissions, :source, :kind, :year, :member_id, :notes, :ee_sign, :ee_signed, :hr_signed, :gsm_signed, :gm_signed, :dir_op_signed, :effective_date, :draw, :salary, :hourly, :duplicate, :file)
+      params.require(:contract).permit(:mention_pack, :er_sign, :nocomcal, :commissions, :source, :kind, :year, :member_id, :notes, :ee_sign, :ee_signed, :hr_signed, :gsm_signed, :gm_signed, :dir_op_signed, :effective_date, :draw, :salary, :hourly, :duplicate, :file)
     end
 end
