@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'sandbox/foo'
+  get 'sandbox/bar'
+  get 'sandbox/yo'
+  get 'of/sandbox'
   get 'member_search', to: 'members#member_search'
 
   get 'storyboard/number_misplaced'
