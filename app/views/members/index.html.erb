@@ -2,20 +2,25 @@
 <% if current_user.admin? %>
   <%= link_to "New member", new_member_path %>
 <% end %> 
-<h1>Members</h1>
+
+<h2>Members</h2>
 
 <div id="members">
+
+
  
+
+
   <table class="mytables">
     <tr>
       <thead>
         <th>Count</th>
         <th>id</th>
-        <th>Name</th>
+        <th><%= link_to "Name", :sort => "lname" %></th>
         <th>PSA ID</th>
         <th>Employee List ID</th>
         <th>Job Title</th>
-        <th>Hire Date</th>
+        <th><%= link_to "Hire Date", :sort => "doh" %></th>
         <th>Discharge</th>
         <th>Total Weeks</th>
         <th>1st Contract</th>
@@ -49,4 +54,21 @@
 
 </div>
 
-
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'member_search', to: 'members#member_search'
+
   get 'storyboard/number_misplaced'
   get 'storyboard/weeks_without_contract'
   get 'storyboard/formula'

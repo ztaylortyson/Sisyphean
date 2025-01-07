@@ -16,7 +16,8 @@
 	<% @contracts.each do |c| %>
 	<% gmember(c) %>
 	<tr>
-		<td><%= c.file.filename %></td>
+		<td><%= link_to "#{c.file.filename}", url_for(c.file), class: "butt round", target: "_blank" if c.file.content_type == 'application/pdf' %></td>
+    <td><%= c.year %></td>
 		<td><%= c.year %></td>
 		<td><%= c.kind %></td>
 		<td><%= c.member_id %></td>

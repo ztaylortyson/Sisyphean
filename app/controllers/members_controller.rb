@@ -5,7 +5,14 @@ class MembersController < ApplicationController
 
   # GET /members or /members.json
   def index
-    @members = Member.order(:lname)
+    
+    if params[:sort] == "lname"
+      @members = Member.order(:lname)
+    elsif params[:sort] == "doh"
+      @members = Member.order(:doh)
+    else
+      @members = Member.all
+    end
   end
 
   # GET /members/1 or /members/1.json
