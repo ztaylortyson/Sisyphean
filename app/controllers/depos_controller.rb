@@ -1,6 +1,15 @@
 class DeposController < ApplicationController
   before_action :set_depo, only: %i[ show edit update destroy ]
 
+  def page
+    page_number = params[:page_number]
+    @depo = Depo.find(params[:depo_id])
+    log_message(page_number, @depo)
+    @input = params[:input]
+    #redirect_to rails_blob_url(depo.file, disposition: 'inline') + '#page=7', target: '_blank'
+  end
+
+
   # GET /depos or /depos.json
   def index
     @depos = Depo.all
@@ -67,4 +76,13 @@ class DeposController < ApplicationController
     def depo_params
       params.require(:depo).permit(:deponent, :title, :depo_date, :employed_by, :job_title, :doh, :dod, :reports_to, :file)
     end
+    def log_message(*message)
+        puts " *     *      *     *"
+        puts message
+        puts " *     *      *     *"
+    end
 end
+
+
+
+    

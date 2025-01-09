@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  
+  get 'depos/page', to: 'depos#page'
+
   get 'sandbox/foo'
   get 'sandbox/bar'
   get 'sandbox/yo'

@@ -3,14 +3,14 @@ class ConController < ApplicationController
       @user = User.find(params[:user])
 
           if @user.status == "active"
-                @user.status = "inactive"
+                @user.update!(status: "inactive")
           else @user.status == "inactive"
-                @user.status = "active"
+                @user.update!(status: "active")
           end
 
-          if @user.save
-            flash[:notice] = "User status updated."
-          end
+
+
+    
 
       redirect_to admin_users_path
 

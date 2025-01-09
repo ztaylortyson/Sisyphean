@@ -1,0 +1,61 @@
+    <div class="navbar">
+        <% if user_signed_in? %>
+        <div class="logout">
+          <%= button_to "Logout", destroy_user_session_path, method: :delete %></div>
+          <div class="green-text position-right">
+            <% if current_user.role == "admin" %>
+          <%= current_user.role %>
+            <% end %>
+        </div>
+    <% else %>
+         
+    <% end %> 
+        <%= link_to image_tag('logo.PNG'), root_path %>
+        
+
+        <div class="dropdown">
+          <button class="dropbtn">PAGA<i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <%= link_to "Members", members_path, id: "btn-round" %>
+              <%= link_to "Clients", pages_clients_path, id: "btn-round" %>
+            </div>
+
+         </div>
+
+         <div class="dropdown">
+             <button class="dropbtn">Contracts<i class="fa fa-caret-down"></i></button>
+              <div class="dropdown-content">
+                    <%= link_to "Index", contracts_path, id: "btn-round" %>
+                    <%= link_to "Search", "#", id: "btn-round" %>
+                    <%= link_to "Misplaced Contracts", prism_misplaced_contracts_path, id: "btn-round" %>
+                    <%= link_to "Draw", prism_pdraw_path, id: "btn-round" %>
+                    <%= link_to "Salary", prism_psalary_path, id: "btn-round" %>
+              </div>
+         </div>
+        <%= link_to "Discovery", discoveries_path, id: "btn-round" %>
+        <%= link_to "Pleadings", pleadings_path, id: "btn-round" %>
+        <%= link_to "Transcripts", depos_path, id: "btn-round" %>
+        <%= link_to "Exhibits", "#", id: "btn-round" %>
+        <%= link_to "Verifications", verifications_path, id: "btn-round" %>
+        <%= link_to "Proof of Service", pos_path, id: "btn-round" %>
+  
+<% if current_user.role == "admin" %>   
+        <div class="dropdown">
+              <button class="dropbtn">Admin</button>
+            <div class="dropdown-content">
+              <%= link_to "Exports", exports_home_path, id: "btn-round" %>
+              <%= link_to "Users", admin_users_path, id: "btn-round" %>
+            </div>
+        </div> 
+<% end %> 
+
+<% if user_signed_in? %>
+        <div class="green-text">
+          <%= current_user.email %>
+        </div>
+<% end %> 
+
+
+
+
+    </div>

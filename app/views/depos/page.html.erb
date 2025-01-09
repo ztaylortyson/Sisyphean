@@ -1,0 +1,9 @@
+page<br>
+<%= params.inspect %><br>
+<!-- rails_blob_url(depo.file, disposition: 'inline') -->
+
+<%= object_tag = "<object data='#{rails_blob_url(@depo.file, disposition: 'inline' + '#page=7', target: '_blank')}' type='application/pdf' width='600' height='800'>
+  <p>Your browser does not support PDFs. <a href='#{rails_blob_url(@depo.file, disposition: 'inline')}'>Download the PDF</a>.</p>
+</object>".html_safe %>
+
+

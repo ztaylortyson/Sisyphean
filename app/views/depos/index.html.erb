@@ -12,6 +12,7 @@
         <th>Date</th>
         <th>Edit</th>
         <th>View</th>
+        <th>Goto Page</th>
       </tr>
     </thead>
     <% @depos.each do |depo| %>
@@ -20,10 +21,28 @@
         <td><%= depo.depo_date %></td>
         <td><%= link_to " ", edit_depo_path(depo), class: "butt round" %></td>
         <td><%= link_to " ", url_for(depo.file), class: "butt round", target: "_blank" if depo.file.content_type == 'application/pdf' %></td>
+        <td>
+          <%= form_with url: "depos/page", method: :get do |f| %>
+              <%= f.number_field :page_number, id: 'input_value'  %>
+              <%= f.hidden_field :depo_id, value: depo.id %>
+              <%= f.submit "GoTo" %>
+          <% end %> 
+        </td>
+        <td>
+          <%= link_to 'Open PDF to Page 7', rails_blob_url(depo.file, disposition: 'inline') + '#page=7', target: '_blank' %>
+        </td>
+        <td>
+          <%= link_to 'Go to Page', '#', id: 'dynamic_link', target: '_blank' %>
+        </td>
       </tr>
     <% end %>
 
 </table>
+
+<script> 
+  
+  
+</script>
 
 
 

@@ -50,17 +50,17 @@ class Import
 	end
 end
 
-puts "running seed file"
-obj = Import.new
-puts "created obj for import"
+# puts "running seed file"
+# obj = Import.new
+# puts "created obj for import"
 
 # obj.get_members
 # puts "members added."
 
-obj.get_contracts
+#obj.get_contracts
 
 #puts "got contracts"
-puts "done."
+
 
 
 
