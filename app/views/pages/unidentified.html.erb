@@ -1,0 +1,16 @@
+unidentified  total: <%= @members_count %><br>
+
+<table class="mytables">
+	
+	<% @members.each do |member| %> 
+	
+	<tr>
+		<td><%= member.id %></td>
+		<td><%= member.lname %>, <%= member.fname %></td>
+		<td><%= member.job_title %></td>
+		<td><%= link_to "Edit", edit_member_path(member) %></td>
+	</tr>
+
+	<% end %> 
+
+</table>

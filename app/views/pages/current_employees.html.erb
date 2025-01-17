@@ -1,0 +1,17 @@
+current_employees count:<%= @members.count %>
+
+
+
+<br>
+
+<table class="mytables">
+		<% @members.each do |member| %>
+	<tr>
+			<td><%= member.id %></td>
+			<td><%= link_to "#{member.lname}, #{ member.fname}", edit_member_path(member), class: "butt round" %></td>
+			<td><%= member.job_title %></td>
+			<td><%= member.commission %></td>
+			<td><%= member.valid_contract %></td>
+		<% end %>
+	</tr>
+</table>

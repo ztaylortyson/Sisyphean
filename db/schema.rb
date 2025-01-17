@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_01_02_220124) do
+ActiveRecord::Schema[7.1].define(version: 2025_01_16_195952) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -107,6 +107,33 @@ ActiveRecord::Schema[7.1].define(version: 2025_01_02_220124) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "exhibits", force: :cascade do |t|
+    t.string "name"
+    t.string "description"
+    t.date "date"
+    t.string "binder"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "facts", force: :cascade do |t|
+    t.integer "bates"
+    t.string "source"
+    t.integer "page"
+    t.integer "num"
+    t.integer "lns"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.text "statement"
+    t.date "date"
+  end
+
+  create_table "issues", force: :cascade do |t|
+    t.string "statement"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "members", force: :cascade do |t|
     t.string "lname"
     t.string "fname"
@@ -128,6 +155,10 @@ ActiveRecord::Schema[7.1].define(version: 2025_01_02_220124) do
     t.string "employee_list_id"
     t.boolean "contract_misplaced", default: false
     t.boolean "misplace_contract", default: false
+    t.boolean "commission"
+    t.boolean "reviewed"
+    t.integer "valid_contract"
+    t.boolean "unidentified"
   end
 
   create_table "pleadings", force: :cascade do |t|
@@ -145,6 +176,17 @@ ActiveRecord::Schema[7.1].define(version: 2025_01_02_220124) do
     t.boolean "documents"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "procedural_histories", force: :cascade do |t|
+    t.date "date"
+    t.string "event"
+    t.text "description"
+    t.integer "roa"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "issue_id"
+    t.string "source"
   end
 
   create_table "reviews", force: :cascade do |t|

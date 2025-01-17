@@ -1,9 +1,9 @@
 page<br>
 <%= params.inspect %><br>
 <!-- rails_blob_url(depo.file, disposition: 'inline') -->
+<hr> 
 
-<%= object_tag = "<object data='#{rails_blob_url(@depo.file, disposition: 'inline' + '#page=7', target: '_blank')}' type='application/pdf' width='600' height='800'>
-  <p>Your browser does not support PDFs. <a href='#{rails_blob_url(@depo.file, disposition: 'inline')}'>Download the PDF</a>.</p>
+<%= object_tag = "<object data='#{rails_blob_url(@depo.file, disposition: 'inline', target: '_blank') + "#page=#{@page_number}"}' type='application/pdf' width='600' height='800' target='_blank'>
+  <p>Your browser does not support PDFs. <a href='#{rails_blob_url(@depo.file, disposition: 'inline', target: '_blank') + "#page=#{@page_number}" } target='_blank'>Download the PDF</a>.</p>
 </object>".html_safe %>
-
 

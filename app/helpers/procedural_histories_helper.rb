@@ -1,0 +1,2 @@
+module ProceduralHistoriesHelper
+end

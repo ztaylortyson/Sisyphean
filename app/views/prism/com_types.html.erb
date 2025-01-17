@@ -1,0 +1,12 @@
+com_types<br>
+<h2>Contracts with a commission component.</h2>
+<table>
+	<% count = 1 %>
+	<% @commission_contracts.each do |cc| %>
+		<tr>
+			<td><%= count %></td>
+			<td><%= cc %></td>
+		</tr>
+	<% count += 1 %>
+	<% end %>
+</table>

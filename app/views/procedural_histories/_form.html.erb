@@ -1,0 +1,48 @@
+<%= form_with(model: procedural_history) do |form| %>
+  <% if procedural_history.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(procedural_history.errors.count, "error") %> prohibited this procedural_history from being saved:</h2>
+
+      <ul>
+        <% procedural_history.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :date, style: "display: block" %>
+    <%= form.date_field :date %>
+  </div>
+
+  <div>
+    <%= form.label :event, style: "display: block" %>
+    <%= form.text_field :event %>
+  </div>
+
+  <div>
+    <%= form.label :description, style: "display: block" %>
+    <%= form.text_area :description %>
+  </div>
+
+  <div>
+    <%= form.label :source %>
+    <%= form.text_field :source %> 
+  </div>
+
+  <div>
+    <%= form.label :roa, style: "display: block" %>
+    <%= form.number_field :roa %>
+  </div>
+
+  <div>
+    <%= form.label :file, style: "display: block" %>
+    <%= form.file_field :file %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+

@@ -1,0 +1,58 @@
+1	Schultz, Nicholas			Sales Representative		
+2	Soto, Victor				Sales Representative			
+3	Stevens, John				Service Advisor					
+4	Vasquez, Daniel				Sales Representative				
+5	Gonzalez, Juan E			Finance Manager				
+6	Ha, Dinh Tan				Sales Representative					
+7	Martos, Aaron C				Sales Representative					
+8	Munoz, Hector				Sales Representative				
+9	Neira, Enrique				Sales Representative				
+10	Paulsen, Eric W				Sales Representative				
+11	Gonzalez, Sward A			Sales Representative				
+12	Keller, Rufus				Sales Manager				
+13	Cecil, Jack					Sales Representative					
+14	Christlieb, Roberto			Sales Manager				
+15	Lopez, Jair					Sales Representative				
+16	Bland, Alexander			Sales Representative					
+17	Belendez, Javier			Sales Representative				
+18	Gomez, Telesforo			Finance Director						
+19	Gonzalez Iniguez, Leoncio	Sales Representative				
+20	Hall, Shelby				Sales Representative				
+21	Perez, Daniel				Sales Representative					
+22	Robinson, Gerald			Sales Representative	
+
+
+ = = = = > should be on list: 
+Rich, Gerald 		** sales manager
+Sanchez, Arcelia 	** warrent clerks are commissioned employees? 
+Silva, Jose
+Torres, Victor 		** service manager
+
+
+01	01	01	01
+
+1 commissioned employee
+
+	1 employee signed
+
+		1 employer signed
+
+
+
+
+
+Depos:
+	- 2 finance managers: Juan Gonzalez, no date of discharge, no contract
+	
+	- sales reps: 
+		David Levie, doh 2021, 1st Contract: 2024
+		Dominick Leduff, doh 2023, 1st Contract 2024, hR 4/1/24
+		juan luna, 1101, service advisor, doh: 2021, 1stK: 2023
+		Jose A Silva, no K, not id'd as misplaced, still employed. 
+
+
+Bilial, Doc Review
+	Doh: 9/21/2021
+	DoT: 11/4/2021, Zapata
+	DAG 0006 Notice to Employee "see pay plan"
+

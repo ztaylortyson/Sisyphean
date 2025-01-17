@@ -1,0 +1,52 @@
+<%= form_with(model: fact) do |form| %>
+  <% if fact.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(fact.errors.count, "error") %> prohibited this fact from being saved:</h2>
+
+      <ul>
+        <% fact.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :bates, style: "display: block" %>
+    <%= form.number_field :bates %>
+  </div>
+
+   <div>
+    <%= form.label :date, style: "display: block" %>
+    <%= form.date_field :date %>
+  </div>
+
+  <div>
+    <%= form.label :source, style: "display: block" %>
+    <%= form.text_field :source %>
+  </div>
+
+  <div>
+    <%= form.label :page, style: "display: block" %>
+    <%= form.number_field :page %>
+  </div>
+
+  <div>
+    <%= form.label :num, style: "display: block" %>
+    <%= form.number_field :num %>
+  </div>
+
+  <div>
+    <%= form.label :lns, style: "display: block" %>
+    <%= form.number_field :lns %>
+  </div>
+  
+  <div>
+    <%= form.label :statement %>
+    <%= form.text_area :statement %>   
+  </div><br>
+
+  <div>
+    <%= form.submit class: "button round" %>
+  </div>
+<% end %>

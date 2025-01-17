@@ -10,18 +10,21 @@
 		<th>Job Title</th>
 		<th>Year</th>
 		<th>Contract Type</th>
-		<th>Ee Signed</th>
+		<th>Contract Code</th>
 	</thead>
 	</tr>
 	<% @contracts.each do |c| %>
 	<tr>
 		<td><%= link_to "#{c.file.filename}", url_for(c.file), class: "butt round", target: "_blank" if c.file.content_type == 'application/pdf' %></td>
-		<td><%= c.member_id %></td>
+		<% if !c.member_id.nil? %>
+			<% @member = Member.find(c.member_id) %>
+		<% end %>
+		<td><%= @member.id %></td>
 		<td><%= get_member_name(c.member_id) %></td>
 		<td><%= get_member_job_title(c.member_id) %></td>
 		<td><%= c.year %></td>
 		<td><%= c.kind %></td>
-		<td><%= c.ee_signed %></td>
+		<td><%=  @member.valid_contract %></td>
 	</tr>
 	<% end %> 
 </table>

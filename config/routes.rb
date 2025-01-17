@@ -1,4 +1,24 @@
 Rails.application.routes.draw do
+  get 'issues/index'
+  get 'issues/new'
+  get 'issues/create'
+  get 'issues/update'
+  get 'issues/edit'
+  get 'issues/destroy'
+  get 'issues/show'
+  resources :procedural_histories
+  resources :facts
+
+  root 'pages#home'
+
+  get 'exhibits/index'
+  get 'exhibits/show'
+  get 'exhibits/new'
+  post 'exhibits/create', to: 'exhibits#create'
+  get 'exhibits/edit'
+  post 'exhibits/destroy', to: 'exhibits#destroy'
+  patch 'exhibits/update', to: 'exhibits#update'
+
   
   get 'depos/page', to: 'depos#page'
 
@@ -32,6 +52,7 @@ Rails.application.routes.draw do
   devise_for :users
   resources :depos
   resources :pleadings
+  get 'prism/com_types'
   get 'prism/pdates'
   get 'prism/pcontract_type'
   get 'prism/pjob_title'
@@ -52,9 +73,19 @@ Rails.application.routes.draw do
   resources :contracts
   resources :members
 
-  get 'pages/clients'
+  get 'pages/unidentified'
 
-  root 'pages#home'
+  get 'pages/clients'
+  get 'pages/review'
+  get 'pages/current_employees'
+  get 'pages/cce'
+  get 'pages/all_commissioned_employees'
+  get 'pages/cepp'
+  get 'pages/cenk'
+  get 'pages/cenfe'
+  get 'pages/member_notes'
+
+  
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.

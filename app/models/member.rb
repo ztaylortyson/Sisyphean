@@ -1,4 +1,7 @@
 class Member < ApplicationRecord
+
+	validates :doh, presence: :true
+
 	has_many :contracts
 
 

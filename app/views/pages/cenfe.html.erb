@@ -1,0 +1,30 @@
+cenfe<br>
+<table class="mytables">
+	<tr>
+		<th><%= link_to "All commissioned employees", pages_all_commissioned_employees_path, class: "disabled-button round" %></th>
+		<th><%= link_to "Commissioned employees with no contract", pages_cenk_path, class: "disabled-button round" %></th>
+		<th><%= link_to "Commissioned employees missing contract for partial period of their employment", pages_cepp_path, class: "disabled-button round" %></th>
+		<th><%= link_to "Commissioned employees missing a fully executed contract", pages_cenfe_path, class: "button round" %></th>	
+	</tr> 
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td id="mycount"><strong><%= @cenfe_count %></strong></td>
+	</tr>
+</table>
+
+
+<table class="mytables">
+		<% @cenfe.each do |member| %>
+	<tr>
+			<td><%= member.id %></td>
+			<td><%= link_to "#{member.lname}, #{ member.fname}", member_path(member), class: "butt round" %></td>
+			<td><%= member.job_title %></td>
+			<td><%= member.commission %></td>
+			<td><%= member.valid_contract %></td>
+		<% end %>
+	</tr>
+</table>
+
+

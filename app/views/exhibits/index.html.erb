@@ -1,0 +1,28 @@
+<h1>Exhibits#index</h1>
+<p><%= link_to "New Exhibit", exhibits_new_path, class: "button round" %> </p>
+
+<table class="mytables">
+	<thead>
+		<tr>
+			<th>id</th>
+			<th>name (button)</th>
+			<th>description</th>
+			<th>bates</th>
+			<th>edit</th>
+			<th>view</th>
+		</tr>
+	</thead>
+	<% @exhibits.each do |exhibit| %> 
+	<tr>
+		<td><%= exhibit.id %></td>
+		<td><%= link_to "#{exhibit.name} ", url_for(exhibit.file), class: "butt round", target: "_blank" if exhibit.file.content_type == 'application/pdf' %></td>
+		<td><%= exhibit.description %></td>
+		<td></td>
+		
+		<td><%= link_to "edit", exhibits_edit_path(exhibit: exhibit), class: "butt round" %></td>
+		<td><%= link_to "view", exhibits_show_path(exhibit: exhibit), class: "butt round" %></td>
+
+	</tr>
+	<% end %> 
+
+</table>

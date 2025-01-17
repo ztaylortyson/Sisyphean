@@ -1,7 +1,13 @@
 class PrismController < ApplicationController
   
   def misplaced_contracts
-      @members = Member.where(misplace_contract: true)
+    
+        @members = Member.order(:lname).where(misplace_contract: true)
+     
+  end
+
+  def com_types
+   @commission_contracts = Contract.where(commissions: true).distinct.pluck(:kind)
   end
 
   def pdates

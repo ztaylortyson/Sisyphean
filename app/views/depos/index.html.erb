@@ -22,25 +22,30 @@
         <td><%= link_to " ", edit_depo_path(depo), class: "butt round" %></td>
         <td><%= link_to " ", url_for(depo.file), class: "butt round", target: "_blank" if depo.file.content_type == 'application/pdf' %></td>
         <td>
-          <%= form_with url: "depos/page", method: :get do |f| %>
+          <%= form_with url: "depos/page", target: '_blank', method: :get do |f| %>
               <%= f.number_field :page_number, id: 'input_value'  %>
               <%= f.hidden_field :depo_id, value: depo.id %>
-              <%= f.submit "GoTo" %>
+              <%= f.submit "submit" %> 
           <% end %> 
         </td>
         <td>
-          <%= link_to 'Open PDF to Page 7', rails_blob_url(depo.file, disposition: 'inline') + '#page=7', target: '_blank' %>
+          <%= link_to 'Open PDF to Page 7', rails_blob_url(depo.file, disposition: 'inline') + "#page=", target: '_blank' %>
         </td>
-        <td>
-          <%= link_to 'Go to Page', '#', id: 'dynamic_link', target: '_blank' %>
-        </td>
+        
       </tr>
     <% end %>
 
 </table>
 
 <script> 
-  
+    const pageNum = document.getElementById("input_value");
+
+    pageNum.addEventListener("input", function(e){
+
+        console.log(e.data);
+
+    }); 
+
   
 </script>
 

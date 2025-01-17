@@ -1,0 +1,25 @@
+<p style="color: green"><%= notice %></p>
+<%= link_to "New procedural history", new_procedural_history_path %>
+
+<h1>Procedural histories</h1>
+<table class="mytables">
+    <thead>
+      <tr>
+        <th>event</th>
+        <th>date</th>
+        <th>description</th>
+        <th>source</th>
+      </tr>
+    </thead>
+    <% @procedural_histories.each do |ph| %>
+      <tr>
+        <td><%= ph.event %></td>
+        <td><%= ph.date %></td>
+        <td><%= ph.description %></td>
+        <td><%= ph.source %></td>
+        <td>file</td>
+      </tr>
+    <% end %> 
+</table>
+
+

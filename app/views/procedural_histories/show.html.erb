@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @procedural_history %>
+
+<div>
+  <%= link_to "Edit this procedural history", edit_procedural_history_path(@procedural_history) %> |
+  <%= link_to "Back to procedural histories", procedural_histories_path %>
+
+  <%= button_to "Destroy this procedural history", @procedural_history, method: :delete %>
+</div>

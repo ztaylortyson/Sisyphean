@@ -1,0 +1,51 @@
+member_notes<br>
+<table class="mytables"> 
+	<thead>
+		<tr>
+			<th>member</th>
+			<th>job title</th>
+			<th>notes</th>
+			<th>contract code</th>
+			<th>contract notes</th>
+			<th>dir op signed</th>
+		</tr>
+	</thead>
+	<% @members.each do |member| %>
+		<tr>
+			<td><%= member.lname %>, <%= member.fname %></td>
+			<td><%= member.job_title %></td>
+			<td><%= member.notes %></td>
+			<td><%= member.valid_contract %></td>
+			<% if member.contracts.present? %>
+				<% first_contract = member.contracts.first %>
+				<td><%= first_contract.notes %></td>
+				<td><%= first_contract.dir_op_signed %></td>
+			<% end %> 
+		</tr>
+	<% end %> 
+</table>
+
+
+    contracts:
+    t.string "source"
+    t.string "kind"
+    t.string "year"
+    t.integer "member_id"
+    t.text "notes"
+    t.boolean "ee_sign"
+    t.date "ee_signed"
+    t.date "hr_signed"
+    t.date "gsm_signed"
+    t.date "gm_signed"
+    t.date "dir_op_signed"
+    t.date "effective_date"
+    t.boolean "draw"
+    t.boolean "salary"
+    t.boolean "hourly"
+    t.boolean "duplicate"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.boolean "commissions"
+    t.boolean "nocomcal"
+    t.boolean "er_sign"
+    t.boolean "mention_pack"

@@ -1,0 +1,36 @@
+<p style="color: green"><%= notice %></p>
+<%= link_to "New fact", new_fact_path, class: "button round" %>
+<h3>Facts</h3>
+
+<table class="mytables">
+
+  <thead>
+    <tr>
+      <th>source</th>
+      <th>statements</th>
+      <th>date</th>
+      <th>page</th>
+      <th>lns</th>
+      <th>no.</th>
+      <th></th>
+      <th>edit</th>
+      <th>view</th>
+    </tr>
+  </thead>
+  <% @facts.each do |fact| %>
+    <tr>
+      <td><%= fact.source %><%= fact.bates %></td>
+      <td><%= fact.statement %></td>
+      <td><%= fact.date %></td>
+      <td><%= fact.page %></td>
+      <td><%= fact.lns %></td>
+      <td><%= fact.num %></td>
+      
+      <td></td>
+      <td><%= link_to " ", edit_fact_path(fact), class: "butt round" %></td>
+      <td><%= link_to " ", fact, class: "butt round" %></td>
+    </tr>
+  <% end %>
+</table>
+
+

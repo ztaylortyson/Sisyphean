@@ -2,10 +2,22 @@ class DeposController < ApplicationController
   before_action :set_depo, only: %i[ show edit update destroy ]
 
   def page
-    page_number = params[:page_number]
+    @page_number = params[:page_number]
     @depo = Depo.find(params[:depo_id])
-    log_message(page_number, @depo)
-    @input = params[:input]
+    #log_message(page_number, @depo)
+   
+    if @depo.file.attached?
+      #log_message("yeah, i think it worked", page_number, @depo.file)
+     
+      puts " = = = "
+     
+      
+    else
+      log_message("did not find file. alert, alert!.")
+    end
+
+
+    #redirect_to rails_blob_url(@depo.file, disposition: 'inline') + '#page=7'
     #redirect_to rails_blob_url(depo.file, disposition: 'inline') + '#page=7', target: '_blank'
   end
 

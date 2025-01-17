@@ -1,5 +1,7 @@
 <p style="color: green"><%= notice %></p>
-<%= link_to "New contract", new_contract_path %>
+<%= link_to "New contract", new_contract_path, class: "button round" %>
+<%= link_to "Commission Contract Types", prism_com_types_path, class: "button round" %>
+
 <h1>Contracts</h1>
 
 <table class="mytables">
@@ -7,22 +9,10 @@
   <tr>
     <thead>
     <th>Count</th>
-    <th>Source</th>
     <th>SOURCE</th>
     <th>Year</th>
     <th>Contract Type</th>
-    <th>Notes</th>
-    <th>Member ID</th>
-    
-    <th>Effective Date</th>
-
-    <th>Employee Signed</th>
-    <th>GSM Signed</th>
-    <th>GM Signed</th>
-    <th>HR Sighed</th>
-    <th>Commissions?</th>
     <th>Edit</th>
-    
   </thead>
    
   </tr>
@@ -30,25 +20,9 @@
   <% @contracts.each do |c| %>
   <tr>
     <td><%= count %></td>
-     <td><%= c.source.inspect %></td>
     <td><%= link_to "#{c.file.filename}", url_for(c.file), class: "butt round", target: "_blank" if c.file.content_type == 'application/pdf' %></td>
     <td><%= c.year %></td>
     <td><%= link_to "#{c.kind}", prism_pkind_path(contract: c), class: "butt round" %></td>
-
-    <td><%= c.notes %></td>
-    <td><%= c.member_id %></td>
-
-    <td><%= c.effective_date %></td>
-
-    <td><%= c.ee_signed %></td>
-    <td><%= c.gsm_signed %></td>
-    <td><%= c.gm_signed %></td>
-    <td>
-    <% if !c.hr_signed.nil? %>
-    <%= link_to "#{c.hr_signed}", prism_pdates_path(cdate: c.hr_signed), class: "butt round" %>
-    <% end %>
-    </td>
-    <td><%= c.commissions %></td>
     <td><%= link_to " ", edit_contract_path(c), class: "butt round" %></td>
   </tr>
     <% count += 1 %>

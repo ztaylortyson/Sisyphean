@@ -1,10 +1,13 @@
 <p style="color: green"><%= notice %></p>
-<%= @member.misplace_contract.inspect %>
+Misplaced: <%= @member.misplace_contract.inspect %>
+<%= link_to "Review", pages_review_path, class: "button center" %>
 <%= render @member %>
 
 <div>
   <%= link_to "Edit this member", edit_member_path(@member) %> |
   <%= link_to "Back to members", members_path %>
+  <h3>Commissioned employee: <%= @member.commission %></h3>
+  <h3>Valid Contract Code: <%= @member.valid_contract %></h3>
 
   <%= button_to "Destroy this member", @member, method: :delete %>
 </div>
@@ -13,30 +16,34 @@
 
 <table class="mytables">
   <tr>
-    <th>Source</th>
+    
     <th>SOURCE</th>
-    <th>S3   = </th>
     <th>Year</th>
     <th>Contract Type</th>
      <th>Ee Doh</th>
-    <th>Ee Signed</th>
+    <th>Date Ee Signed</th>
+    <th>EE Signed</th>
+    <th>Er Signed</th>
    
     <th>Notes</th>
     <th>misplaced</th>
+    <th>commissioned?</th>
+    <th>EDIT</th>
   </tr>
   <% @mcontracts.each do |mc| %>
   <tr>
-    <td><%= mc.source %></td>
-    <td><%= get_contract(mc.source) %></td>
-    <td><%= link_to "open", get_contract(mc.source) %></td>
     <td><%= link_to "#{mc.file.filename}", url_for(mc.file), class: "butt round", target: "_blank" if mc.file.content_type == 'application/pdf' %></td>
     <td><%= mc.year %></td>
     <td><%= mc.kind %></td>
     <td><%= @member.doh %></td>
     <td><%= mc.ee_signed %></td>
+    <td><%= mc.ee_sign %></td>
+    <td><%= mc.er_sign %></td>
     
     <td><%= mc.notes %></td>
     <td><%= @member.misplace_contract.inspect %></td>
+    <td><%= mc.commissions %></td>
+    <td><%= link_to "E", edit_contract_path(mc) %></td>
   <% end %>
   </tr>
 </table>

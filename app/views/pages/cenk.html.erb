@@ -1,0 +1,31 @@
+cenk<br>
+<table>
+	<tr>
+		<th><%= link_to "All commissioned employees", pages_all_commissioned_employees_path, class: "disabled-button round" %></th>
+		<th><%= link_to "Commissioned employees with no contract", pages_cenk_path, class: "button round" %></th>
+		<th><%= link_to "Commissioned employees missing contract for partial period of their employment", pages_cepp_path, class: "disabled-button round" %></th>
+		<th><%= link_to "Commissioned employees missing a fully executed contract", pages_cenfe_path, class: "disabled-button round" %></th>	
+	</tr>
+	<tr>
+		<td></td>
+		<td id="mycount"><strong><%= @cenk_count %></strong></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+<br>
+
+<table class="mytables">
+		<% count = 1 %>
+	<tr>
+		<% @cenk.each do |member| %>
+		
+			<td><%= count %></td>
+			<td><%= link_to "#{member.lname}, #{ member.fname}", member_path(member), class: "butt round" %></td>
+			<td><%= member.job_title %></td>
+			<td><%= member.commission %></td>
+			<td><%= member.valid_contract %></td>
+			<% count += 1 %>
+		<% end %>
+	</tr>
+</table>

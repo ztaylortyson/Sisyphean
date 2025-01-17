@@ -1,0 +1,27 @@
+<div id="<%= dom_id procedural_history %>">
+  <p>
+    <strong>Date:</strong>
+    <%= procedural_history.date %>
+  </p>
+
+  <p>
+    <strong>Event:</strong>
+    <%= procedural_history.event %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= procedural_history.description %>
+  </p>
+
+  <p>
+    <strong>Roa:</strong>
+    <%= procedural_history.roa %>
+  </p>
+
+  <p>
+    <strong>File:</strong>
+    <%= link_to procedural_history.file.filename, procedural_history.file if procedural_history.file.attached? %>
+  </p>
+
+</div>

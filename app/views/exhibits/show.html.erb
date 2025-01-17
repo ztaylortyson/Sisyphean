@@ -1,0 +1,8 @@
+<h1>Exhibits#show</h1>
+<%= params.inspect %><br>
+<%= @exhibit.inspect %><br>
+<%= params[:exhibit] %> 
+
+
+<br>
+<%= button_to "Delete Exhibit", exhibits_destroy_path(exhibit: params[:exhibit]) %> 

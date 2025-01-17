@@ -18,6 +18,10 @@
             <div class="dropdown-content">
               <%= link_to "Members", members_path, id: "btn-round" %>
               <%= link_to "Clients", pages_clients_path, id: "btn-round" %>
+              <%= link_to "Unidentified Members", pages_unidentified_path %> 
+              <%= link_to "All Commissioned Employees", pages_all_commissioned_employees_path %>
+              <%= link_to "Current Commissioned Employees", pages_current_employees_path %>
+              <%= link_to "Members with Notes", pages_member_notes_path %>
             </div>
 
          </div>
@@ -33,21 +37,23 @@
               </div>
          </div>
         <%= link_to "Discovery", discoveries_path, id: "btn-round" %>
+        <%= link_to "Facts", facts_path, id: "btn-round" %>
         <%= link_to "Pleadings", pleadings_path, id: "btn-round" %>
         <%= link_to "Transcripts", depos_path, id: "btn-round" %>
-        <%= link_to "Exhibits", "#", id: "btn-round" %>
+        <%= link_to "Exhibits", exhibits_index_path, id: "btn-round" %>
         <%= link_to "Verifications", verifications_path, id: "btn-round" %>
         <%= link_to "Proof of Service", pos_path, id: "btn-round" %>
   
-<% if current_user.role == "admin" %>   
+ 
         <div class="dropdown">
               <button class="dropbtn">Admin</button>
             <div class="dropdown-content">
               <%= link_to "Exports", exports_home_path, id: "btn-round" %>
               <%= link_to "Users", admin_users_path, id: "btn-round" %>
+              <%= link_to "Procedural History", procedural_histories_path %>
             </div>
         </div> 
-<% end %> 
+
 
 <% if user_signed_in? %>
         <div class="green-text">

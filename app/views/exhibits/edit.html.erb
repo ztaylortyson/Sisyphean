@@ -1,0 +1,31 @@
+<h1>Exhibits#edit</h1><br>
+<%= params.inspect %> 
+
+<%= form_with url: "update", model: @exhibit do |f| %>
+	
+	<div>
+		<%= f.file_field :file %>
+	</div><br>
+  <div>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div>
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+  </div>
+  <div>
+  	<%= f.label :date %>
+  	<%= f.date_field :date %>
+  </div>
+
+
+  <div>
+  	<%= f.hidden_field :exhibit_id, value: @exhibit %>
+  </div>
+
+  <br>
+
+
+  <%= f.submit %>
+<% end %>

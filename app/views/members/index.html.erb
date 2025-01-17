@@ -15,10 +15,9 @@
     <tr>
       <thead>
         <th>Count</th>
-        <th>id</th>
         <th><%= link_to "Name", :sort => "lname" %></th>
-        <th>PSA ID</th>
-        <th>Employee List ID</th>
+        
+       
         <th>Job Title</th>
         <th><%= link_to "Hire Date", :sort => "doh" %></th>
         <th>Discharge</th>
@@ -33,10 +32,9 @@
       <% count = 1 %>
   <% @members.each do |member| %>
       <td><%= count %></td>
-      <td><%= member.id %>
       <td><%= link_to "#{member.full_name}", member_path(member), class: "butt round" %></td>
-      <td><%= member.psa_id %></td>
-      <td><%= member.employee_list_id %></td>
+      
+      
       <td><%= link_to "#{member.job_title}", prism_pjob_title_path(member: member), class: "butt round" %></td>
       <td><%= link_to "#{member.doh}", prism_phire_path(member: member), class: "butt round" %></td>
       <td><%= member.dod %></td>

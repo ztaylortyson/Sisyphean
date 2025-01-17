@@ -1,3 +1,4 @@
+<%= member.inspect %><br>
 <%= form_with(model: member) do |form| %>
   <% if member.errors.any? %>
     <div style="color: red">
@@ -10,6 +11,10 @@
       </ul>
     </div>
   <% end %>
+  <div>
+    <%= form.label :unidentified, style: "display: block" %>
+    <%= form.check_box :unidentified %>
+  </div>
 
   <div>
     <%= form.label :lname, style: "display: block" %>
@@ -89,6 +94,15 @@
   <div>
     <%= form.label :misplace_contract, style: "display: block" %>
     <%= form.check_box :misplace_contract %>
+
+    <%= form.label :commission, style: "display: block" %>
+    <%= form.check_box :commission %>
+
+    <%= form.label :reviewed, style: "display: block" %>
+    <%= form.check_box :reviewed %>
+
+    <%= form.label :valid_contract, style: "display: block" %>
+    <%= form.number_field :valid_contract %>
   </div><br>
 
   <div>
