@@ -1,0 +1,13 @@
+dir_op<br>
+
+<table class="mytables">
+	<% @contracts.each do |c| %>
+	<tr> 
+		<td><%= link_to "#{c.file.filename}", url_for(c.file), class: "butt round", target: "_blank" if c.file.content_type == 'application/pdf' %></td>
+		<td><%= c.year %></td>
+		<td><%= c.kind %></td>
+		<td><%= c.dir_op_signed %></td>
+	</tr>
+	<% end %> 
+
+</table>

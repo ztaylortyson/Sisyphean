@@ -6,6 +6,13 @@ class PrismController < ApplicationController
      
   end
 
+  def hr_signed
+      @contracts = Contract.where.not(hr_signed: nil)
+  end
+  def dir_op
+      @contracts = Contract.where(dir_op_signed: nil)
+  end
+
   def com_types
    @commission_contracts = Contract.where(commissions: true).distinct.pluck(:kind)
   end

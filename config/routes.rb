@@ -63,6 +63,8 @@ Rails.application.routes.draw do
   get 'prism/phire'
   get 'prism/pdischarge'
   get 'prism/mcontracts'
+  get 'prism/hr_signed'
+  get 'prism/dir_op'
   resources :discoveries
   get 'exports/home'
   get 'exports/members'

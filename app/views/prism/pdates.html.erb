@@ -3,6 +3,7 @@
 <%= params.inspect %> 
 <hr>
 <table class="mytables">
+	<thead>
 	<tr> 
 		<td>Count</td>
 		<th>Source</th>
@@ -16,6 +17,7 @@
 		<th>GM Dated</th>
 
 	</tr>
+	</thead>
 	<tr>
 <% count = 1 %>
 <% @contracts.each do |c| %>

@@ -1,202 +1,248 @@
 source,kind,year,member_id,notes,ee_sign,ee_signed,hr_signed,gsm_signed,gm_signed,dir_op_signed,effective_date,draw,salary,hourly,duplicate
-DAG 001075.pdf,Salesperson Compensation Plan,2021,53,"reports_to Kamran Syed
-
-Alan Perez",TRUE,12/17/21,,,,,12/11/21,FALSE,FALSE,TRUE,FALSE
-DAG 000001 BezaresL.pdf,Salesperson Compensation Plan,2022,158,does not mention draw. ,TRUE,1/14/22,,,,,,FALSE,FALSE,TRUE,FALSE
-DAG 001079.pdf,Vehicle Salesperson Compensation Plan,2023,49,,TRUE,4/28/23,4/26/23,,,,5/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 001096.pdf,Finance Compensation Program,2021,20,Contract itself does not spell out how commissions are earned. ,TRUE,9/9/21,,9/9/21,9/9/21,,9/13/21,TRUE,FALSE,FALSE,FALSE
-DAG 000015-000018.pdf,Finance Compensation Program,2022,108,"reports_to Telly Gomez
+DAG 001079.pdf,Vehicle Salesperson Compensation Plan,2023,49,pack new $625 and used $925,true,2023-04-28,2023-04-26,,,,2023-05-01,false,false,true,false
+DAG 001157-001163.pdf,Vehicle Salesperson Compensation Plan,2023,154,"",true,2023-04-28,2023-04-26,,,,2023-05-01,false,false,true,true
+DAG 000015-000018.pdf,Finance Compensation Program,2022,109,"reports_to Telly Gomez
 
 Keppel, unsigned
 
 Contract does not spell out how commissions calculated. 
 
-",FALSE,,,,,,2/10/22,TRUE,FALSE,FALSE,FALSE
-DAG 000026 KiddJ.pdf,Vehicle Aquistion (sp) Sales Manager Pay Plan,2022,101,"Draw + Commissions
+signature lines blank for gm and gsm
 
-J Kidd. ",TRUE,1/1/21,,,,12/28/21,1/1/22,TRUE,FALSE,FALSE,FALSE
-DAG 001079.pdf,Vehicle Salesperson Compensation Plan,2023,49,,TRUE,4/28/23,4/26/23,,,,5/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 000026-000027 AmadorP.pdf,Salesperson Compensation Program,2022,170,reports_to Kamran Syed,TRUE,1/12/22,,,,,1/1/22,FALSE,FALSE,TRUE,FALSE
-DAG 000035 KiddJ.pdf,Sales Manager Pay Plan,2021,101,,FALSE,,,,11/4/21,11/4/21,10/29/21,TRUE,FALSE,FALSE,FALSE
-DAG 002335-002341.pdf,Vehicle Salesperson Compensation Plan,2024,166,Bannister hired Doh: 2023-05-01 but did not sign Contract until 5/2/24,TRUE,5/2/24,4/1/24,4/2/24,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 000048 KiddJ.pdf,Vehicle Aquistion (sp) Sales Manager Pay Plan,2022,101,,TRUE,1/1/21,,,,12/28/21,1/1/22,TRUE,FALSE,FALSE,FALSE
-DAG 001086.pdf,Salesperson Compensation Program,2022,45,reports_to Kamran Syed,TRUE,1/1/22,,,,,1/1/22,FALSE,FALSE,TRUE,FALSE
-DAG 000064 KiddJ.pdf,Salesperson Compensation Program,2021,101,reports_to Roberto Christlieb,FALSE,9/9/21,,9/9/21,9/9/21,,9/13/21,FALSE,FALSE,TRUE,FALSE
-DAG 001043.pdf,Salesperson Compensation Program,2022,170,reports_to Kamran Syed,TRUE,1/12/22,,,,,1/1/22,FALSE,FALSE,TRUE,FALSE
-DAG 001139-001145.pdf,Vehicle Salesperson Compensation Plan,2023,144,,TRUE,,4/26/23,,,,5/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 001045.pdf,Salesperson Compensation Plan,2022,169,reports_to Kamran Syed,TRUE,1/12/22,,,,,1/1/22,FALSE,FALSE,TRUE,FALSE
-DAG 001088.pdf,Salesperson Compensation Plan,2022,45,,TRUE,1/10/22,,,,,,FALSE,FALSE,TRUE,FALSE
-DAG 001047.pdf,Salesperson Compensation Program,2021,163,reports_to Roberto Chistlieb,TRUE,9/9/21,,9/9/21,9/9/21,,9/9/21,FALSE,FALSE,TRUE,FALSE
-DAG 001053.pdf,Salesperson Compensation Plan,2022,158,,TRUE,1/14/22,,,,,1/1/22,FALSE,FALSE,TRUE,FALSE
-DAG 001055.pdf,Salesperson Compensation Program,2022,152,reports_to Kamran Syed,TRUE,1/10/22,,,,,1/1/22,FALSE,FALSE,TRUE,FALSE
-DAG 001090.pdf,Salesperson Compensation Program,2021,45,,TRUE,9/10/21,,9/10/21,,,9/13/21,FALSE,FALSE,TRUE,FALSE
-DAG 001057.pdf,Vehicle Salesperson Compensation Plan,2022,133,reports_to Sales Manager(s),TRUE,7/1/22,7/1/22,,,,6/29/22,FALSE,FALSE,TRUE,FALSE
-DAG 001064.pdf,Salesperson Compensation Plan,2022,130,reports_to Kamran Syed,TRUE,1/3/22,,,,,1/1/22,FALSE,FALSE,TRUE,FALSE
-DAG 001068.pdf,Salesperson Compensation Program,2022,90,reports_to Kamran Syed,TRUE,1/10/22,,,,,1/1/22,FALSE,FALSE,TRUE,FALSE
-DAG 001167-001172.pdf,Salesperson Compensation Plan,2021,101,hour + commission,TRUE,9/9/21,,9/9/21,9/9/21,,9/13/21,FALSE,FALSE,TRUE,FALSE
-DAG 001146-001152.pdf,Vehicle Salesperson Compensation Plan,2023,135,,TRUE,4/28/21,4/26/23,,,,5/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 001100.pdf,Vehicle Salesperson Compensation Plan,2023,19,Signed but not dated by HR.,TRUE,5/2/23,,,,,5/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 001107.pdf,Service Drive Vehicle Salesperson Compensation Program,2024,19,,TRUE,5/10/24,5/10/24,,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002328_AD.pdf,Vehicle Salesperson Compensation Plan,2024,166,,TRUE,5/2/24,4/1/24,4/2/24,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 001114.pdf,Vehicle Salesperson Compensation Plan,2023,19,Signed by not dated by HR,TRUE,5/2/23,,,,,5/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 001153-001156.pdf,Finance Compensation Program,2023,116,reports_to Telly Gomez,TRUE,3/24/23,,3/24/23,3/24/23,,3/1/23,TRUE,FALSE,FALSE,FALSE
-DAG 001121.pdf,Salesperson Compensation Plan,2021,1,,TRUE,11/19/21,,,,,11/19/21,FALSE,FALSE,TRUE,FALSE
-DAG 001126-001131.pdf,Salesperson Compensation Program,2021,168,,TRUE,9/9/21,,9/9/21,,,9/9/21,FALSE,FALSE,TRUE,FALSE
-DAG 001173-001179.pdf,Vehicle Salesperson Compensation Plan,2023,17,,TRUE,1/10/22,,,,,5/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 001157-001163.pdf,Vehicle Salesperson Compensation Plan,2023,104,,TRUE,4/28/23,4/26/23,,,,5/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 001164.pdf,Vehicle Aquistion (sp) Sales Manager Pay Plan,2022,101,,TRUE,1/1/21,,,,12/28/21,1/1/22,TRUE,FALSE,FALSE,FALSE
-DAG 001165.pdf,Sales Manager Pay Plan,2021,101,,TRUE,11/4/21,,,11/4/21,11/4/21,10/29/21,TRUE,FALSE,FALSE,FALSE
-DAG 001180-001183.pdf,Salesperson Compensation Plan,2022,17,,TRUE,1/10/22,,1/1/22,1/1/22,,1/1/22,FALSE,FALSE,TRUE,FALSE
-DAG 001166.pdf,Vehicle Aquistion (sp) Sales Manager Pay Plan,2022,101,,TRUE,1/1/21,,,,12/28/21,1/1/22,TRUE,FALSE,FALSE,FALSE
-DAG 001184-001187.pdf,Salesperson Compensation Plan,2022,17,Salma sign as 1/10 on another Contract? ,TRUE,1/1/22,,1/1/21,1/1/22,,1/1/22,FALSE,FALSE,TRUE,FALSE
-DAG 002328-002334.pdf,Floor Sales Manager Compensation Program,2023,34,Unsigned.,FALSE,,,,,,4/1/23,TRUE,FALSE,FALSE,FALSE
-DAG 001188-001193.pdf,Salesperson Compensation Program,2021,17,"Salesperson: sales 
-GSM signed but did not date",TRUE,9/13/21,,,9/13/21,,9/13/21,FALSE,FALSE,TRUE,FALSE
-DAG 002342-002348.pdf,Vehicle Salesperson Compensation Plan,2024,159,,TRUE,4/29/24,4/1/24,,4/29/24,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002335_AD.pdf,Vehicle Salesperson Compensation Plan,2024,159,,TRUE,4/29/24,4/1/24,4/29/24,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002342_AD.pdf,Vehicle Salesperson Compensation Plan,2024,144,Mr. Covarrubias signed but did not date Contract. ,TRUE,,4/1/24,,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002349_AD.pdf,Assistant Service Manager (ASM) Compensation Program,2023,156,Draw? Not mentioned in Contract,TRUE,2/20/23,,,,,1/1/23,FALSE,FALSE,FALSE,FALSE
-DAG 002349-002354.pdf,Automotive Technician Compensation Program,2024,147,"reports_to Service Manager
+",false,,,,,,2022-02-10,true,false,false,false
+DAG 001165.pdf,Sales Manager Pay Plan,2021,90,"",true,2021-11-04,,,2021-11-04,2021-11-04,2021-10-29,true,false,false,false
+DAG 000026-000027 AmadorP.pdf,Salesperson Compensation Program,2022,146,reports_to Kamran Syed,true,2022-01-12,,,,,2022-01-01,false,false,true,true
+DAG 000035 KiddJ.pdf,Sales Manager Pay Plan,2021,90,"",true,2021-11-04,,,2021-11-04,2021-11-04,2021-10-29,true,false,false,false
+DAG 001047.pdf,Salesperson Compensation Program,2021,111,reports_to Roberto Chistlieb,true,2021-09-09,,2021-09-09,2021-09-09,,2021-09-09,false,false,true,true
+DAG 000048 KiddJ.pdf,Vehicle Aquistion (sp) Sales Manager Pay Plan,2022,90,"",true,2021-01-01,,,,2021-12-28,2022-01-01,true,false,false,false
+DAG 001086.pdf,Salesperson Compensation Program,2022,28,reports_to Kamran Syed,true,2022-01-01,,,,,2022-01-01,false,false,true,true
+DAG 001068.pdf,Salesperson Compensation Program,2022,159,reports_to Kamran Syed,true,2022-06-30,2022-06-30,,,,2022-06-27,false,false,true,true
+DAG 001139-001145.pdf,Vehicle Salesperson Compensation Plan,2023,104,"",true,,2023-04-26,,,,2023-05-01,false,false,true,true
+DAG 001088.pdf,Salesperson Compensation Plan,2022,28,"",true,2022-01-10,,,,,2022-01-01,false,false,false,true
+DAG 001045.pdf,Salesperson Compensation Plan,2022,114,reports_to Kamran Syed,true,2022-01-12,,,,,2022-01-01,false,false,true,true
+DAG 002335-002341.pdf,Vehicle Salesperson Compensation Plan,2024,161,"Bannister hired Doh: 2023-05-01 but did not sign Contract until 5/2/24
+
+reports_to sales managers
+
+Pack new $725 used $1025",true,2024-05-02,2024-04-01,2024-04-02,,,2024-04-01,false,false,true,true
+DAG 001121.pdf,Salesperson Compensation Plan,2021,160,No employer signature,true,2021-11-19,,,,,2021-11-19,false,false,false,true
+DAG 001055.pdf,Salesperson Compensation Program,2022,147,reports_to Kamran Syed,true,2022-01-10,,,,,2022-01-01,false,false,true,true
+DAG 001090.pdf,Salesperson Compensation Program,2021,28,"",true,2021-09-10,,2021-09-10,,,2021-09-13,false,false,true,true
+DAG 001064.pdf,Salesperson Compensation Plan,2022,105,reports_to Kamran Syed,true,2022-01-03,,,,,2022-01-01,false,false,false,true
+DAG 000064 KiddJ.pdf,Salesperson Compensation Program,2021,90,reports_to Roberto Christlieb,true,2021-09-09,,2021-09-09,2021-09-09,,2021-09-13,false,false,true,true
+DAG 001167-001172.pdf,Salesperson Compensation Plan,2021,90,hour + commission,true,2021-09-09,,2021-09-09,2021-09-09,,2021-09-13,false,false,false,true
+DAG 001146-001152.pdf,Vehicle Salesperson Compensation Plan,2023,110,** rolando's signuture says 2021,true,2021-04-28,2023-04-26,,,,2023-05-01,false,false,true,true
+DAG 001100.pdf,Vehicle Salesperson Compensation Plan,2023,155,Signed but not dated by HR.,true,2023-05-02,,,,,2023-05-01,false,false,true,true
+DAG 001107.pdf,Service Drive Vehicle Salesperson Compensation Program,2024,155,"",true,2024-05-10,2024-05-10,,,,2024-04-01,false,false,true,true
+DAG 001153-001156.pdf,Finance Compensation Program,2023,103,"reports_to Telly Gomez
+
+Same as Keppel?",true,2023-03-24,,2023-03-24,2023-03-24,,2023-03-01,true,false,false,false
+DAG 002328-002334.pdf,Floor Sales Manager Compensation Program,2023,118,"",false,,,,,,2023-04-01,true,false,false,true
+DAG 001114.pdf,Vehicle Salesperson Compensation Plan,2023,155,Signed but not dated by HR,true,2023-05-02,,,,,2023-05-01,false,false,true,true
+DAG 001053.pdf,Salesperson Compensation Plan,2022,119,"",true,2022-01-14,,,,,2022-01-01,false,false,true,true
+DAG 001043.pdf,Salesperson Compensation Program,2022,146,reports_to Kamran Syed,true,2022-01-12,,,,,2022-01-01,false,false,true,true
+DAG 002328-002334.pdf,Floor Sales Manager Compensation Program,2023,118,Unsigned.,false,,,,,,0004-01-23,true,false,false,false
+DAG 000026 KiddJ.pdf,Vehicle Aquistion (sp) Sales Manager Pay Plan,2022,90,"Draw + Commissions
+
+J Kidd. ",true,2021-01-01,,,,2021-12-28,2021-01-01,true,false,false,false
+DAG 001184-001187.pdf,Salesperson Compensation Plan,2022,18,Salma sign as 1/10 on another Contract? ,true,2022-01-01,,2021-01-01,2022-01-01,,2022-01-01,false,false,false,true
+DAG 001180-001183.pdf,Salesperson Compensation Plan,2022,18,"",true,2022-01-10,,2022-01-01,2022-01-01,,2022-01-01,false,false,true,true
+DAG 001166.pdf,Vehicle Aquistion (sp) Sales Manager Pay Plan,2022,90,"",true,2021-01-01,,,,2021-12-28,2021-01-01,true,false,false,false
+DAG 001173-001179.pdf,Vehicle Salesperson Compensation Plan,2023,18,"1179 unsigned by salma spohn
+2 contracts
+
+salma signed 1182 1/10/2022
+
+*** ?",true,2022-01-10,,,,,2023-05-01,false,false,true,true
+DAG 001188-001193.pdf,Salesperson Compensation Program,2021,18,"Salesperson: sales --> Spohn
+GSM signed but did not date",true,2021-09-13,,,2021-09-13,,,false,false,false,true
+DAG 002342-002348.pdf,Vehicle Salesperson Compensation Plan,2024,137,"",true,2024-04-29,2024-04-01,2024-04-29,,,2024-04-01,false,false,true,true
+DAG 002335_AD.pdf,Vehicle Salesperson Compensation Plan,2024,137,"",true,2024-04-27,2024-04-01,2024-04-20,,,2024-04-01,false,false,true,true
+DAG 002349_AD.pdf,Assistant Service Manager (ASM) Compensation Program,2023,125,"Draw? Not mentioned in Contract
+
+Not signed by employer.",true,2023-02-20,,,,,2023-02-01,false,false,false,false
+DAG 002349-002354.pdf,Automotive Technician Compensation Program,2024,132,"reports_to Service Manager
 
 GSM signature?
 
-Footer: Rev. Dec. 2015",TRUE,3/21/24,,3/16/24,,,3/16/24,FALSE,FALSE,TRUE,FALSE
-DAG 002353_AD.pdf,Assistant Service Manager (ASM) Compensation Program,2023,149,reports_to Service Manager,TRUE,2/20/23,,,,,2/1/23,FALSE,FALSE,FALSE,FALSE
-DAG 002355-002361.pdf,Vehicle Salesperson Compensation Plan,2024,144,Mr. Covarrubias signed but did not date the Contract.,TRUE,,4/1/24,,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002357_AD.pdf,Assistant Service Manager (ASM) Compensation Program,2023,,"ASM: Jose R. Gomez
-reports_to Service Manager
+Footer: Rev. Dec. 2015",true,2024-03-21,,2024-03-16,,,2024-03-16,false,false,true,true
+DAG 002353_AD.pdf,Assistant Service Manager (ASM) Compensation Program,2023,130,"reports_to Service Manager
 
-** Not listed 
+unsigned by employer",true,2023-02-20,,,,,2023-02-01,false,false,false,false
+DAG 002355-002361.pdf,Vehicle Salesperson Compensation Plan,2024,104,Mr. Covarrubias signed but did not date the Contract.,true,,2024-04-01,,,,2024-04-01,false,false,true,true
+DAG 002541-002548.pdf,Floor Sales Manager Compensation Program,2023,118,"Unsigned.
 
-",TRUE,2/20/23,,,,,2/1/23,FALSE,FALSE,FALSE,FALSE
-DAG 002361_AD.pdf,Assistant Service Manager (ASM) Compensation Program,2023,88,"
-what other employees signed on 2/20/23?
+reports_to GSM",false,,,,,,2023-04-01,true,false,false,false
+DAG 002425_AD.pdf,General Sales Manager Pay Plan,2021,152,reports_to Tony Fodor,true,2021-07-21,,,,2021-07-21,2021-07-21,true,false,false,false
+DAG 002362-002365.pdf,Assistant Service Manager (ASM) Compensation Program,2023,125,"
+also signed 2/20/23",true,2023-02-20,,,,,2023-02-01,false,false,false,false
+DAG 002397-002399.pdf,Hourly Compensation Program,2023,142,"
+Undated by Mr. Ponce and HR. Signed by both.",true,,,,,,2023-01-01,false,false,true,true
+DAG 002365_AD.pdf,Assistant Service Manager (ASM) Compensation Program,2023,9,Not signed by employer.,true,2023-02-20,,,,,2023-02-01,false,false,false,false
+DAG 002366-002369.pdf,Assistant Service Manager (ASM) Compensation Program,2023,130,"",true,2023-02-20,,,,,2023-02-01,false,false,false,false
+DAG 002400-002402.pdf,Hourly Compensation Program,2023,1,"
 
-** get review all original signatures. ",TRUE,2/20/23,,,,,2/1/23,FALSE,FALSE,FALSE,FALSE
-DAG 002362-002365.pdf,Assistant Service Manager (ASM) Compensation Program,2023,156,"
-also signed 2/20/23",TRUE,2/20/23,,,,,2/1/23,FALSE,FALSE,FALSE,FALSE
-DAG 002397-002399.pdf,Hourly Compensation Program,2023,48,"
-Undated by Mr. Ponce and HR. Signed by both.",TRUE,,,,,,1/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 002365_AD.pdf,Assistant Service Manager (ASM) Compensation Program,2023,15,,TRUE,2/20/23,,,,,2/1/23,FALSE,FALSE,FALSE,FALSE
-DAG 002366-002369.pdf,Assistant Service Manager (ASM) Compensation Program,2023,149,,TRUE,2/20/23,,,,,2/1/23,FALSE,FALSE,FALSE,FALSE
-DAG 002400-002402.pdf,Hourly Compensation Program,2023,,"
-
-Sign by HR but not dated. ",TRUE,1/23/23,,,,,1/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 002369_AD.pdf,Vehicle Salesperson Compensation Plan,2024,122,"Mr. Gonzalez signed but did not date Contract. 
-
-reports_to Sales Managers",TRUE,,4/1/24,,4/2/24,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002370-002373.pdf,Assistant Service Manager (ASM) Compensation Program,2023,126,,TRUE,2/20/23,,,,,2/1/23,FALSE,FALSE,FALSE,FALSE
-DAG 002423-002429.pdf,Vehicle Salesperson Compensation Plan,2024,97,,TRUE,5/1/24,4/1/24,5/1/24,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002374-002377.pdf,Assistant Service Manager (ASM) Compensation Program,2023,88,,TRUE,2/20/23,,,,,2/1/23,FALSE,FALSE,FALSE,FALSE
-DAG 002403-002405.pdf,Hourly Compensation Program,2023,42,"
-Signed but not dated by HR",TRUE,1/23/23,,,,,1/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 002376_AD.pdf,Vehicle Salesperson Compensation Plan,2024,97,,TRUE,5/1/24,4/1/24,5/1/24,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002378-002381.pdf,Assistant Service Manager (ASM) Compensation Program,2023,15,,TRUE,2/20/23,,,,,2/1/23,FALSE,FALSE,FALSE,FALSE
-DAG 002382-002384.pdf,Hourly Compensation Program,2023,153,"No commissions. 
-
-Signed but not dated by Mr. Cardenas or HR",TRUE,,,,,,1/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 002404_AD.pdf,Vehicle Salesperson Compensation Plan,2024,,,TRUE,4/25/24,4/1/24,,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002383_AD.pdf,Vehicle Salesperson Compensation Plan,2024,,,TRUE,4/25/24,4/1/24,4/25/24,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002385-002387.pdf,Hourly Compensation Program,2023,129,"reports_to Parts Manager
-
-Signed but not dated by HR",TRUE,1/23/23,,,,,1/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 002473-002476.pdf,General Sales Manager Pay Plan,2021,,,TRUE,7/21/21,,,,7/20/21,7/21/21,TRUE,FALSE,FALSE,FALSE
-DAG 002388-002390.pdf,Hourly Compensation Program,2023,94,"reports_to Parts Manager
-
-Signed by not dated by HR",TRUE,1/19/23,,,,,1/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 002406-002408.pdf,Hourly Compensation Program,2023,,"
-
-Signed but not dated by HR.",TRUE,1/1/23,,,,,1/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 002390_AD.pdf,Service Drive Vehicle Salesperson Compensation Program,2024,92,,TRUE,4/25/24,4/25/24,4/25/24,,,4/16/24,FALSE,FALSE,FALSE,FALSE
-DAG 002391-002393.pdf,Hourly Compensation Program,2023,82,HR signed but did not date the Contract.,TRUE,1/23/23,,,,,1/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 002425_AD.pdf,General Sales Manager Pay Plan,2021,14,reports_to Tony Fodor,TRUE,7/21/21,,,,0021-07-20,7/21/21,TRUE,FALSE,FALSE,FALSE
-DAG 002394-002396.pdf,Hourly Compensation Program,2023,77,"reports_to Parts Manager
+Sign by HR but not dated. ",true,2023-01-23,,,,,2023-01-01,false,false,true,true
+DAG 002370-002373.pdf,Assistant Service Manager (ASM) Compensation Program,2023,89,Employer did not sign.,true,2023-02-20,,,,,2023-02-01,false,false,false,false
+DAG 002404_AD.pdf,Vehicle Salesperson Compensation Plan,2024,46,"",true,2024-04-25,2024-04-01,,,,2024-04-01,false,false,false,true
+DAG 002534-002540.pdf,Vehicle Salesperson Compensation Plan,2022,,"EE
 
 
-HR signed but did not date. ",TRUE,1/23/23,,,,,1/1/23,FALSE,FALSE,TRUE,FALSE
-DAG 002409-002415.pdf,Vehicle Salesperson Compensation Plan,2024,,Mr. Gonzalez signed but did not date the Contract. ,TRUE,,4/1/24,4/2/24,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002397_AD.pdf,Vehicle Salesperson Compensation Plan,2024,80,,TRUE,4/25/24,4/1/24,,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002451-002457.pdf,Vehicle Salesperson Compensation Plan,2024,80,,TRUE,4/25/24,4/1/24,,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002411_AD.pdf,Vehicle Salesperson Compensation Plan,2024,62,,TRUE,4/25/24,4/1/24,4/25/24,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002429_AD.pdf,General Sales Manager Pay Plan,2021,14,,TRUE,7/21/21,,,,7/20/21,7/21/21,TRUE,FALSE,FALSE,FALSE
-DAG 002416-002418.pdf,"Addendum ""A""",2022,107,"No commission. 
+unsigned",false,,,,,,2022-01-01,false,false,true,true
+DAG 002374-002377.pdf,Assistant Service Manager (ASM) Compensation Program,2023,38,Employer did not sign. ,true,2023-02-20,,,,,2023-02-01,false,false,false,false
+DAG 002403-002405.pdf,Hourly Compensation Program,2023,32,"
+Signed but not dated by HR",true,2023-01-23,,,,,2023-01-01,false,false,true,true
+DAG 002376_AD.pdf,Vehicle Salesperson Compensation Plan,2024,139,"",true,2024-05-01,2024-04-01,2024-05-01,,,2024-04-01,false,false,true,true
+DAG 002378-002381.pdf,Assistant Service Manager (ASM) Compensation Program,2023,9,Employer did not sign. ,true,2023-02-20,,,,,2023-02-01,false,false,false,false
+DAG 002382-002384.pdf,Hourly Compensation Program,2023,129,"No commissions. 
 
-Manager: Phil Caudillo
+Signed but not dated by Mr. Cardenas or HR",true,,,,,,2023-01-01,false,false,true,true
+DAG 002411_AD.pdf,Vehicle Salesperson Compensation Plan,2024,48,"",true,2024-04-25,2024-04-01,2024-04-25,,,2024-04-01,false,false,false,true
+DAG 002383_AD.pdf,Vehicle Salesperson Compensation Plan,2024,145,"",true,2024-04-25,2024-04-01,2024-04-25,,,2024-04-01,false,false,false,true
+DAG 002385-002387.pdf,Hourly Compensation Program,2023,75,"reports_to Parts Manager
 
-** Phil Caudillo not listed as PAGA member. ",TRUE,11/1/22,,,,,,FALSE,FALSE,FALSE,FALSE
-DAG 002430-002436.pdf,Vehicle Salesperson Compensation Plan,2024,96,,TRUE,4/25/24,4/1/24,4/25/24,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002418_AD.pdf,Vehicle Salesperson Compensation Plan,2024,26,"
-",TRUE,4/29/24,4/1/24,4/29/24,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002419-002422.pdf,Warranty Clerk Compensation Program,2024,99,"
+Signed but not dated by HR",true,2023-01-23,,,,,2023-01-01,false,false,true,true
+DAG 002473-002476.pdf,General Sales Manager Pay Plan,2021,,"Kamran's Contract
 
-Signed by Service Director? 3/29/24
+reports_to Tony Fodor
 
-** footer: says revised 4/1/24 LOL: how was it sign before it was revised?",TRUE,3/29/24,,,,,,FALSE,TRUE,FALSE,FALSE
-DAG 002433_AD.pdf,Vehicle Salesperson Compensation Plan,2024,9,,TRUE,4/25/24,4/1/24,4/25/24,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002458-002460.pdf,Hourly Compensation Program,2024,79,,TRUE,4/2/24,4/1/24,,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002437-002443.pdf,Service Drive Vehicle Salesperson Compensation Program,2024,92,,TRUE,4/25/24,4/25/24,4/25/24,,,4/16/24,FALSE,FALSE,TRUE,FALSE
-DAG 002444-002447.pdf,"Addendum ""A""",2022,85,"Does Mr. Martinez earn commissions?
+Attachment",true,2021-07-21,,,,2021-07-20,2021-07-21,true,false,false,false
+DAG 002406-002408.pdf,Hourly Compensation Program,2023,121,"
 
-Addendum to what?",TRUE,1/27/22,,,,,,FALSE,FALSE,FALSE,FALSE
-DAG 002448-002450.pdf,Hourly Compensation Program,2024,82,,TRUE,4/15/24,4/1/24,,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002461-002467.pdf,Vehicle Salesperson Compensation Plan,2024,75,,TRUE,4/25/24,4/1/24,,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002477-002483.pdf,Vehicle Salesperson Compensation Plan,2024,9,,TRUE,4/25/24,4/1/24,4/25/24,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002468-002468.pdf,Sales Manager Pay Plan,2024,74,,TRUE,4/1/24,,,,4/1/24,,TRUE,FALSE,FALSE,FALSE
-DAG 002485-002488.pdf,Warranty Clerk Compensation Program,2024,99,"Unsigned. 
+Signed but not dated by HR.",true,2023-01-19,,,,,2023-01-01,false,false,false,true
+DAG 002390_AD.pdf,Service Drive Vehicle Salesperson Compensation Program,2024,74,"",true,2024-04-25,0024-04-25,2024-04-25,,,2024-04-16,false,false,false,false
+DAG 002391-002393.pdf,Hourly Compensation Program,2023,140,HR signed but did not date the Contract.,true,2023-01-23,,,,,2023-01-01,true,false,false,true
+DAG 002423-002429.pdf,Vehicle Salesperson Compensation Plan,2024,139,"",true,2024-05-01,2024-04-01,0005-01-24,,,2024-04-01,false,false,true,true
+DAG 002394-002396.pdf,Hourly Compensation Program,2023,44,"reports_to Parts Manager
+
+
+HR signed but did not date. ",true,,,,,,0001-01-23,false,false,false,true
+DAG 002409-002415.pdf,Vehicle Salesperson Compensation Plan,2024,167,Mr. Gonzalez signed but did not date the Contract. ,true,,2024-04-01,2024-04-02,,,2024-04-01,false,false,true,true
+DAG 002451-002457.pdf,Vehicle Salesperson Compensation Plan,2024,57,"",true,2024-04-25,2024-04-01,,,,2024-04-01,false,false,false,true
+DAG 002397_AD.pdf,Vehicle Salesperson Compensation Plan,2024,57,"",true,2024-04-25,2024-04-01,,,,2024-04-01,false,false,false,true
+DAG 002429_AD.pdf,General Sales Manager Pay Plan,2021,152,"",true,2021-07-21,,,,2021-07-20,2021-07-21,true,false,false,false
+DAG 002430-002436.pdf,Vehicle Salesperson Compensation Plan,2024,145,"",true,2024-04-25,2024-04-01,,2024-04-25,,2024-04-01,false,false,false,true
+DAG 002418_AD.pdf,Vehicle Salesperson Compensation Plan,2024,24,"
+",true,2024-04-29,2024-04-01,2024-04-20,,,2024-04-01,false,false,false,true
+DAG 002433_AD.pdf,Vehicle Salesperson Compensation Plan,2024,153,"",true,2024-04-25,2024-04-01,2024-04-25,,,2024-04-01,false,false,false,true
+DAG 002458-002460.pdf,Hourly Compensation Program,2024,58,"",true,2024-04-02,2024-04-01,,,,2024-04-01,false,false,false,true
+DAG 002437-002443.pdf,Service Drive Vehicle Salesperson Compensation Program,2024,74,"",true,2024-04-25,2024-04-25,2024-04-25,,,2024-04-16,false,false,false,true
+DAG 002444-002447.pdf,"Addendum ""A""",2022,43,"Does Mr. Martinez earn commissions?
+
+Addendum to what?
+
+Martinez start date: 9/13/21",true,,,,,,,false,false,false,false
+DAG 002448-002450.pdf,Hourly Compensation Program,2024,140,"",true,2024-04-15,2024-04-01,,,,2024-04-01,false,false,false,true
+DAG 002461-002467.pdf,Vehicle Salesperson Compensation Plan,2024,46,GSM did not sign. ,true,2024-04-25,2024-04-01,,,,2024-04-01,false,false,false,true
+DAG 002477-002483.pdf,Vehicle Salesperson Compensation Plan,2024,153,"",true,2024-04-25,2024-04-01,,2024-04-25,,2024-04-01,false,false,false,true
+DAG 002468-002468.pdf,Sales Manager Pay Plan,2024,59,"",true,2024-04-01,,,,2024-04-01,,true,false,false,false
+DAG 002485-002488.pdf,Warranty Clerk Compensation Program,2024,100,"Unsigned. 
 
 Service Director?
 
-reports_to Service Managers",FALSE,,,,,,4/1/24,FALSE,TRUE,FALSE,FALSE
+reports_to Service Managers",false,,,,,,2024-04-01,false,true,false,false
 DAG 002501-002506.pdf,Financial Services Manager Compensation Program,2024,,"FSM: James Quitugua
 
 ** Mr. Quitugua not identifed on PAGA list.
 
-Unsigned.",FALSE,,,,,,,TRUE,FALSE,FALSE,FALSE
-DAG 002469-002472.pdf,General Sales Manager Pay Plan,2021,14,"Kamran Syed's GSM Pay Plan. 
+Unsigned.
 
-Contract does not spell out how commissions are structured. 
-
-** ",TRUE,7/21/21,,7/21/21,,7/20/21,7/21/21,TRUE,FALSE,FALSE,FALSE
-DAG 002519-002524.pdf,Automotive Technician Compensation Program,2023,71,Unsigned. ,FALSE,,,,,,3/6/23,FALSE,FALSE,FALSE,FALSE
-DAG 002528-002533.pdf,Assistant Parts Manager Compensation Program,2023,,,FALSE,,,,,,8/1/23,FALSE,TRUE,FALSE,FALSE
-DAG 002534-002540.pdf,Vehicle Salesperson Compensation Plan,2022,,,FALSE,,,,,,1/1/22,FALSE,FALSE,TRUE,FALSE
-DAG 002541-002548.pdf,Floor Sales Manager Compensation Program,2023,34,Unsigned.,FALSE,,,,,,4/1/23,TRUE,FALSE,FALSE,FALSE
-DAG 002549-002554.pdf,Parts Manager Compensation Program,2021,,"reports_to General Manager
-
-revised date is 1/1/20
-
-Who is the Parts Manager? No signed Contract?",FALSE,,,,,,,TRUE,FALSE,FALSE,FALSE
-DAG 002555-002561.pdf,Vehicle Salesperson Compensation Plan,2024,,,TRUE,4/25/24,4/1/24,4/25/24,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002564-002564.pdf,Sales Manager Pay Plan,2021,57,Mr. Patrick signed but did not date the Contract. ,TRUE,,,12/6/21,,12/6/21,12/3/21,TRUE,FALSE,FALSE,FALSE
-DAG 002489-002494.pdf,Internal Parts Sales Representative Pay Plan Agreement,2019,,,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE
-DAG 002565-002567.pdf,Hourly Compensation Program,2024,46,reports_to Parts Manager,TRUE,4/15/24,4/1/24,,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002568-002574.pdf,Vehicle Salesperson Compensation Plan,2024,26,reports_to Sales Managers,TRUE,4/29/24,4/1/24,4/29/24,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 002575-002580.pdf,Automotive Technician Compensation Program,2024,24,"reports_to Service Manager
-
-signed: Service Technician",TRUE,3/13/24,,,3/13/24,,3/16/24,FALSE,FALSE,TRUE,FALSE
-DAG 002562-002563.pdf,Spreadsheet,,60,"Finance Manager
-
-handwritten: Carlos Ortiz
-
-Employee signed.  Date uncertain. ",TRUE,,,,,,,FALSE,FALSE,FALSE,FALSE
+** has provision for split commissions. ",false,,,,,,2024-03-01,true,false,false,false
+DAG 002519-002524.pdf,Automotive Technician Compensation Program,2023,53,Unsigned. ,false,,,,,,2023-03-06,false,false,false,false
+DAG 002528-002533.pdf,Assistant Parts Manager Compensation Program,2023,,Template,false,,,,,,0008-01-23,false,true,false,false
 DAG 000001 Perez.pdf,Salesperson Compensation Plan,2020,,"
 ** Renato Perez not listed on PAGA list or Employee List
 reports_to Kamran Syed
 
-",TRUE,12/3/21,,,,,11/26/20,FALSE,FALSE,TRUE,FALSE
-DAG 002484-002484.pdf,Parts Manager,2021,2,"Signed by Tony Fodor and Wayne Ferrih, Dir. of Fixed Operations
+",true,2021-12-03,,,,,2020-11-26,false,false,true,true
+DAG 002484-002484.pdf,Parts Manager,2021,4,"Signed by Tony Fodor and Wayne Ferrih, Dir. of Fixed Operations
 
 salary + draw 
 
-draw being backed out: ""the calculated monthly earnings less the draw paid out will be receivedon the 15th ofthe following month. ",TRUE,9/8/21,,,,,9/13/21,TRUE,TRUE,FALSE,FALSE
-DAG 001132-001138.pdf,Vehicle Salesperson Compensation Plan,2024,144,"
+draw being backed out: ""the calculated monthly earnings less the draw paid out will be receivedon the 15th ofthe following month. 
 
-** hr signature is printed in blue ink.  original? ",TRUE,,4/1/24,,,,4/1/24,FALSE,FALSE,TRUE,FALSE
-DAG 000007 Guardiola.pdf,Finance Compensation Program,2023,116,"reports_to Telly Gomez
+parts policy adjustments? ",true,2021-09-08,,,,,2021-09-13,true,true,false,false
+DAG 001057.pdf,Vehicle Salesperson Compensation Plan,2022,87,reports_to Sales Manager(s),true,2022-07-01,2022-07-01,,,,2022-06-29,false,false,true,true
+DAG 002357_AD.pdf,Assistant Service Manager (ASM) Compensation Program,2023,89,"ASM: Jose R. Gomez
+reports_to Service Manager
+
+** Not listed 
+
+Employer did not sign
+
+",true,2023-02-20,,,,,2023-02-01,false,false,false,false
+DAG 001126-001131.pdf,Salesperson Compensation Program,2021,123,"",true,2021-09-09,,2021-09-09,,,2021-09-09,false,false,true,true
+DAG 002562-002563.pdf,Spreadsheet,"",163,"Finance Manager
+
+handwritten: Carlos Ortiz
+
+Employee signed.  Date uncertain. 
+
+No corresponding Contract??",true,,,,,,,false,false,false,false
+DAG 002575-002580.pdf,Automotive Technician Compensation Program,2024,16,"reports_to Service Manager
+
+signed: Service Technician
+
+Employee gets Flag Hours. --> commissioned? ",true,2024-03-13,,,2024-03-13,,2024-03-16,false,false,false,true
+DAG 001164.pdf,Vehicle Aquistion (sp) Sales Manager Pay Plan,2022,90,"",true,2021-01-01,,,,2021-12-28,2022-01-01,true,false,false,false
+DAG 000007 Guardiola.pdf,Finance Compensation Program,2023,103,"reports_to Telly Gomez
 
 draw || commissions
 
-Contract does not spell out how commissions calculated. 
+**. Contract does not spell out how commissions calculated. 
+
+finance manager -> probably only paid draw, like Keppel. 
 
 
-",TRUE,3/24/23,,3/24/23,3/24/23,,3/1/23,TRUE,FALSE,FALSE,FALSE
+",true,2023-03-24,,2023-03-24,2023-03-24,,2023-03-01,true,false,false,false
+DAG 001132-001138.pdf,Vehicle Salesperson Compensation Plan,2024,104,"employee signed but did not date. 
+
+** hr signature is printed in blue ink.  original? ",true,,2024-04-01,,,,2024-04-01,false,false,true,false
+DAG 002469-002472.pdf,General Sales Manager Pay Plan,2021,152,"Kamran Syed's GSM Pay Plan. 
+
+Attached pay plan details
+
+** ",true,2021-07-21,,,,2021-07-20,2021-07-21,true,false,false,false
+DAG 002388-002390.pdf,Hourly Compensation Program,2023,55,"reports_to Parts Manager
+
+Signed by not dated by HR",true,2023-01-19,,,,,2023-01-01,false,false,false,true
+DAG 002555-002561.pdf,Vehicle Salesperson Compensation Plan,2024,48,"",true,2024-04-25,2024-04-01,275760-04-25,,,2024-04-01,false,false,false,true
+DAG 002361_AD.pdf,Assistant Service Manager (ASM) Compensation Program,2023,38,"
+what other employees signed on 2/20/23?
+
+** get review all original signatures. ",true,2023-02-20,,,,,2023-02-01,false,false,false,false
+DAG 002416-002418.pdf,"Addendum ""A""",2022,95,"No commission. 
+start date: 11/1/22
+
+Manager: Phil Caudillo
+
+** 2418 Phil Caudillo not listed as PAGA member. ",true,0011-01-22,,,,,,false,false,false,false
+DAG 002342_AD.pdf,Vehicle Salesperson Compensation Plan,2024,104,Mr. Covarrubias signed but did not date Contract. ,true,,2024-04-01,,,,2024-04-01,false,false,true,true
+DAG 002419-002422.pdf,Warranty Clerk Compensation Program,2024,100,"
+
+Signed by Service Director? 3/29/24
+
+** footer: says revised 4/1/24 LOL: how was it sign before it was revised?",true,2024-03-29,,,,,2024-04-01,false,true,false,false
+DAG 002564-002564.pdf,Sales Manager Pay Plan,2021,51,Mr. Patrick signed but did not date the Contract. ,true,,,0012-06-21,,2021-12-06,2021-12-03,true,false,false,false
+DAG 001096.pdf,Finance Compensation Program,2021,25,Contract itself does not spell out how commissions are earned. ,true,2021-09-09,,2021-09-09,2021-09-09,,2021-09-13,true,false,false,false
+DAG 002549-002554.pdf,Parts Manager Compensation Program,2021,,"Template
+
+reports_to General Manager
+
+revised date is 1/1/20
+
+Who is the Parts Manager? No signed Contract?",false,,,,,,,true,false,false,false
+DAG 002369_AD.pdf,Vehicle Salesperson Compensation Plan,2024,167,"Mr. Gonzalez signed but did not date Contract. 
+
+reports_to Sales Managers",true,,2024-04-01,,2024-04-02,,0004-01-24,false,false,false,true
+DAG 002565-002567.pdf,Hourly Compensation Program,2024,15,reports_to Parts Manager,true,2024-04-15,2024-04-01,,,,2024-04-01,false,false,false,true
+DAG 002568-002574.pdf,Vehicle Salesperson Compensation Plan,2024,24,reports_to Sales Managers,true,2024-04-29,0004-01-24,,,,2024-04-01,false,false,false,true
+DAG 002489-002494.pdf,Internal Parts Sales Representative Pay Plan Agreement,2019,,Template,false,,,,,,,false,false,false,false
+DAG 000001 BezaresL.pdf,Salesperson Compensation Plan,2022,119,"does not mention draw. 
+
+is paid an hourly rate",true,2022-01-14,,,,,2022-01-01,false,false,true,false
+DAG 001075.pdf,Salesperson Compensation Plan,2021,67,"Employer did not sign.
+
+reports_to Kamran Syed
+
+Alan Perez",true,2021-12-17,,,,,2021-12-11,false,false,true,false

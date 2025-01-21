@@ -1,5 +1,7 @@
 queries:
 
+hr = Contract.where.not(hr_signed: nil)
+
 
 Member.joins("INNER JOIN employees ON members.psa_id = employees.psa_id")
 

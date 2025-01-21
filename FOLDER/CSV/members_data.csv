@@ -1,51 +1,60 @@
 lname,fname,phone,email,address,city,state,zip,client,employee_id,job_title,doh,dod,notes,psa_idemployee_list_id
-Ramirez,Marco,(562) 686-0210,marcoramirez06@gmail.com,8073 Denbo St,Paramount,CA,90723-2611,false,101,Service Technician,2021-09-13,,"",HKDSERT231,101
-Rey,Bryan,(619) 962-7889,reybryanadan6@gmail.com,357 Wagonwheel Way,Bonita,CA,91902-2428,false,105,Service Porter,2022-11-23,2023-05-15,"",HKDSERT237,105
+Soto,Victor,(619) 800-5587,vick.soto86@gmail.com,2860 Lincoln Ave Apt 5,San Diego,CA,92104-2920,false,120,Sales Representative,2022-01-13,2022-11-16,"",HKDSERT261,120
+Stevens,John,(619) 743-4772,johnastevens2@yahoo.com,1527 River Dance Ct,Alpine,CA,91901-2267,false,154,Service Advisor,2023-08-28,,"",HKDSERT263,154
+Vasquez,Daniel,(442) 379-8831,"",2816 Ross Ave,El Centro,CA,92243-3688,false,168,Sales Representative,2023-05-15,2023-07-27,"",HKDSERT274,168
+Summers,Danny,(619) 495-6270,dsummers1045@gmail.com,2589 Caulfield Dr,San Diego,CA,92154-2106,false,122,Service Advisor,2022-02-01,,"",HKDSERT264,122
+Ramirez,Marcos,(619) 254-1731,mramirezmartinez861@gmail.com,2035 Cerrissa Ct Unit A,San Diego,CA,92154-1239,false,102,Parts Driver,2022-07-11,,"",HKDSERT232,102
 Rich,Gerald L,(619) 578-1321,re.livingyourdream@gmail.com,624 Burnham St,El Cajon,CA,92019-2354,false,106,Sales Manager,2021-12-03,2023-05-01,"",HKDSERT238,106
+Rey,Bryan,(619) 962-7889,reybryanadan6@gmail.com,357 Wagonwheel Way,Bonita,CA,91902-2428,false,105,Service Porter,2022-11-23,2023-05-15,"",HKDSERT237,105
+Valdez,Agustin,(619) 925-6131,agustinvaldez@yahoo.com,130 E 3rd St,National City,CA,91950-1220,false,129,Service Valet,2021-09-13,,"",HKDSERT271,129
+Sandoval,Adrian,(619) 734-8352,"",1307 Montera St,Chula Vista,CA,91913-1808,false,170,Sales Valet,2023-05-22,2023-06-26,"",HKDSERT249,170
+Spohn,Salma,(619) 859-8180,"",4492 Camino De La Plz # 515,San Ysidro,CA,92173-3071,true,121,Sales Representative,2021-09-13,2024-03-15,"",HKDSERT262,121
+Solis,Joel,(619) 930-2557,joel626solis@gmail.com,10566 Clark Ave,Hacienda Hth,CA,91745,false,138,Sales Valet,2023-04-20,,"",HKDSERT258,138
 Willis,Bobby,(619) 207-9666,bwillis.fab5@gmail.com,2620 Lightning Trail Ln,Chula Vista,CA,91915-1598,false,133,Parts Manager,2021-09-13,,"",HKDSERT277,133
 Sanchez Morales,Araceli,(619) 739-6167,arasanchezm@yahoo.com,910 Euclid Ave Apt 82,National City,CA,91950-3839,false,114,Warranty Clerk,2021-09-13,,"",HKDSERT248,114
-Sandoval,Adrian,(619) 734-8352,"",1307 Montera St,Chula Vista,CA,91913-1808,false,170,Sales Valet,2023-05-22,2023-06-26,"",HKDSERT249,170
-Silva,Jose A,(619) 215-6266,jose.alberto.silva@hotmail.com,755 Caminito Estrella,Chula Vista,CA,91910-7859,false,117,Sales Representative,2022-05-31,,"",HKDSERT254,117
-Solis,Joel,(619) 930-2557,joel626solis@gmail.com,10566 Clark Ave,Hacienda Hth,CA,91745,false,138,Sales Valet,2023-04-20,,"",HKDSERT258,138
-Summers,Danny,(619) 495-6270,dsummers1045@gmail.com,2589 Caulfield Dr,San Diego,CA,92154-2106,false,122,Service Advisor,2022-02-01,,"",HKDSERT264,122
-Taa,Leusumanu,(619) 866-1536,"",763 4th Ave,Chula Vista,CA,91910-5814,false,124,Admin. Assistant Porter,2022-07-06,2022-07-30,"",HKDSERT266,124
-Torres,Victor,(619) 571-8656,arimia143@gmail.com,930 Blackwood Rd,Chula Vista,CA,91910-6757,false,126,Service Manager,2021-09-13,2021-11-30,"",HKDSERT268,126
+Torres,Victor,(619) 571-8656,arimia143@gmail.com,930 Blackwood Rd,Chula Vista,CA,91910-6757,false,126,Service Manager,2021-09-13,2021-11-30,"PMQ: All managers 
+
+** check status",HKDSERT268,126
 Tirado,Nicholas,(619) 395-0694,nicholast95@outlook.com,3709 Duffy Way,Bonita,CA,91902-1026,false,125,Service Technician,2021-11-15,,"",HKDSERT267,125
 Valdez,Rogelio,(619) 827-4761,roy_valdez@yahoo.com,4492 Camino De La Plz # 198,San Ysidro,CA,92173-3071,false,130,Service Technician,2021-09-13,,"",HKDSERT272,130
 Verdugo,Alberto,(619) 484-7719,alberto.verdugo2346@gmail.com,2346 Tocayo Ave Unit 103,San Diego,CA,92154-4568,false,159,Service Technician,2023-10-16,2024-05-17,"",HKDSERT276,159
-Ramirez,Marcos,(619) 254-1731,mramirezmartinez861@gmail.com,2035 Cerrissa Ct Unit A,San Diego,CA,92154-1239,false,102,Parts Driver,2022-07-11,,"",HKDSERT232,102
-Smith,Jayden Z,(619) 370-3633,jaydens92@gmail.com,1520 Hunters Glen Ave,Chula Vista,CA,91913-3911,false,118,Service Technician,2021-10-04,,"",HKDSERT255,118
-Vasquez,Daniel,(442) 379-8831,"",2816 Ross Ave,El Centro,CA,92243-3688,false,168,Sales Representative,2023-05-15,2023-07-27,"",HKDSERT274,168
-Spohn,Salma,(619) 859-8180,"",4492 Camino De La Plz # 515,San Ysidro,CA,92173-3071,true,121,Sales Representative,2021-09-13,2024-03-15,"",HKDSERT262,121
-Robinson,Gerald,"","",150 Richeth Rd,San Diego,CA,92114-5520,false,107,Sales Representative,2022-02-09,2022-03-28,"",HKDSERT239,107
 Salazar,Elvis,(619) 227-5932,elvissalazar-live.com@hotmail.com,37 Tamarindo Way Unit 2,Chula Vista,CA,91911-5152,false,113,Service Technician,2021-09-13,2023-08-24,"",HKDSERT246,113
-Rogers,Ryan,(619) 913-1397,"",4001 33rd St Apt 4,San Diego,CA,92104-2153,false,111,Internet Sales Consultant,2021-12-01,2024-03-01,"",HKDSERT243,111
+Rogers,Ryan,(619) 913-1397,"",4001 33rd St Apt 4,San Diego,CA,92104-2153,false,111,Internet Sales Consultant,2021-12-01,2024-03-01,"** Commissioned employee? 
+
+",HKDSERT243,111
 Rodriguez,Rodolfo,(760) 620-4316,rodolforrl@hotmail.com,419 Halcon Ct,Calexico,CA,92231-9411,false,110,Service Technician,2021-09-13,,"",HKDSERT242,110
 Sampedro,Estefany,(619) 757-0361,"",3525 J St,San Diego,CA,92102-4411,false,141,Admin. Assistant,2023-05-02,2024-02-23,"",HKDSERT247,141
 Servin,Xavier,(619) 600-8480,xavierinurriagaservin@gmail.com,715 Broadview St,Spring Valley,CA,91977-5525,false,153,Service Advisor,2023-07-19,2024-06-19,"",HKDSERT253,153
-Solorzano,Hugo,(619) 719-6191,hugojuice@cox.net,1703 Whitmore Loop,Chula Vista,CA,91913-3696,false,119,Finance Manager,2021-09-13,2021-10-15,"",HKDSERT259,119
-Soto,Victor,(619) 800-5587,vick.soto86@gmail.com,2860 Lincoln Ave Apt 5,San Diego,CA,92104-2920,false,120,Sales Representative,2022-01-13,2022-11-16,"",HKDSERT261,120
-Stevens,John,(619) 743-4772,johnastevens2@yahoo.com,1527 River Dance Ct,Alpine,CA,91901-2267,false,154,Service Advisor,2023-08-28,,"",HKDSERT263,154
-Reja,Khalil,(619) 376-7578,rejakhalil259@gmail.com,201 E Bory,San Diego,CA,92114,true,103,Sales Representative,2021-09-13,2022-02-07,"",HKDSERT233,103
-Valverde,Albert,(619) 915-7838,valoalyo11@hotmail.com,6373 Avenida De Las Vistas Unit 3,San Diego,CA,92154-6608,false,131,Sales Representative,2021-09-13,2024-03-20,"",HKDSERT273,131
+Solorzano,Hugo,(619) 719-6191,hugojuice@cox.net,1703 Whitmore Loop,Chula Vista,CA,91913-3696,false,119,Finance Manager,2021-09-13,2021-10-15,** contract does not specify how commissions are calculated. ,HKDSERT259,119
 Ventura,Ricardo,(619) 277-3132,tec.ricardo.esteban@gmail.com,8425 Pueblo Rd,Lakeside,CA,92040-5404,false,132,Service Technician,2021-09-13,2023-03-10,"",HKDSERT275,132
 Solano,Maira,(619) 773-5506,"",238 North Ave,National City,CA,91950,false,172,Receptionist,2023-08-05,2023-08-22,"",HKDSERT257,172
 Retegui,Oscar,(619) 862-1738,epyretegui@hotmail.com,5159 Emerald Cv,San Diego,CA,92154-5825,false,104,Parts Representative,2021-09-13,,"",HKDSERT236,104
-Schultz,Nicholas,(713) 913-9105,nickschltz2591@gmail.com,4753 1/2 Orange Street,San Diego,CA,92116,false,116,Sales Representative,2022-02-18,2022-06-10,"",HKDSERT252,116
-Valdez,Agustin,(619) 925-6131,agustinvaldez@yahoo.com,130 E 3rd St,National City,CA,91950-1220,false,129,Service Valet,2021-09-13,,"",HKDSERT271,129
-Sandoval,Diego,(619) 646-4021,diego.daniel12@hotmail.com,1522 Piedmont St,Chula Vista,CA,91913-1511,false,115,Sales Valet,2022-09-12,,"",HKDSERT250,115
+Valverde,Albert,(619) 915-7838,valoalyo11@hotmail.com,6373 Avenida De Las Vistas Unit 3,San Diego,CA,92154-6608,false,131,Sales Representative,2021-09-13,2024-03-20,"
+Trial: Deal recap shows Albert Valverde selling cars in 202_
+
+Trial: Was working, even after the filing of this lawsuit, without a Contract for commissions?! Damn.",HKDSERT273,131
 Sojo,Javier,(619) 940-0931,javiersojo39@gmail.com,311 Cottonwood Rd Unit 7,San Ysidro,CA,92173-2566,false,156,Service Technician,2023-09-11,,"",HKDSERT256,156
 Renteria,Brayan M,(52664) 219-9301,brayanmiguel122112@gmail.com,4338 Clairemont Mesa Blvd Apt 3,San Diego,CA,92117-1948,false,147,Sales Valet,2023-10-05,2024-05-06,"",HKDSERT234,147
-Luna,Juan,(619) 646-5059,jfluna27@hotmail.com,525 Azalea St,Chula Vista,CA,91911-3822,false,67,Service Advisor,2021-09-13,,"",HKDSERT188,67
 Luna,Ivan F,(619) 854-1431,lunaivanf@gmail.com,165 Date St,Chula Vista,CA,91911-6203,false,157,Service Technician,2023-09-25,,"",HKDSERT187,157
+Luna,Juan,(619) 646-5059,jfluna27@hotmail.com,525 Azalea St,Chula Vista,CA,91911-3822,false,67,Service Advisor,2021-09-13,,"",HKDSERT188,67
 Magana,Ray,(619) 678-8050,raymagana7@gmail.com,515 Hibiscus Ct,Chula Vista,CA,91911-3825,false,69,Service Technician,2021-09-13,,"",HKDSERT190,69
+Schultz,Nicholas,(713) 913-9105,nickschltz2591@gmail.com,4753 1/2 Orange Street,San Diego,CA,92116,false,116,Sales Representative,2022-02-18,2022-06-10,"",HKDSERT252,116
+Taa,Leusumanu,(619) 866-1536,"",763 4th Ave,Chula Vista,CA,91910-5814,false,124,Admin. Assistant Porter,2022-07-06,2022-07-30,"",HKDSERT266,124
+Ha,Dinh Tan,(619) 718-0633,HA.DINH48@GMAIL.COM,3410 46th St,San Diego,CA,92105-4212,false,50,Sales Representative,2022-08-04,2022-09-22,"",HKDSERT163,50
+Munoz,Hector,(530) 215-0695,hectorlemuel151@gmail.com,1953 Geyserville St,Chula Vista,CA,91913-4614,false,84,Sales Representative,2021-03-03,2022-03-11,"",HKDSERT209,84
+Neira,Enrique,(619) 703-6144,"",3688 Governor Dr,San Diego,CA,92122-2418,false,87,Sales Representative,2022-05-24,2022-09-22,"",HKDSERT212,87
+Paulsen,Eric W,(619) 415-6713,paulseneric61@gmail.com,4707 Orten St,San Diego,CA,92110-1322,true,93,Sales Representative,2022-09-23,2023-02-03,"",HKDSERT222,93
+Martinez,Angel,(619) 756-4822,angelmartinez782@yahoo.com,324 S 35th Street,San Diego,CA,92113,false,70,Service Technician,2021-09-13,,"",HKDSERT191,70
+Montoya,Luis,(619) 972-8704,luis.turrillas08@gmail.com,2348 Russell Parkway Apt 444,San Diego,CA,92108,false,82,Service Valet,2021-09-13,2022-01-06,"",HKDSERT204,82
 Martinez,Francisco,(760) 343-8500,naranjo21@yahoo.com,1834 Liquid Ln,Chula Vista,CA,91915-3300,false,71,Service Technician,2021-09-13,2021-10-26,"",HKDSERT192,71
 Martinez,Isabella,(619) 392-7667,izzy.martinez28@gmail.com,2222 Prospect St,National City,CA,91950-6140,false,72,Parts Driver,2022-03-04,2022-06-08,"",HKDSERT193,72
-Martinez,Angel,(619) 756-4822,angelmartinez782@yahoo.com,324 S 35th Street,San Diego,CA,92113,false,70,Service Technician,2021-09-13,,"",HKDSERT191,70
-Meraz,Marco,(951) 396-6929,marco20_meraz@hotmail.com,1450 Green Bay St Apt 206,San Diego,CA,92154-3007,false,78,Parts Representative,2021-09-13,,"",HKDSERT199,78
+Lopez,Rene Cubillas,(619) 919-7726,renevci@yahoo.com,3191 Naylor Rd,San Ysidro,CA,92173-2899,false,163,Sales Representative,2023-01-20,2023-02-28,"* * * * *  Date of Discharge occurs before signing Contract. 
+
+Rehire? 
+
+review = false",HKDSERT184,163
 Merrill,Benjamin,(858) 625-1349,"",13897 Talca Ave,San Diego,CA,92129-2122,false,79,Service Advisor,2021-11-15,2022-04-26,"",HKDSERT200,79
 Meza,Mark A,(760) 996-0758,Mark.meza.88@gmail.com,715 Nolan Ave,Chula Vista,CA,91910-6323,false,80,Sales Representative,2021-10-01,,"",HKDSERT201,80
-Montoya,Luis,(619) 972-8704,luis.turrillas08@gmail.com,2348 Russell Parkway Apt 444,San Diego,CA,92108,false,82,Service Valet,2021-09-13,2022-01-06,"",HKDSERT204,82
 Oliveros,Joselyn,(619) 712-3924,jojoliveros@icould.com,1548 Oleander Ave,Chula Vista,CA,91911-5644,false,142,Sales Representative,2023-06-06,,"",HKDSERT216,142
 Pimentel,Moises,(619) 706-7953,moisespimentel30@yahoo.com,1402 Misty Ridge Pl,Chula Vista,CA,91913-1764,true,137,Sales Representative,2023-03-22,2024-04-08,"",HKDSERT229,137
 Perez,Ruben,(619) 864-2079,zerepnebur867@gmail.com,867 Harwood St,San Diego,CA,92154-1950,false,99,Service Valet,2021-09-13,,"",HKDSERT228,99
@@ -54,31 +63,25 @@ Perez,Eric,(619) 656-1299,perezeric72@gmail.com,3058 Golf Crest Rich,El Cajon,CA
 Montoya,Oscar,(619) 919-2422,montoyaoscar221@gmail.com,478 Oaklawn Ave Apt C,Chula Vista,CA,91910-4121,false,151,Service Technician,2023-03-06,,"",HKDSERT205,151
 Machado,Joshua,(619) 669-8959,joshuagmachado@gmail.com,6653 Stonepine Ln,San Diego,CA,92139-3868,false,68,Service Technician,2022-01-24,,"",HKDSERT189,68
 Lopez,Carlo,(619) 845-3917,carlos33714@hotmail.com,664 Claire Ave,Chula Vista,CA,91910-6108,false,64,Parts Representative,2021-09-13,,"",HKDSERT182,64
-Martos,Aaron C,(619) 995-4685,aaronmartos16@gmail.com,858 Harris Ave,San Diego,CA,92154-1325,false,74,Sales Representative,2022-04-26,2022-05-09,"",HKDSERT195,74
 Mccarthy-Marquez,Gabriel,(619) 647-5052,gabrielmarquez2002@icloud.com,7137 Waite Dr Apt 5,La Mesa,CA,91941-7658,false,75,Sales Representative,2022-08-03,,"",HKDSERT196,75
 Mccarty,Timothy,(559) 388-4032,timothymccarty23@gmail.com,2667 N Marty Ave,Fresno,CA,93722-6712,false,76,Service Valet,2022-08-30,,"",HKDSERT197,76
 Mikels,Brent,(619) 762-9185,mikels2692@gmail.com,1269 Crystal Springs Dr,Chula Vista,CA,91915-2154,false,179,Sales Manager,2023-08-10,2023-10-31,"",HKDSERT202,179
 Moore,Jackey,(806) 640-8722,jdmoore2509@gmail.com,1204 Denver Ln Unit D,El Cajon,CA,92021-4778,false,150,Sales Manager,2023-07-10,2024-05-13,"",HKDSERT206,150
-Munoz,Hector,(530) 215-0695,hectorlemuel151@gmail.com,1953 Geyserville St,Chula Vista,CA,91913-4614,false,84,Sales Representative,2021-03-03,2022-03-11,"",HKDSERT209,84
 Murillo,Jenipher,(619) 340-4196,212jenny@live.com,2388 Biola Ave,San Diego,CA,92154-4204,false,85,Service Technician,2021-09-13,,"",HKDSERT210,85
-Neira,Enrique,(619) 703-6144,"",3688 Governor Dr,San Diego,CA,92122-2418,false,87,Sales Representative,2022-05-24,2022-09-22,"",HKDSERT212,87
 Pekarek,Joseph,(619) 210-3408,joepekarek@hotmail.com,7837 Brookhaven Rd,San Diego,CA,92114-7328,false,94,Service Technician,2021-09-13,,"",HKDSERT223,94
 Pena,Jorge,(619) 782-5275,jorgepa109@gmail.com,400 Greenfield Dr Spc 111,El Cajon,CA,92021-4519,false,95,Parts Driver,2022-03-10,2022-07-08,"",HKDSERT224,95
-Paulsen,Eric W,(619) 415-6713,paulseneric61@gmail.com,4707 Orten St,San Diego,CA,92110-1322,true,93,Sales Representative,2022-09-23,2023-02-03,"",HKDSERT222,93
-Perez,Alan,(619) 337-5609,alan85perez@gmail.com,1501 Sheryl Ln Apt 206,National City,CA,91950-3797,false,96,Sales Representative,2021-12-11,2022-02-14,"",HKDSERT225,96
 Parker,Christopher,(619) 368-8327,"",6581 Jaffe Ct Apt 1,San Diego,CA,92119-2185,false,174,Sales Representative,2023-05-23,2023-08-22,"",HKDSERT219,174
 Morente,Wilber,(619) 315-1507,"",827 Silverbrook Dr,El Cajon,CA,92019-1495,false,180,Service Technician,2023-02-20,2023-10-31,"",HKDSERT207,180
 Lora,Christian R,(619) 305-4223,el-corral-69@hotmail.com,3988 Main St,Chula Vista,CA,91911-6214,false,65,Service Advisor,2022-09-01,,"",HKDSERT185,65
 Patino,Mizraim,"",mizra83038@gmail.com,1934 Wilson Ave,National City,CA,91950-5545,false,91,Service Technician,2022-10-01,,"",HKDSERT220,91
 Miranda,Jesse,(619) 646-5897,"",774 Dorothy St Apt B,Chula Vista,CA,91911-3907,false,81,Sales Valet,2022-06-10,2022-11-15,"",HKDSERT203,81
 Moya,Moises,(619) 436-7345,moymoya1120@gmail.com,574 Moss St Apt N,Chula Vista,CA,91911-1769,false,83,Sales Representative,2022-07-21,2024-04-19,"",HKDSERT208,83
-Lopez,Rene Cubillas,(619) 919-7726,renevci@yahoo.com,3191 Naylor Rd,San Ysidro,CA,92173-2899,false,163,Sales Representative,2023-01-20,2023-02-28,"",HKDSERT184,163
 Godoy,Cecilio,(619) 799-7865,1968cecgod@gmail.com,1618 Connoley Ave,Chula Vista,CA,91911-5122,false,36,Parts Representative,2021-09-13,2024-04-30,"",HKDSERT146,36
-Gomez,Telesforo,(619) 656-3378,t_gomez1@yahoo.com,601 E Palomar St,Chula Vista,CA,91911-6976,false,39,Finance Director,2021-09-13,,"",HKDSERT150,39
 Gomez,Alejandro,(619) 874-1034,alejandro_cabo@yahoo.com,511 E San Ysidro Blvd,San Diego,CA,92173-3150,false,164,Sales Valet,2023-01-23,2023-02-27,"",HKDSERT147,164
 Gray,Andrew M,(619) 538-1434,amgray619@gmail.com,PO Box 6628,San Diego,CA,92166-0628,false,45,Sales Manager,2021-11-18,2022-09-22,"",HKDSERT157,45
 Gonzalez,Juan E,(619) 371-0658,juangonzalez_92@hotmail.com,1293 Steiner Dr,Chula Vista,CA,91911-7013,false,41,Finance Manager,2022-06-01,,"",HKDSERT152,41
-Ha,Dinh Tan,(619) 718-0633,HA.DINH48@GMAIL.COM,3410 46th St,San Diego,CA,92105-4212,false,50,Sales Representative,2022-08-04,2022-09-22,"",HKDSERT163,50
+Keller,Rufus,(858) 776-5960,rufuskeller@gmail.com,12947 Slack St,Poway,CA,92064-5626,false,148,Sales Manager,2023-10-11,2024-03-20,"",HKDSERT174,148
+Chavez,Jonathan,(619) 317-3062,gio.chavez05869@gmail.com,821 Salinger Pl,San Jacinto,CA,92583-2055,false,20,Detail,2022-04-05,,"",HKDSERT125,20
 Dumas,Lorna,(619) 829-7693,lornadumas14@gmail.com,1280 E J St Apt 39,Chula Vista,CA,91910-8195,false,29,Service Advisor,2022-05-23,2024-05-17,"",HKDSERT136,29
 Gonzalez,Ceasar,(760) 925-8287,chicharoglez777@gmail.com,2410 B Ave Apt 6,National City,CA,91950-6863,false,158,Service Technician,2023-10-02,,"",HKDSERT151,158
 Dalan,Seymour,(707) 315-5456,sdalan23@gmail.com,3215 Kearny Villa Ln,San Diego,CA,92123-1910,false,28,Service Technician,2021-09-13,2022-01-14,"",HKDSERT134,28
@@ -92,83 +95,142 @@ Kidd,John,"",dragonesdetijuana@gmail.com,727 E San Ysidro Blvd # 303,San Diego,C
 Guedea,Marco,(619) 856-2924,marcoguedea@yahoo.com,6560 Pinecone Ln,San Diego,CA,92139-3834,false,47,Service Technician,2021-09-13,2023-08-25,"",HKDSERT160,47
 Gutierrez,Juan,(619) 586-2008,gjuan7672@gmail.com,4229 Newton Ave,San Diego,CA,92113-3326,false,48,Service Technician,2022-02-01,,"",HKDSERT161,48
 Guzman,Francisco,(619) 382-5796,Pacog1707@gmail.com,4565 T St,San Diego,CA,92113-2960,false,49,Service Technician,2021-09-13,2023-02-17,"",HKDSERT162,49
-Hanson,Gabriel,(619) 417-8882,"",579 Brutus St,San Diego,CA,92114-4625,false,176,Sales Representative,2023-07-01,2023-10-17,"",HKDSERT165,176
 Harrington,Gary A,(703) 789-2389,garyharrington381@gmail.com,1633 Jones St,Chula Vista,CA,91913-4303,false,54,Service Technician,2022-11-01,2024-02-13,"",HKDSERT168,54
 Hernandez,Carlos,(619) 621-5890,charliehsvc92@gmail.com,109 Jefferson Ave Apt A,Chula Vista,CA,91910-1382,false,173,Sales Valet,2023-04-12,2023-09-27,"",HKDSERT169,173
 Ibarra,Luis Enrique,(619) 513-6391,luisenriqueibarra69@gmail.com,1563 Bubbling Well Dr,San Diego,CA,92154-2708,false,58,Sales Valet,2022-04-23,2022-06-20,"",HKDSERT173,58
-Keller,Rufus,(858) 776-5960,rufuskeller@gmail.com,12947 Slack St,Poway,CA,92064-5626,false,148,Sales Manager,2023-10-11,2024-03-20,"",HKDSERT174,148
-Kim,Derek,(714) 661-6293,derek.kim67@gmail.com,1425 2nd Ave Spc 46,Chula Vista,CA,91911-5007,false,60,Sales Representative,2022-06-26,2024-04-09,"",HKDSERT176,60
-Lamora,Candice,(619) 318-7449,kndykss@hotmail.com,10126 Timberlane Way,Santee,CA,92071-1628,false,61,Warranty Clerk,2021-09-13,,"",HKDSERT177,61
 Cuen,Manuel,(760) 540-1999,manuelcuen022@gmail.com,2481 Moiola Ave,El Centro,CA,92243-3563,false,175,Service Advisor,2023-04-17,2023-08-07,"",HKDSERT132,175
-Gonzalez,Sward A,(619) 775-8549,swardg@gmail.com,2253 Honey Dr,San Diego,CA,92139-2113,false,44,Sales Representative,2022-12-05,2022-12-15,"",HKDSERT155,44
-Guardiola,Jesus Gustavo,(619) 745-8797,"",2564 E Beyer Blvd,San Ysidro,CA,92173-2708,true,46,Sales Representative,2022-01-26,2023-07-06,"",HKDSERT159,46
-Covarrubias,Francisco,(619) 587-0009,paxxx001@gmail.com,2666 Elm Ave,San Diego,CA,92154-1459,true,26,Sales Representative,2021-12-15,2024-04-25,"",HKDSERT131,26
-Ghallab,Tarik,(619) 327-3047,zizo06.tg@gmail.com,2151 Chatsworth Blvd,San Diego,CA,92107-2428,false,35,Sales Representative,2021-12-07,2022-02-04,"",HKDSERT145,35
+Guardiola,Jesus Gustavo,(619) 745-8797,"",2564 E Beyer Blvd,San Ysidro,CA,92173-2708,true,46,Sales Representative,2022-01-26,2023-07-06,** Signed Contract days before Term. ,HKDSERT159,46
+Ghallab,Tarik,(619) 327-3047,zizo06.tg@gmail.com,2151 Chatsworth Blvd,San Diego,CA,92107-2428,false,35,Sales Representative,2021-12-07,2022-02-04,signed ~ x after DOH,HKDSERT145,35
 Flores,Leslie,(951) 437-3058,leslie_flores24@yahoo.com,4325 El Cedro Ct,San Diego,CA,92154-2631,false,34,Shipping and Receiving,2021-09-13,,"",HKDSERT143,34
 Hernandez,Daniel I,(657) 509-3700,Svc.19@hotmail.com,1821 Rosewood,Santana,CA,92707,false,55,Parts Driver,2022-09-07,2023-10-05,"",HKDSERT170,55
 Cuenca,Leonardo,(619) 653-3880,leonardocuenca57@hotmail.com,642 Palomar St Ste 223,Chula Vista,CA,91911-2626,false,27,Service Advisor,2021-09-13,2022-10-14,"",HKDSERT133,27
 Hao-Keppel,Christopher,(808) 694-9321,cbkeppel@gmail.com,3688 Georgia St,San Diego,CA,92103-4637,false,52,Finance Manager,2022-01-17,2022-07-01,"",HKDSERT167,52
-Espinoza,Rolando,(619) 746-3946,yosoy661@gmail.com,708 H St Spc 1,Chula Vista,CA,91910-4048,true,171,Sales Representative,2023-03-17,2023-08-09,"",HKDSERT140,171
-Becerra,Ricardo,(858) 286-7529,rbecerra325@gmail.com,245 E Orange Ave Apt H11,Chula Vista,CA,91911-5414,false,9,Sales Representative,2021-09-13,2022-09-13,hired and fired same day 1 year apart?,HKDSERT111,9
+Kim,Derek,(714) 661-6293,derek.kim67@gmail.com,1425 2nd Ave Spc 46,Chula Vista,CA,91911-5007,false,60,Sales Representative,2022-06-26,2024-04-09,DMV Documents.csv shows Derik Kim sold cars.,HKDSERT176,60
 Barajas,Arturo,(619) 565-5519,barajas1961@hotmail.com,702 Madison Ave Apt B,Chula Vista,CA,91910-8287,false,8,Service Technician,2022-03-01,2022-09-26,"",HKDSERT110,8
-Bland,Alexander,(619) 763-2857,alexblandnotary@gmail.com,877 Aspen Glen Rd,Chula Vista,CA,91914-2520,false,13,Sales Representative,2022-03-24,2022-06-10,"",HKDSERT117,13
 Aragon,Arturo,(619) 365-1677,aragonarturo582@gmail.com,2155 Corte Vis Apt 33,Chula Vista,CA,91915-4123,false,4,Sales Representative,2022-01-10,2022-02-14,"",HKDSERT105,4
-Chavez,Jonathan,(619) 317-3062,gio.chavez05869@gmail.com,821 Salinger Pl,San Jacinto,CA,92583-2055,false,20,Detail,2022-04-05,,"",HKDSERT125,20
-Acosta,Christina A,(619) 707-0488,christiea182@gmail.com,1056 Thermal Ave,San Diego,CA,92154-1926,false,0,Used Car Clerk,2021-10-25,2022-05-06,blah,HKDSERT101,﻿1
+Lamora,Candice,(619) 318-7449,kndykss@hotmail.com,10126 Timberlane Way,Santee,CA,92071-1628,false,61,Warranty Clerk,2021-09-13,,***. Is this a Commissioned Employee?,HKDSERT177,61
+Acosta,Christina A,(619) 707-0488,christiea182@gmail.com,1056 Thermal Ave,San Diego,CA,92154-1926,false,0,Used Car Clerk,2021-10-25,2022-05-06,"",HKDSERT101,﻿1
 Espinoza,Armando,(858) 789-2815,espinoza54959@gmail.com,3844 Euclid Ave,San Diego,CA,92105-2806,false,31,Service Technician,2021-09-13,,"",HKDSERT139,31
-Sako,Brando,(619) 916-1691,1brandojsako@gmail.com,1913 Corona Vis,El Cajon,CA,92019-4262,false,112,Sales Representative,2022-11-07,,"",HKDSERT245,112
-Bezares,Luis,(619) 646-5202,bezaresluis14@gmail.com,1515 Crown Ln Unit 2,Chula Vista,CA,91915-2675,true,12,Sales Representative,2022-01-14,2022-06-08,"",HKDSERT116,12
-Bermudez,Alejandro,(619) 763-3439,alexberm111@gmail.com,690 Rainbow Dr,Chula Vista,CA,91911-6844,false,11,Service Valet,2021-09-13,,"",HKDSERT114,11
-Ulloa,Juan Diego,(619) 213-6963,diegoulloa69@icloud.com,4325 El Cedro Ct,San Diego,CA,92154-2631,false,127,Parts Representative,2021-09-13,,"",HKDSERT269,127
+Sako,Brando,(619) 916-1691,1brandojsako@gmail.com,1913 Corona Vis,El Cajon,CA,92019-4262,false,112,Sales Representative,2022-11-07,,** still employed?,HKDSERT245,112
+Bezares,Luis,(619) 646-5202,bezaresluis14@gmail.com,1515 Crown Ln Unit 2,Chula Vista,CA,91915-2675,true,12,Sales Representative,2022-01-14,2022-06-08,** our client.  Has Contract Code 110.  What is his issue? ,HKDSERT116,12
+Gonzalez,Sward A,(619) 775-8549,swardg@gmail.com,2253 Honey Dr,San Diego,CA,92139-2113,false,44,Sales Representative,2022-12-05,2022-12-15,"",HKDSERT155,44
+Mehboob,Bilal,858-883-1343,bilalmshah@hotmail.com,13515 Zinnia Hills Pl Apt 38,San Diego,CA,92130-5762,false,77,Sales Manager,2021-09-21,2021-11-04,** odd.  DC provided a blank form to Biliah,HKDSERT198,77
+Lopez,Jair,(619) 852-6975,lopezjair@gmail.com,5266 Seaglen Way,San Diego,CA,92154-8480,false,162,Sales Representative,2023-02-01,2023-02-15,"",HKDSERT183,162
 Cortez,Gildardo,(619) 600-2967,omar16021990@gmail.com,705 3rd St,Imperial Beach,CA,91932-1989,false,25,Service Technician,2021-09-13,,"",HKDSERT130,25
+Leduff,Dominick,(619) 455-0292,dom27nick@gmail.com,790 Beech Ave,Chula Vista,CA,91910-5322,false,136,Sales Representative,2023-01-27,,"",HKDSERT179,136
+Bermudez,Alejandro,(619) 763-3439,alexberm111@gmail.com,690 Rainbow Dr,Chula Vista,CA,91911-6844,false,11,Service Valet,2021-09-13,,"",HKDSERT114,11
 Aragon,Graciela,(619) 547-8959,garagon@chulavistaford.com,1250 Santa Cora Ave Apt 1124,Chula Vista,CA,91913-1722,true,5,Sales Representative,2021-09-13,2023-01-11,"",HKDSERT106,5
 Alpizar,Jose,(714) 341-5157,josealpizar875@gmail.com,853 N Main St Spc 47,Corona,CA,92878-5843,false,149,Sales Porter/Valet,2023-10-27,,"",HKDSERT102,149
-Bruce,Darren,(619) 519-4071,bruce.darren@icloud.com,1244 Tobias Dr,Chula Vista,CA,91911-3409,false,14,Service Advisor,2022-04-11,,"",HKDSERT118,14
 Buendia,Roberto,(619) 247-7302,rbuendia32@gmail.com,1450 Melrose Ave Unit 111,Chula Vista,CA,91911-5565,false,15,Service Technician,2021-09-13,2024-08-15,"",HKDSERT119,15
+Bruce,Darren,(619) 519-4071,bruce.darren@icloud.com,1244 Tobias Dr,Chula Vista,CA,91911-3409,false,14,Service Advisor,2022-04-11,,## still employed?,HKDSERT118,14
 Cage,Seraiah,(619) 653-3305,seraiahc415@gmail.com,1887 Doran St,San Diego,CA,92154,false,169,Sales Representative,2023-02-28,2024-04-25,"",HKDSERT120,169
-Cecil,Jack,(661) 534-5138,jackcecil24@gmail.com,7925 San Vicente St,San Diego,CA,92114-4740,false,19,Sales Representative,2021-02-21,2022-05-20,"",HKDSERT124,19
 Cardenas,Horacio,(619) 706-9966,HCMHOR@YAHOO.COM,710 E San Ysidro Blvd,San Ysidro,CA,92173-3123,false,16,Parts Representative,2021-09-13,2023-05-31,"",HKDSERT121,16
-Chavez,Joseph,(619) 908-0948,josephchavezz@icloud.com,8003 Helm St,San Diego,CA,92114-3422,false,21,Service Advisor,2022-11-14,2023-06-15,"",HKDSERT126,21
-Christlieb,Roberto,(619) 571-9542,"",560 Offshore Pt,San Diego,CA,92154,false,22,Sales Manager,2021-09-13,2021-12-02,"",HKDSERT127,22
+Chavez,Joseph,(619) 908-0948,josephchavezz@icloud.com,8003 Helm St,San Diego,CA,92114-3422,false,21,Service Advisor,2022-11-14,2023-06-15,All Service advisors commissioned? ,HKDSERT126,21
 Colis,Pedro,(951) 660-0666,colis321@yahoo.com,5543 Potomac St,San Diego,CA,92139-1629,false,23,Service Technician,2021-09-13,,"",HKDSERT128,23
 Cordero,Ricardo,(619) 319-0808,Rcordero6119@gmail.com,6679 Beadnell Way 142,San Diego,CA,92117,false,24,Service Technician,2022-06-01,2022-08-31,"",HKDSERT129,24
 Duran,Joseph,(619) 888-6216,"",2866 Webster Ave,San Diego,CA,92113-1349,false,30,Sales Representative,2022-01-11,2022-11-30,"",HKDSERT137,30
-Gonzalez,Santos,(619) 857-3856,santosjr87@hotmail.com,3420 Florence St Apt B,San Diego,CA,92113-2778,false,43,Shipping and Receiving,2021-09-13,2022-01-28,"",HKDSERT154,43
 Armendariz,Alberto,(619) 874-7664,alberto.armendariz1959@yahoo.com,215 Quintard St Apt E81,Chula Vista,CA,91911-4354,false,6,Service Valet,2022-04-25,,"",HKDSERT107,6
 Berry,Arthur,(619) 647-5096,godfish316@icloud.com,1829 Arnold Way Apt 1904,Alpine,CA,91901-3744,false,146,Sales Representative,2023-09-18,2024-07-01,"",HKDSERT115,146
 Banuelos,Rafael,(619) 272-1112,1951rafael01@gmail.com,4065 Beyer Blvd Apt 61,San Ysidro,CA,92173-2048,false,7,Sales Valet,2022-07-08,,"",HKDSERT109,7
-Leduff,Dominick,(619) 455-0292,dom27nick@gmail.com,790 Beech Ave,Chula Vista,CA,91910-5322,false,136,Sales Representative,2023-01-27,,"",HKDSERT179,136
 Martinez,Vanessa,(619) 547-3272,van3mtz16@gmail.com,1550 Avenida Rosa,Chula Vista,CA,91911-4976,false,73,Parts Driver,2022-09-23,,"",HKDSERT194,73
 Ortega,Salvador,(619) 451-7972,salvador505050@gmail.com,361 Morehouse Pl,Chula Vista,CA,91911-4144,false,88,Service Valet,2021-09-13,,"",HKDSERT217,88
 Ponce,Ivan,(619) 399-9089,ponce.ivan@gmail.com,2236 Peachtree Cir,Chula Vista,CA,91915-1220,false,100,Parts Representative,2021-09-13,,"",HKDSERT230,100
-Renteria,Jose,(619) 874-7324,jrenteria_21@hotmail.com,4114 Camino De La Plz Apt 28G,San Ysidro,CA,92173-2967,false,161,Parts Representative,2023-06-16,,"",HKDSERT235,161
+Levie,David,(619) 981-6033,davidmlevie@gmail.com,10027 Rio San Diego Dr Apt 218,San Diego,CA,92108-5643,false,62,Sales Representative,2021-09-16,,"Still employed? 
+
+EE signed in 2024.  Sold cars in 2021 (See DMV Documents.csv)
+
+Trial: 1101 use to establish DAG has many employees who signed a contract after being employed for a long time.  David Levie hired in 2021. Didn't sign until 2024. ",HKDSERT180,62
 Acosta,Nicolas,(619) 219-8105,Nacosta0117@gmail.com,1492 Judson Way,Chula Vista,CA,91911-5251,false,2,Sales Valet,2022-05-16,2022-08-23,in csv file?,HKDSERT102,2
-Levie,David,(619) 981-6033,davidmlevie@gmail.com,10027 Rio San Diego Dr Apt 218,San Diego,CA,92108-5643,false,62,Sales Representative,2021-09-16,,"",HKDSERT180,62
 Amador,Pablo,(760) 801-4249,palafirma182@gmail.com,511 E San Ysidro Blvd # 5258,San Ysidro,CA,92173-3150,true,3,Sales Representative,2022-01-10,2022-06-20,"",HKDSERT104,3
 Cardenas,Jesus,(619) 240-2402,cardenasjesus77@gmail.com,1215 Sea Reef Dr,San Diego,CA,92154-8462,false,17,Sales Representative,2021-10-28,2022-09-22,"",HKDSERT122,17
 Landavazo,Bianca,(619) 796-9243,blanca.landavazo@gmail.com,506 Douglas St,Chula Vista,CA,91910-6405,false,145,Receptionist,2023-09-18,2024-05-15,"",HKDSERT178,145
 Lizarraga,Marie,(619) 761-0059,"",559 McIntosh St Apt 4,Chula Vista,CA,91910-1523,false,63,Sales Representative,2022-09-14,2023-11-27,"",HKDSERT181,63
-Lopez,Jair,(619) 852-6975,lopezjair@gmail.com,5266 Seaglen Way,San Diego,CA,92154-8480,false,162,Sales Representative,2023-02-01,2023-02-15,"",HKDSERT183,162
-Lovering,Jayce,(619) 854-3432,jaycelovering@yahoo.com,2802 Coburn St,National City,CA,91950-7819,false,66,Sales Representative,2021-12-13,2022-02-07,"",HKDSERT186,66
-Syed,Kamran M,(619) 651-6884,kaami123@gmail.com,2033 Port Cardiff,Chula Vista,CA,91913-1306,false,123,General Sales Manager,2021-07-21,2024-03-20,"",HKDSERT265,123
 Valadez,Carlos E,(619) 705-0087,valadezenrique3@gmail.com,6051 Business Center Ct # 44,San Diego,CA,92154-6641,false,128,Sales Valet,2022-06-09,,"Job Title = Sales Valet
-Kind = Salesperson",HKDSERT270,128
+Kind = Salesperson
+
+Still employeed!",HKDSERT270,128
+Syed,Kamran M,(619) 651-6884,kaami123@gmail.com,2033 Port Cardiff,Chula Vista,CA,91913-1306,false,123,General Sales Manager,2021-07-21,2024-03-20,"",HKDSERT265,123
 Hernandez,Viridiana,(619) 368-5644,hernandez.viridiana14@gmail.com,4562 Winter Gardens Blvd,Lakeside,CA,92040,true,56,Sales Representative,2022-08-15,2024-04-26,"",HKDSERT171,56
 Soltero,David,(619) 646-9340,davidsol7@hotmail.com,1100 Industrial Blvd Spc F4,Chula Vista,CA,91911-2642,true,140,Sales Representative,2023-05-02,2024-08-05,"",HKDSERT260,140
 Beckwith,William,(530) 405-8004,beckwithwilliam78@gmail.com,7111 El Cajon Blvd,San Diego,CA,92115-1828,false,160,Service Technician,2023-11-14,2024-07-08,"",HKDSERT112,160
-Mehboob,Bilal,"",bilalmshah@hotmail.com,13515 Zinnia Hills Pl Apt 38,San Diego,CA,92130-5762,false,77,Sales Manager,2021-09-21,2021-11-04,"",HKDSERT198,77
+Cecil,Jack,(661) 534-5138,jackcecil24@gmail.com,7925 San Vicente St,San Diego,CA,92114-4740,false,19,Sales Representative,2021-02-21,2022-05-20,"",HKDSERT124,19
+Hall,Shelby,(619) 577-5567,dale_hall68@yahoo.com,1501 Ash Street,San Diego,CA,92102,false,51,Sales Representative,2022-07-28,2022-09-23,"",HKDSERT164,51
+Hanson,Gabriel,(619) 417-8882,"",579 Brutus St,San Diego,CA,92114-4625,false,176,Sales Representative,2023-07-01,2023-10-17,*** no,HKDSERT165,176
+Ortiz,Sergio Carlos,(619) 888-2974,carlosortiz193@gmail.com,161 Brightwood Ave Apt 7,Chula Vista,CA,91910-2474,false,89,Finance Manager,2022-11-14,,"** Spreadsheet only
+
+Sold cars (See Documents.csv)
+
+Trial: sold cars on Deals Recap",HKDSERT218,89
+Smith,Jayden Z,(619) 370-3633,jaydens92@gmail.com,1520 Hunters Glen Ave,Chula Vista,CA,91913-3911,false,118,Service Technician,2021-10-04,,"",HKDSERT255,118
+Sandoval,Diego,(619) 646-4021,diego.daniel12@hotmail.com,1522 Piedmont St,Chula Vista,CA,91913-1511,false,115,Sales Valet,2022-09-12,,"",HKDSERT250,115
+Sojona,Loran,"","","","","","",false,,Sales Representative - page45,2025-01-10,,"Trial: identified in 3 different documents: 1) DMV Documents.csv, 2) page45(bilial), 3) Deal Recaps. but not identified on PAGA list, not identified on Employee List, not identified with employees whose Contracts had been lost, not id'd after motion to enforce. ","",
+Silva,Jose A,(619) 215-6266,jose.alberto.silva@hotmail.com,755 Caminito Estrella,Chula Vista,CA,91910-7859,false,117,Sales Representative,2022-05-31,,** no Contract.  not identified was misplaced Contract.  still employed? ,HKDSERT254,117
+Meraz,Marco,(951) 396-6929,marco20_meraz@hotmail.com,1450 Green Bay St Apt 206,San Diego,CA,92154-3007,false,78,Parts Representative,2021-09-13,,"",HKDSERT199,78
+Perez,Alan,(619) 337-5609,alan85perez@gmail.com,1501 Sheryl Ln Apt 206,National City,CA,91950-3797,false,96,Sales Representative,2021-12-11,2022-02-14,"",HKDSERT225,96
+Martos,Aaron C,(619) 995-4685,aaronmartos16@gmail.com,858 Harris Ave,San Diego,CA,92154-1325,false,74,Sales Representative,2022-04-26,2022-05-09,"",HKDSERT195,74
+Ramirez,Marco,(562) 686-0210,marcoramirez06@gmail.com,8073 Denbo St,Paramount,CA,90723-2611,false,101,Service Technician,2021-09-13,,Hourly contract. ,HKDSERT231,101
+Robinson,Gerald,"","",150 Richeth Rd,San Diego,CA,92114-5520,false,107,Sales Representative,2022-02-09,2022-03-28,"",HKDSERT239,107
+Gonzalez Iniguez,Leoncio,(619) 971-9932,leonciogonzalez11@gmail.com,6542 Reflection Dr Apt 1143,San Diego,CA,92124-5135,false,144,Sales Representative,2023-07-03,2024-07-16,"",HKDSERT156,144
+Perez,Daniel,(661) 544-7565,dpb062499@gmail.com,6923 Amherst St Apt 10,San Diego,CA,92115-3062,false,97,Sales Representative,2022-08-30,2022-11-30,"",HKDSERT226,97
 Belendez,Javier,(619) 632-8325,jabz1bc@me.com,1495 Caminito Sardinia Unit 2,Chula Vista,CA,91915-3109,false,10,Sales Representative,2022-05-02,2022-06-07,"",HKDSERT113,10
+Becerra,Ricardo,(858) 286-7529,rbecerra325@gmail.com,245 E Orange Ave Apt H11,Chula Vista,CA,91911-5414,false,9,Sales Representative,2021-09-13,2022-09-13,hired and fired same day 1 year apart?,HKDSERT111,9
+Rodriguez,Cesar,(619) 600-7617,c1v1me_15@hotmail.com,1819 Smythe Ave Spc 42,San Ysidro,CA,92173-1544,false,109,Sales Valet,2021-11-01,2022-04-30,"",HKDSERT241,109
+Rocha,Vianey,(619) 781-7693,vianeyrocha8@gmail.com,1225 Broadway Apt 709,Chula Vista,CA,91911-2905,false,108,Service Advisor,2021-09-13,2021-11-13,"",HKDSERT240,108
+Caudillo,Phil,"","","","","","",false,,Sales Representative - id as mgr: DAG 002418,2025-01-11,,"DAG 002418
+
+identified as a Manager","",
+Bland,Alexander,(619) 763-2857,alexblandnotary@gmail.com,877 Aspen Glen Rd,Chula Vista,CA,91914-2520,false,13,Sales Representative,2022-03-24,2022-06-10,"Notary: 
+
+Bland, Alexander		2242 Corte San Simon	Chula Vista	CA	91914 	37	2341966	01/17/2025
+
+
+1/11/25: Talked to Bland.   Confirmed he never signed a comp plan. ",HKDSERT117,13
+Grillet-Isaacs,Chenoa,(510) 514-2289,cgrilletisaacs@gmail.com,619 Stork St,San Diego,CA,92114-2745,false,155,Service Technician,2023-09-12,2024-07-12,"",HKDSERT158,155
+Hermosillio,Denis,"","","","","","",false,,Sales Representative - page45,2025-01-10,,"page45
+
+From Bilial. ","",
+Ulloa,Juan Diego,(619) 213-6963,diegoulloa69@icloud.com,4325 El Cedro Ct,San Diego,CA,92154-2631,false,127,Parts Representative,2021-09-13,,"",HKDSERT269,127
+Gonzalez,Santos,(619) 857-3856,santosjr87@hotmail.com,3420 Florence St Apt B,San Diego,CA,92113-2778,false,43,Shipping and Receiving,2021-09-13,2022-01-28,"",HKDSERT154,43
+Lovering,Jayce,(619) 854-3432,jaycelovering@yahoo.com,2802 Coburn St,National City,CA,91950-7819,false,66,Sales Representative,2021-12-13,2022-02-07,"",HKDSERT186,66
 Ndiba,Samuel Njenga,(858) 603-0207,sndiba96@gmail.com,3825 Central Ave,San Diego,CA,92105-2508,false,86,Sales Representative,2022-06-27,2022-11-30,"",HKDSERT211,86
 Zamora,Jesus,"",jesuszamora64@hotmail.com,1632 Connoley Ave,Chula Vista,CA,91911-5122,true,134,Sales Representative,2021-11-19,2022-05-26,"",HKDSERT278,134
 Bannister,Bailey,(619) 985-1110,Bailey.ban22@gmail.com,1515 Marion Ct,Chula Vista,CA,91913-1504,false,139,Sales Representative,2023-05-01,2024-09-03,"",HKDSERT108,139
-Nelson,Tanner,(808) 990-4361,"",14715 Campo Rd,Jamul,CA,91935-4016,false,177,Service Technician,2023-09-19,2023-10-03,"",HKDSERT213,177
-Ortiz,Sergio Carlos,(619) 888-2974,carlosortiz193@gmail.com,161 Brightwood Ave Apt 7,Chula Vista,CA,91910-2474,false,89,Finance Manager,2022-11-14,,"",HKDSERT218,89
-Perez,Daniel,(661) 544-7565,dpb062499@gmail.com,6923 Amherst St Apt 10,San Diego,CA,92115-3062,false,97,Sales Representative,2022-08-30,2022-11-30,"",HKDSERT226,97
-Fisher,Jonathan,(619) 253-4567,jonathandonaldfisher@gmail.com,1410 Hidden Mesa View Dr,El Cajon,CA,92019-3608,false,32,Service Technician,2021-09-13,,"",HKDSERT141,32
 Santoyo,Alexis,(619) 802-9376,"",8858 Gardena Rd,Lakeside,CA,92040-5306,false,178,Sales Valet,2023-06-05,2023-10-17,"",HKDSERT251,178
+Nelson,Tanner,(808) 990-4361,"",14715 Campo Rd,Jamul,CA,91935-4016,false,177,Service Technician,2023-09-19,2023-10-03,"",HKDSERT213,177
+Fisher,Jonathan,(619) 253-4567,jonathandonaldfisher@gmail.com,1410 Hidden Mesa View Dr,El Cajon,CA,92019-3608,false,32,Service Technician,2021-09-13,,"",HKDSERT141,32
+Covarrubias,Francisco,(619) 587-0009,paxxx001@gmail.com,2666 Elm Ave,San Diego,CA,92154-1459,true,26,Sales Representative,2021-12-15,2024-04-25,"** Doesn't have a 2022 Contract.  (DOH 2021)
+
+1st Contract signed after 5/1/23",HKDSERT131,26
+Delly,Haytham,619-200-9797,"",11941 Via Selma,El Cajon ,CA,92019,false,,Sales Representative,2021-10-21,,"","",
 Gonzalez,Leonardo,(619) 755-4694,leoogonzaa2@outlook.com,2498 Roll Dr Apt 328,San Diego,CA,92154-7279,false,42,Sales Representative,2022-01-27,2022-09-23,"",HKDSERT153,42
-Gonzalez Iniguez,Leoncio,(619) 971-9932,leonciogonzalez11@gmail.com,6542 Reflection Dr Apt 1143,San Diego,CA,92124-5135,false,144,Sales Representative,2023-07-03,2024-07-16,"",HKDSERT156,144
-Grillet-Isaacs,Chenoa,(510) 514-2289,cgrilletisaacs@gmail.com,619 Stork St,San Diego,CA,92114-2745,false,155,Service Technician,2023-09-12,2024-07-12,"",HKDSERT158,155
-Hall,Shelby,(619) 577-5567,dale_hall68@yahoo.com,1501 Ash Street,San Diego,CA,92102,false,51,Sales Representative,2022-07-28,2022-09-23,"",HKDSERT164,51
-Rocha,Vianey,(619) 781-7693,vianeyrocha8@gmail.com,1225 Broadway Apt 709,Chula Vista,CA,91911-2905,false,108,Service Advisor,2021-09-13,2021-11-13,"",HKDSERT240,108
-Rodriguez,Cesar,(619) 600-7617,c1v1me_15@hotmail.com,1819 Smythe Ave Spc 42,San Ysidro,CA,92173-1544,false,109,Sales Valet,2021-11-01,2022-04-30,"",HKDSERT241,109
+Renteria,Jose,(619) 874-7324,jrenteria_21@hotmail.com,4114 Camino De La Plz Apt 28G,San Ysidro,CA,92173-2967,false,161,Parts Representative,2023-06-16,,"",HKDSERT235,161
+Olivas,Tulio,"","","","","","",false,,Unknown: DMV Documents.csv,2025-01-14,,DMV Documents.csv,"",
+Burks,Steven,"","","","","","",false,,Unknown: DMV Documents.csv,2025-01-14,,"","",
+Castillo,Samuel Gomez,"","","","","","",false,,Unknown: DMV Documents.csv,2025-01-14,,"","",
+Flores-Cruz,Martin,"","","","","","",false,,Unknown: DMV Documents.csv,2025-01-14,,"","",
+Picard,Dawn,"","","","","","",false,,Unknown: DMV Documents.csv,2025-01-14,,"","",
+Herrera,Armando,"","","","","","",false,,Unknown: DMV Documents.csv,2025-01-14,,Sold cars in 2024,"",
+Gonzales,Alana,"","","","","","",false,,Unknown: DMV Documents.csv,2025-01-14,,"","",
+Espinoza,Rolando,(619) 746-3946,yosoy661@gmail.com,708 H St Spc 1,Chula Vista,CA,91910-4048,true,171,Sales Representative,2023-03-17,2023-08-09,"**
+
+*< Revised 5/1 but HR signed month before and Ee signed 2021! %>
+
+** EE signed 4/__/ .    First car sold 4/11/2023 (See DMV Documents.csv)",HKDSERT140,171
+Nieblas,Kimberly,"","","","","","",false,,"",2025-01-14,,"Trial: Deal recaps show Kimberly selling cars. Not listed on Employee List (subsequent list with job titles)
+
+Not identified as employee whose contract has been misplaced. 
+(rails: view showing commissioned but not misplaced).","",
+Christlieb,Roberto,(619) 571-9542,"",560 Offshore Pt,San Diego,CA,92154,false,22,Sales Manager,2021-09-13,2021-12-02,"Trial: Deal recap show Robert Christlieb selling cars. 
+
+Sales Manager.  In charge of Sales Rep. and didn't have a Contract? 
+
+Q: How many employees under his supervisions?",HKDSERT127,22
+Gomez,Telesforo,(619) 656-3378,t_gomez1@yahoo.com,601 E Palomar St,Chula Vista,CA,91911-6976,false,39,Finance Director,2021-09-13,,"Still employed. 
+
+Trial:  Don't have Contracts for Telly or Robert Cristelieb? The two Managers of other commissioned employees! Damn. ",HKDSERT150,39
+Davolos,Oscar,"","","","","","",false,,listed on Deals Recap as Sales Rep,2025-01-15,,"","",
+Williams,Mike,"","","","","","",false,,from Bilial,2025-01-15,,"","",
+Garret,Hindsley,"","","","","","",false,,listed on Deals Recap as Sales Rep,2025-01-15,,bilial says he was a financial manager,"",
+Reja,Khalil,(619) 376-7578,rejakhalil259@gmail.com,201 E Bory,San Diego,CA,92114,true,103,Sales Representative,2021-09-13,2022-02-07,"Trial: 4 months without signing contract
+
+Trial: Deal Recap can lock down date of first car sale.  Were any cars sold before employee signed Contract? ",HKDSERT233,103
